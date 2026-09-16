@@ -1,0 +1,19 @@
+Source: Queensland Police Service (QPS) Weapons Licensing
+Page title: Weapons Licensing
+URL: https://www.police.qld.gov.au/units/weapons-licensing
+Retrieved: 2026-09-16
+Source-stated metric date: 07 September 2026
+
+Exact relevant wording observed from the official QPS page:
+
+Current average online application timeframes as at 07/09/2026
+
+- New licence applications - 18.5 weeks
+- Permit to acquire applications - 21 days
+
+Any delays or extensions to these time frames may be a result of insufficient information on behalf of the applicant or where the applicant may be asked for further information as identified by the Authorised Officer.
+
+Evidence notes:
+- Primary official source.
+- This is an average timeframe metric, not a processing-date queue metric.
+- QPS also states that applications are processed in order of receipt and that incomplete or complex applications may take longer.
