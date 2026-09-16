@@ -1,0 +1,42 @@
+Source: NSW Police Force Firearms Registry
+Document title: Data Report March 2026
+URL: https://www.police.nsw.gov.au/__data/assets/pdf_file/0008/934667/Data_Report_March_2026.pdf
+Retrieved: 2026-09-16
+Reporting period: April 2025 to March 2026
+
+Official chart: New Licence Applications — Average Processing Time & New Licence Applications Processed per Month.
+
+Average processing time (days):
+- Apr 2025: 33.73
+- May 2025: 35.46
+- Jun 2025: 35.45
+- Jul 2025: 34.82
+- Aug 2025: 35.50
+- Sep 2025: 35.33
+- Oct 2025: 35.59
+- Nov 2025: 37.53
+- Dec 2025: 37.64
+- Jan 2026: 40.67
+- Feb 2026: 42.22
+- Mar 2026: 53.39
+
+New licence applications processed per month:
+- Apr 2025: 1,249
+- May 2025: 1,388
+- Jun 2025: 1,509
+- Jul 2025: 1,896
+- Aug 2025: 1,827
+- Sep 2025: 1,709
+- Oct 2025: 1,630
+- Nov 2025: 1,619
+- Dec 2025: 1,511
+- Jan 2026: 1,249
+- Feb 2026: 1,347
+- Mar 2026: 2,054
+
+Official note: Average processing times are inclusive of the 28-day cooling off period.
+
+Evidence notes:
+- Primary official source.
+- This is a monthly average-processing-time series, not a processing-date queue series.
+- The cooling-off period is included in the reported average, so comparisons with jurisdictions that exclude mandatory waits require caution.
