@@ -18,6 +18,14 @@ def load_rows() -> list[dict[str, str]]:
         return list(csv.DictReader(f))
 
 
+def effective_metric_date(row: dict[str, str]) -> date:
+    for key in ("metric_date", "source_updated_date", "observation_date"):
+        value = row.get(key, "").strip()
+        if value:
+            return parse_date(value)
+    raise ValueError("Observation has no usable date")
+
+
 def compute_processing_date_series(rows: list[dict[str, str]]) -> list[dict[str, object]]:
     grouped: dict[tuple[str, str], list[dict[str, str]]] = defaultdict(list)
     for row in rows:
@@ -27,21 +35,22 @@ def compute_processing_date_series(rows: list[dict[str, str]]) -> list[dict[str,
     output: list[dict[str, object]] = []
 
     for _, series_rows in grouped.items():
-        series_rows.sort(key=lambda r: r["observation_date"])
+        series_rows.sort(key=lambda r: effective_metric_date(r))
         previous = None
 
         for row in series_rows:
-            observed = parse_date(row["observation_date"])
+            metric_day = effective_metric_date(row)
             processing = parse_date(row["processing_date"])
-            backlog_age = (observed - processing).days
+            backlog_age = (metric_day - processing).days
 
             record: dict[str, object] = {
                 **row,
+                "effective_metric_date": metric_day.isoformat(),
                 "backlog_age_days_calc": backlog_age,
             }
 
             if previous:
-                elapsed = (observed - previous["observed"]).days
+                elapsed = (metric_day - previous["metric_day"]).days
                 advanced = (processing - previous["processing"]).days
                 speed = advanced / elapsed if elapsed else None
                 record.update(
@@ -55,12 +64,18 @@ def compute_processing_date_series(rows: list[dict[str, str]]) -> list[dict[str,
 
             output.append(record)
             previous = {
-                "observed": observed,
+                "metric_day": metric_day,
                 "processing": processing,
                 "backlog_age": backlog_age,
             }
 
-    output.sort(key=lambda r: (str(r["jurisdiction"]), str(r.get("series", "")), str(r["observation_date"])))
+    output.sort(
+        key=lambda r: (
+            str(r["jurisdiction"]),
+            str(r.get("series", "")),
+            str(r["effective_metric_date"]),
+        )
+    )
     return output
 
 
@@ -69,13 +84,13 @@ def main() -> None:
     records = compute_processing_date_series(rows)
 
     print(
-        "jurisdiction,series,observation_date,processing_date,backlog_age_days,"
+        "jurisdiction,series,metric_date,processing_date,backlog_age_days,"
         "elapsed_days,advanced_days,speed_ratio"
     )
     for r in records:
         print(
             f'{r["jurisdiction"]},{r.get("series", "")},'
-            f'{r["observation_date"]},{r["processing_date"]},'
+            f'{r["effective_metric_date"]},{r["processing_date"]},'
             f'{r["backlog_age_days_calc"]},'
             f'{r.get("elapsed_days_calc", "")},'
             f'{r.get("processing_days_advanced_calc", "")},'
