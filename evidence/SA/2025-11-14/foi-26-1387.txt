@@ -1,0 +1,23 @@
+Source: South Australia Police (SAPOL) Freedom of Information determination
+Reference: 26-1387
+Document URL: https://www.police.sa.gov.au/__data/assets/pdf_file/0006/1427136/Determination-26-1387.pdf
+Determination date: 31 December 2025
+Metric date explicitly stated by SAPOL: 14 November 2025
+Retrieved: 2026-09-16
+
+Exact relevant information released by SAPOL:
+
+Firearms Information as of 14 November 2025:
+
+Type | No. awaiting processing | Oldest | 2025 YTD Processed
+New Application for Firearms Licence | 1,792 | 17/02/2025 | 1,608
+Renewal of an Existing Firearms Licence | 4,195 | 06/05/2025 | 16,259
+Permits to Acquire | 2,192 | 19/09/2025 | 15,678
+
+Additional official note:
+The data on Permits to Acquire a Firearm could not be further categorised because the computer system used to record and track such applications did not contain firearm category data.
+
+Evidence notes:
+- Primary official FOI source.
+- Useful as a point-in-time backlog-count and oldest-application snapshot.
+- This is separate from SAPOL's later public weekly processing-date page and should not be merged into that time series without clearly distinguishing the metric definitions.
