@@ -1,0 +1,21 @@
+Source: South Australia Police (SAPOL)
+Page title: SAPOL - Status of my application
+URL: https://www.police.sa.gov.au/services-and-events/firearms-and-weapons/status-of-my-application
+Retrieved: 2026-09-16
+Page-stated update date: 11 September 2026
+
+Exact relevant wording observed from the official SAPOL page:
+
+Each week SAPOL receives many applications, renewals and registrations for firearms. The below table is provided to give applicants an idea of the progress of applications.
+
+Application type | Processing applications submitted on and after
+Firearms licence renewals | 06 August 2026
+Permits to acquire a firearm | 14 July 2026
+Firearms licence application | 16 November 2025
+
+Updated (11 September 2026)
+
+Evidence notes:
+- Primary official source.
+- Preserved as a text extract after the page-stated update date.
+- No historical binary snapshot is claimed.
