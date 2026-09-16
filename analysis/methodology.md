@@ -2,7 +2,20 @@
 
 ## Scope
 
-This project tracks publicly reported SAPOL processing dates for new/first firearms licence applications and related official material that may explain queue behaviour or affect permanent-resident eligibility.
+This project tracks publicly reported firearm licensing processing information across Australian jurisdictions and related official material that may explain queue behaviour or legal eligibility changes.
+
+Jurisdictions in scope are:
+
+- Australian Capital Territory
+- New South Wales
+- Northern Territory
+- Queensland
+- South Australia
+- Tasmania
+- Victoria
+- Western Australia
+
+Only public, official-source data is included in the repository. No private applicant dates, licence numbers, case references, names, or personal queue positions should be stored.
 
 ## Evidence classes
 
@@ -14,24 +27,40 @@ Public conclusions should rely primarily on `verified` rows.
 
 ## Required fields for each observation
 
-1. Observation date.
-2. Source page's own update date, where shown.
-3. Exact processing date reported by SAPOL.
-4. Official source URL and page title.
-5. Short exact wording sufficient to verify the reported date.
-6. Evidence status and repository path.
-7. Derived queue metrics.
-8. Any relevant official explanation published at the same time.
+1. Jurisdiction.
+2. Observation date.
+3. Source page's own update date, where shown.
+4. Metric type.
+5. Exact metric value published by the responsible authority.
+6. Official source URL and page title.
+7. Short exact wording sufficient to verify the reported value.
+8. Evidence status and repository path.
+9. Derived queue metrics where applicable.
+10. Any relevant official explanation published at the same time.
 
-## Calculations
+## Metric comparability
 
-For observation date `O` and SAPOL processing date `P`:
+Australian jurisdictions do not necessarily publish the same metric. The dataset therefore records `metric_type` explicitly.
+
+Examples include:
+
+- `processing_date`
+- `average_processing_days`
+- `average_processing_weeks`
+- `service_standard_days`
+- `monthly_report`
+
+A processing-date backlog should not be directly ranked against an average-processing-time measure without a clearly stated normalization method. The repository should preserve the authority's actual published measure rather than forcing all jurisdictions into one synthetic score.
+
+## Calculations for processing-date observations
+
+For observation date `O` and published processing date `P`:
 
 ```text
 backlog_age_days = O - P
 ```
 
-For consecutive observations `i-1` and `i`:
+For consecutive comparable observations from the same jurisdiction and metric series:
 
 ```text
 elapsed_days = O_i - O_(i-1)
@@ -50,7 +79,7 @@ A single interval should not be treated as a structural trend. Rolling averages 
 
 ## Hypothesis testing
 
-A key hypothesis is whether the backlog age remains within a relatively narrow band over a sustained period. Evidence consistent with a near-fixed backlog would be a long series where:
+A key hypothesis for jurisdictions that publish a processing date is whether backlog age remains within a relatively narrow band over a sustained period. Evidence consistent with a near-fixed backlog would be a long series where:
 
 - processing dates continue to move forward,
 - but `backlog_age_days` remains approximately constant,
@@ -58,19 +87,24 @@ A key hypothesis is whether the backlog age remains within a relatively narrow b
 
 That pattern alone would establish persistence of backlog age, not intent, misconduct, staffing policy, or deliberate delay.
 
-## Projection to 2026-06-04 application
+For jurisdictions publishing other metrics, equivalent hypotheses should be framed around the actual official measure, such as whether average processing time is improving, deteriorating, or remaining stable.
 
-The target application date is **2026-06-04**. Any estimated reach date should:
+## Privacy and publication standard
 
-- state the estimation method,
-- identify the averaging window used,
-- avoid extrapolating from a single unusually fast or slow interval,
-- be labelled as a projection rather than an observed fact.
+The repository must not include any personally identifying application anchor. In particular:
+
+- no individual's application submission date,
+- no applicant-specific estimated reach date,
+- no licence/application reference number,
+- no private correspondence that could identify an applicant.
+
+Personal estimates can be calculated privately outside the repository if needed, but public analysis should remain population- and system-level.
 
 ## Evidence preservation
 
-For each new verified observation, create a dated directory under `evidence/YYYY-MM-DD/` where possible. Preserve:
+For each new verified observation, create a dated evidence record where possible. Preserve:
 
+- jurisdiction,
 - source metadata,
 - exact quoted wording,
 - a snapshot or archive reference when technically available,
