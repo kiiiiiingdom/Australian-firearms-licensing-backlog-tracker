@@ -1,0 +1,23 @@
+Source: South Australia Police (SAPOL) Freedom of Information determination (amended)
+Reference: 25-3340
+Document URL: https://www.police.sa.gov.au/__data/assets/pdf_file/0007/1390588/Determination-25-3340.pdf
+Determination date: 19 May 2026
+Retrieved: 2026-09-16
+
+Relevant official information released by SAPOL:
+
+Applications/renewals/permits on hand:
+- Firearms licence applications: 1,584; earliest received 15 November 2024
+- Firearms licence renewals: 2,057; earliest received 15 December 2024
+- Permits: 1,353; earliest received 3 June 2025
+
+SAPOL stated that Firearms Branch does not record a backlog for past years; instead it tracks the number of applications currently on hand and the dates those applications were received.
+
+On average processing times, SAPOL stated that the information exists within its computer system but is not readily retrievable in a usable format and that producing meaningful averages would require manual, case-by-case review. It cited applicant training and additional-document requirements as external factors that vary significantly.
+
+On staffing allocations, access was refused under Clause 16(1) of Schedule 1 of the Freedom of Information Act 1991 (SA). The determination stated that disclosure could adversely affect management/assessment of personnel, effective performance of agency functions and industrial relations.
+
+Evidence notes:
+- Primary official FOI source.
+- The determination date is known, but the backlog table itself does not explicitly state a separate 'as at' date. Treat 19 May 2026 as the document date, not necessarily an exact metric snapshot date unless further official evidence establishes that.
+- This source is particularly useful for system-context and methodology because SAPOL explicitly describes what backlog information it tracks and what processing-time data its systems cannot readily report.
