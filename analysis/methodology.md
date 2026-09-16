@@ -25,18 +25,29 @@ Only public, official-source data is included in the repository. No private appl
 
 Public conclusions should rely primarily on `verified` rows.
 
+## Date fields
+
+Three different dates may appear and should not be conflated:
+
+- `observation_date`: when this tracker retrieved or recorded the source.
+- `source_updated_date`: the date the authority says the source page/document was updated, if explicitly stated.
+- `metric_date`: the date or reporting-period endpoint to which the published metric applies.
+
+For a dynamic processing-date page, `metric_date` normally equals the authority's stated update date. For a monthly report, `metric_date` is normally the end of the reported month. Where a metric date is not explicitly or reasonably defined, leave it blank rather than inventing one.
+
 ## Required fields for each observation
 
 1. Jurisdiction.
 2. Observation date.
 3. Source page's own update date, where shown.
-4. Metric type.
-5. Exact metric value published by the responsible authority.
-6. Official source URL and page title.
-7. Short exact wording sufficient to verify the reported value.
-8. Evidence status and repository path.
-9. Derived queue metrics where applicable.
-10. Any relevant official explanation published at the same time.
+4. Metric date/reporting-period endpoint where applicable.
+5. Metric type.
+6. Exact metric value published by the responsible authority.
+7. Official source URL and page title.
+8. Short exact wording sufficient to verify the reported value.
+9. Evidence status and repository path.
+10. Derived queue metrics where applicable.
+11. Any relevant official explanation published at the same time.
 
 ## Metric comparability
 
@@ -47,6 +58,7 @@ Examples include:
 - `processing_date`
 - `average_processing_days`
 - `average_processing_weeks`
+- `backlog_count`
 - `service_standard_days`
 - `monthly_report`
 
@@ -54,20 +66,22 @@ A processing-date backlog should not be directly ranked against an average-proce
 
 ## Calculations for processing-date observations
 
-For observation date `O` and published processing date `P`:
+For metric date `M` and published processing date `P`:
 
 ```text
-backlog_age_days = O - P
+backlog_age_days = M - P
 ```
 
 For consecutive comparable observations from the same jurisdiction and metric series:
 
 ```text
-elapsed_days = O_i - O_(i-1)
+elapsed_days = M_i - M_(i-1)
 processing_days_advanced = P_i - P_(i-1)
 speed_ratio = processing_days_advanced / elapsed_days
 backlog_age_change_days = backlog_age_i - backlog_age_(i-1)
 ```
+
+If `metric_date` is unavailable, `source_updated_date` may be used; only as a last resort should `observation_date` be substituted, and that substitution should be documented.
 
 Interpretation:
 
