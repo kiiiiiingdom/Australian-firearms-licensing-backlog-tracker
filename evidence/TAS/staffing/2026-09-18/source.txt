@@ -1,0 +1,20 @@
+Source: Tasmania Police
+Page title: Disclosure Log - Tasmania Police
+URL: https://www.police.tas.gov.au/information-disclosure/right-to-information-disclosures/disclosures/disclosure-log/
+Retrieved: 2026-09-18
+Source type: official RTI disclosure log
+
+Relevant official disclosure-log entry:
+- Publication date: 28 October 2025
+- Request number: RTI 541/25
+- Request concerned management of Firearms Service, including applications, licence renewals and staffing.
+
+Short exact extract:
+"Management of Firearms Service directly related to; Firearms applications; Licence renewals; Staffing"
+
+Evidence status: context_only
+
+Notes:
+- This source establishes that staffing information was the subject of an official RTI disclosure.
+- The disclosure-log entry itself does not provide a directly usable staffing count.
+- Follow-up should retrieve the released RTI material and extract any headcount/FTE values with scope and date.
