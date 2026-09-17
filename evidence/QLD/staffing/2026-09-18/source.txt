@@ -1,0 +1,19 @@
+Source: Queensland Police Service
+Document: Commissioner's 100-Day Review - Queensland Police Service Final Report
+URL: https://www.police.qld.gov.au/sites/default/files/2025-07/Commissioners%20100-Day%20Review%20Queensland%20Police%20Service%20Final%20Report.pdf
+Retrieved: 2026-09-18
+Source type: official review report
+
+Relevant findings:
+- The report states that Weapons Licensing relies on a hybrid online/paper process and that manual data entry is labour intensive.
+- It identifies structural and governance issues and proposes reform of staffing models, including civilian assessor/auditor roles.
+- It also links system limitations to severe backlogs and stakeholder complaints.
+
+Short exact extract:
+"Reform governance and staffing models, including use of 'Special Constables' (State officers) as civilian assessors and auditors across the state."
+
+Evidence status: context_only
+
+Notes:
+- This report is useful capacity/context evidence but does not provide a directly usable Weapons Licensing headcount/FTE figure in the cited section.
+- Numeric staffing values should not be inferred from this source.
