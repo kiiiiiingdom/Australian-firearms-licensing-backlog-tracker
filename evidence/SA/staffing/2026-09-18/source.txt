@@ -1,0 +1,19 @@
+Source: South Australia Police (SAPOL)
+Page title: SAPOL - Proactive disclosure
+URL: https://www.police.sa.gov.au/about-us/proactive-disclosure
+Retrieved: 2026-09-18
+Source type: official FOI disclosure log
+
+Relevant official disclosure-log entry:
+- Agency reference includes a request for staffing and resourcing information within SAPOL Firearms Branch.
+- The request specifically sought staff assigned to processing permits to acquire, firearms licence applications and firearms licence renewals as at 14 November 2025 and 1 July 2024, as well as staffing shortages, resource requests and an allocation/workflow map.
+
+Short exact extract:
+"The number of staff each assigned to processing Permits to Acquire, firearms licence applications and firearms licence renewals as of 14 November 2025."
+
+Evidence status: context_only
+
+Notes:
+- The disclosure log proves that narrowly scoped staffing figures were requested and may exist in official records.
+- This extract does not itself provide the numeric staffing values, so no headcount or FTE value is entered from this source alone.
+- Follow-up should locate the determination/documents or other official material containing the released values, if publicly available.
