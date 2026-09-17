@@ -2,7 +2,7 @@
 
 ## Scope
 
-This project tracks publicly reported firearm licensing processing information across Australian jurisdictions and related official material that may explain queue behaviour or legal eligibility changes.
+This project tracks publicly reported firearm licensing processing information across Australian jurisdictions and related official material that may explain queue behaviour, administrative capacity or legal eligibility changes.
 
 Jurisdictions in scope are:
 
@@ -16,6 +16,8 @@ Jurisdictions in scope are:
 - Western Australia
 
 Only public, official-source data is included in the repository. No private applicant dates, licence numbers, case references, names, or personal queue positions should be stored.
+
+Processing-performance observations are stored separately from staffing/capacity observations. See `analysis/staffing-methodology.md` for workforce-specific definitions and comparison rules.
 
 ## Evidence classes
 
@@ -35,7 +37,7 @@ Three different dates may appear and should not be conflated:
 
 For a dynamic processing-date page, `metric_date` normally equals the authority's stated update date. For a monthly report, `metric_date` is normally the end of the reported month. Where a metric date is not explicitly or reasonably defined, leave it blank rather than inventing one.
 
-## Required fields for each observation
+## Required fields for each processing observation
 
 1. Jurisdiction.
 2. Observation date.
@@ -64,6 +66,8 @@ Examples include:
 
 A processing-date backlog should not be directly ranked against an average-processing-time measure without a clearly stated normalization method. The repository should preserve the authority's actual published measure rather than forcing all jurisdictions into one synthetic score.
 
+Likewise, staffing variables must remain separate from processing variables until the relevant unit, period and workload scope can be matched. A whole-agency workforce number is not a licensing-capacity measure.
+
 ## Calculations for processing-date observations
 
 For metric date `M` and published processing date `P`:
@@ -91,6 +95,12 @@ Interpretation:
 
 A single interval should not be treated as a structural trend. Rolling averages and longer windows are preferred.
 
+## Capacity analysis
+
+Where exact firearms-licensing staffing data exists, processing and staffing series may be aligned by date to investigate whether capacity changes coincide with processing changes. Any ratio such as `applications processed per FTE` or `pending applications per FTE` must use materially matching workload and workforce scopes.
+
+A correlation between staffing and processing does not by itself establish causation. ICT changes, legislation, case mix, training, quality assurance, enforcement tasks, organisational restructures and temporary reallocations should be considered where official evidence exists.
+
 ## Hypothesis testing
 
 A key hypothesis for jurisdictions that publish a processing date is whether backlog age remains within a relatively narrow band over a sustained period. Evidence consistent with a near-fixed backlog would be a long series where:
@@ -114,6 +124,8 @@ The repository must not include any personally identifying application anchor. I
 
 Personal estimates can be calculated privately outside the repository if needed, but public analysis should remain population- and system-level.
 
+Employee-level personal information is also unnecessary for capacity analysis; aggregate staffing values should be preferred.
+
 ## Evidence preservation
 
 For each new verified observation, create a dated evidence record where possible. Preserve:
@@ -128,4 +140,4 @@ Never overwrite prior evidence with a newer page state.
 
 ## Neutrality and reproducibility
 
-Record official explanations that may qualify or contradict an apparent trend. The purpose is to measure queue behaviour accurately, not to select only observations supporting a predetermined conclusion.
+Record official explanations that may qualify or contradict an apparent trend. The purpose is to measure queue behaviour and administrative capacity accurately, not to select only observations supporting a predetermined conclusion.
