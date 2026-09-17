@@ -6,18 +6,20 @@ This file records the official-source coverage for each Australian jurisdiction.
 
 Authority: South Australia Police (SAPOL)
 
-Primary metric:
+Primary processing metric:
 - Processing date for firearms licence applications.
 
-Primary source:
+Primary processing source:
 - SAPOL — Status of my application
 - https://www.police.sa.gov.au/services-and-events/firearms-and-weapons/status-of-my-application
 
 Observed/source cadence:
 - SAPOL states that the table is provided each week; practical monitoring cadence: daily capture, expecting roughly weekly changes.
 
-Supplementary official sources:
-- SAPOL Proactive Disclosure / FOI determinations, including historical backlog counts, earliest received dates and processing totals.
+Staffing/capacity sources:
+- SAPOL Proactive Disclosure / FOI determinations.
+- Official disclosure-log entries have sought Firearms Branch staffing assigned specifically to PTAs, new licence applications and renewals, plus staffing shortages, resource requests and allocation/workflow material.
+- Exact numeric staffing values should only be entered when the released determination/documents can be verified.
 
 Status: active.
 
@@ -25,27 +27,31 @@ Status: active.
 
 Authority: Victoria Police Licensing and Regulation Division
 
-Primary metric:
+Primary processing metric:
 - Processing date for new firearm licence applications.
 
-Primary source:
+Primary processing source:
 - Victoria Police — Firearms licensing
 - https://www.police.vic.gov.au/firearms-licensing
 
 Observed/source cadence:
 - Dynamic status table with a page-level "Last updated" date. Exact publication cadence is not stated; daily monitoring is sufficient to capture changes within about 24 hours.
 
-Status: active; first verified observation captured 14 September 2026.
+Staffing/capacity target:
+- Licensing and Regulation Division workforce reports, annual reports, parliamentary material and budget/establishment records.
+- Prefer firearms-specific allocation if available; division-level staffing is broader than the firearms function and must be labelled accordingly.
+
+Status: active; first verified processing observation captured 14 September 2026. Staffing source discovery continues.
 
 ## Queensland
 
 Authority: Queensland Police Service Weapons Licensing
 
-Primary metrics:
+Primary processing metrics:
 - Average online processing timeframe for new licence applications.
 - Average online processing timeframe for permits to acquire.
 
-Primary source:
+Primary processing source:
 - QPS — Weapons Licensing
 - https://www.police.qld.gov.au/units/weapons-licensing
 
@@ -55,13 +61,17 @@ Observed/source cadence:
 Important methodological note:
 - Queensland publishes an average timeframe, not a processing-date queue. Do not calculate backlog age from this series.
 
-Status: active; first verified observation captured for 7 September 2026.
+Staffing/capacity sources:
+- QPS Commissioner's 100-Day Review provides official context on labour-intensive manual data entry, severe backlog, structural limitations and proposed Weapons Licensing staffing-model reform.
+- It is context evidence rather than a numeric staffing count unless a specific headcount/FTE figure can be found elsewhere.
+
+Status: active.
 
 ## New South Wales
 
 Authority: NSW Police Force Firearms Registry
 
-Primary metric:
+Primary processing metric:
 - Monthly average processing time for new licence applications.
 
 Primary source family:
@@ -77,20 +87,29 @@ Observed/source cadence:
 Important methodological note:
 - NSW states that its average processing time includes the 28-day cooling-off period. Cross-jurisdiction comparisons must account for that definition.
 
-Status: active; historical monthly series seeded from April 2025 to March 2026.
+Staffing/capacity target:
+- NSW Police annual reports, parliamentary estimates/questions, Firearms Registry reports, audit material and official establishment documents.
+- Registry-specific FTE/headcount is preferred over broader command staffing.
+
+Status: active; historical monthly series seeded from April 2025 to March 2026. Staffing source discovery continues.
 
 ## Tasmania
 
 Authority: Tasmania Police Firearms Services
 
-Current official information found:
+Current processing information found:
 - Eligibility page states that the minimum time for processing a licence application is 28 days from application.
 - This is a minimum statutory/administrative timeframe, not evidence of current backlog.
 
 Primary source:
 - https://fas.police.tas.gov.au/obtaining-a-licence/eligibility/
 
-Status: monitored; no recurring public backlog metric verified yet.
+Staffing/capacity sources:
+- Tasmania Police RTI disclosure log.
+- RTI 541/25, published 28 October 2025, concerns management of Firearms Service including applications, licence renewals and staffing.
+- Retrieve the released RTI material before entering any numeric staffing value.
+
+Status: monitored; no recurring public backlog metric verified yet. Strong staffing-source lead identified.
 
 ## Western Australia
 
@@ -100,15 +119,21 @@ Current finding:
 - No current recurring public firearm-licensing processing metric has yet been verified from the main public pages.
 - Historical parliamentary/official material may provide point-in-time processing data and should be retained as contextual evidence, not treated as a live series.
 
+Staffing/capacity target:
+- WA Police annual reports, parliamentary estimates/questions, implementation reports associated with firearms-law reform, budget papers and official workforce material.
+
 Status: source discovery continues.
 
 ## Australian Capital Territory
 
 Authority: ACT Policing / firearms registry function
 
-Target metrics:
+Target processing metrics:
 - Official processing-time or service-standard information.
 - Published licensing delay notices or periodic reports.
+
+Staffing/capacity target:
+- Registry/function-specific staffing if available; whole-of-ACT-Policing FTE is contextual only and must not be treated as firearms-licensing capacity.
 
 Status: source discovery required; do not infer a metric from statutory waiting periods alone.
 
@@ -116,9 +141,12 @@ Status: source discovery required; do not infer a metric from statutory waiting 
 
 Authority: Northern Territory Police firearms licensing function
 
-Target metrics:
+Target processing metrics:
 - Official processing-time statements.
 - Service standards or queue information.
+
+Staffing/capacity target:
+- Firearms-licensing unit headcount/FTE from annual reports, estimates, parliamentary questions, FOI/RTI material or official organisational documents.
 
 Status: source discovery required.
 
@@ -132,3 +160,5 @@ Status: source discovery required.
 6. Secondary sources may be retained only as corroboration or as leads to primary evidence.
 7. Record the authority's own metric date separately from the date on which the tracker retrieved it.
 8. Monitoring frequency does not imply source publication frequency; daily checks are used primarily to capture dynamic pages before they overwrite historical values.
+9. Keep staffing headcount, FTE, funded establishment, vacancies and assignment-specific counts separate.
+10. Prefer exact firearms-unit staffing over broader licensing-division or whole-agency workforce figures for capacity analysis.
