@@ -1,0 +1,9 @@
+Source: Northern Territory Police, Fire and Emergency Services
+Title: NTPFES Annual Report 2023-24
+URL: https://pfes.nt.gov.au/sites/default/files/uploads/files/2024/FINAL_NTPFES_ANNUAL_REPORT_18102024.pdf
+Reporting period end: 2024-06-30
+Observation date: 2026-09-19
+
+Firearms Policy and Recording Unit: 2,655 licences issued; 129 licence applications refused; 172 licences revoked; 250 licences suspended; 68 further licences in process of suspension or revocation at 30 June 2024.
+Evidence status: verified
+Methodology: annual throughput/outcome context, not backlog or processing time.

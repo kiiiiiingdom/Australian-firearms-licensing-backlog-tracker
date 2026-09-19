@@ -1,0 +1,9 @@
+Source: ACT Policing
+Title: UPDATE ACT Policing Exhibit Management Centre to temporarily close
+URL: https://police.act.gov.au/news/2024-media-releases/june/update-act-policing-exhibit-management-centre-to-temporarily-close
+Update date: 2024-06-06
+Observation date: 2026-09-19
+
+Exact wording: "administrative requests relating to firearms licences including new applications are not able to be processed."
+Cause: damaged water main affecting the Exhibit Management Centre.
+Evidence status: verified
