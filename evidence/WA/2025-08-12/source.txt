@@ -1,0 +1,10 @@
+Source: Parliament of Western Australia
+Title: Legislative Council Question without notice 510 — Firearms Act—Licence applications
+URL: https://www.parliament.wa.gov.au/hansard/daily/uh/2025-08-13/13
+Metric date: 2025-08-12
+Observation date: 2026-09-19
+
+Official figures: 700 received; 977 determined/finalised including pre-portal cases; 93 granted; 46 rejected; 1,421 outstanding.
+Exact wording: "There were 1,421"
+Scope includes additions to existing licences, transfers/co-licensing and creation of new licences.
+Evidence status: verified
