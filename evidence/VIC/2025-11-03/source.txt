@@ -1,0 +1,25 @@
+Source: Victoria Police
+Page title: Firearms licensing
+URL: https://www.police.vic.gov.au/node/6037
+Retrieved: 2026-09-19
+Page-stated update date: 03 November 2025
+
+Exact relevant wording observed from the official Victoria Police page:
+
+Status of current applications
+Last updated 03 November 2025
+
+Application type | Processing applications submitted
+New firearm licence applications | 29 August 2025
+Firearm licence renewal applications | 18 August 2025
+Online permit to acquire | 16 October 2025
+Manual permit to acquire | 15 October 2025
+Import permits | 14 October 2025
+
+The application processing times outlined above are indicative only. Complex applications, or those with suitability concerns, may take longer to process.
+
+Evidence notes:
+- Primary official Victoria Police source.
+- This historical page state materially extends the verified Victorian processing-date series backward from the September 2026 capture.
+- For the new-firearm-licence series, metric_date is 2025-11-03 and processing_date is 2025-08-29, giving backlog_age_days = 66.
+- The wording is an indicative processing date, not a guarantee for any individual application.
