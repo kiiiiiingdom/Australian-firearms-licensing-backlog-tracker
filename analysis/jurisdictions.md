@@ -65,6 +65,9 @@ Staffing/capacity sources:
 - QPS Commissioner's 100-Day Review provides official context on labour-intensive manual data entry, severe backlog, structural limitations and proposed Weapons Licensing staffing-model reform.
 - It is context evidence rather than a numeric staffing count unless a specific headcount/FTE figure can be found elsewhere.
 
+Historical/capacity evidence:
+- Queensland Parliament QON 1498 (2022) states that 50 FTE positions were assigned to Weapons Licensing since June 2022.
+
 Status: active.
 
 ## New South Wales
@@ -91,7 +94,11 @@ Staffing/capacity target:
 - NSW Police annual reports, parliamentary estimates/questions, Firearms Registry reports, audit material and official establishment documents.
 - Registry-specific FTE/headcount is preferred over broader command staffing.
 
-Status: active; historical monthly series seeded from April 2025 to March 2026. Staffing source discovery continues.
+Historical evidence:
+- As at 12 September 2022, NSW reported nil backlog for new firearm licences; most other listed Firearms Registry categories were also nil.
+- In October 2021 NSW reported 10 additional staff seconded to reduce the backlog, with structural realignment intended to double internal firearms-review staff.
+
+Status: active; historical monthly series seeded from April 2025 to March 2026, with a 2022 zero-backlog baseline.
 
 ## Tasmania
 
@@ -109,6 +116,9 @@ Staffing/capacity sources:
 - RTI 541/25, published 28 October 2025, concerns management of Firearms Service including applications, licence renewals and staffing.
 - Retrieve the released RTI material before entering any numeric staffing value.
 
+Historical/capacity evidence:
+- November 2025 parliamentary estimates recorded a backlog of new firearm licence applications and delays in renewal processing, with overtime, staff redeployment, former Firearms Services staff and early recruitment used as mitigation.
+
 Status: monitored; no recurring public backlog metric verified yet. Strong staffing-source lead identified.
 
 ## Western Australia
@@ -122,7 +132,11 @@ Current finding:
 Staffing/capacity target:
 - WA Police annual reports, parliamentary estimates/questions, implementation reports associated with firearms-law reform, budget papers and official workforce material.
 
-Status: source discovery continues.
+Historical evidence:
+- September 2024: 1,354 firearm licence applications were outstanding; official correspondence referenced a potential six-week delay.
+- August 2025: 1,421 broader portal-scope transactions/applications were outstanding; this count includes additions, transfers/co-licensing and new licences.
+
+Status: source discovery continues; historical point-in-time backlog evidence now established.
 
 ## Australian Capital Territory
 
@@ -134,6 +148,9 @@ Target processing metrics:
 
 Staffing/capacity target:
 - Registry/function-specific staffing if available; whole-of-ACT-Policing FTE is contextual only and must not be treated as firearms-licensing capacity.
+
+Historical workflow evidence:
+- ACT Policing reported a temporary Firearms Registry processing interruption in June 2024 after a damaged water main affected the Exhibit Management Centre.
 
 Status: source discovery required; do not infer a metric from statutory waiting periods alone.
 
@@ -148,7 +165,11 @@ Target processing metrics:
 Staffing/capacity target:
 - Firearms-licensing unit headcount/FTE from annual reports, estimates, parliamentary questions, FOI/RTI material or official organisational documents.
 
-Status: source discovery required.
+Historical throughput evidence:
+- NTPFES Annual Report 2023-24 records 2,655 firearm licences issued and 129 licence applications refused by the Firearms Policy and Recording Unit.
+- These are throughput/outcome measures, not processing-time or backlog measures.
+
+Status: source discovery required for a recurring processing-time/backlog metric.
 
 ## Cross-jurisdiction comparison rules
 
