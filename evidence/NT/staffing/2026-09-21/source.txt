@@ -1,0 +1,11 @@
+Source: NT Police, Fire & Emergency Services, Licence and Permit Information
+Accessed: 21 September 2026
+URL: https://pfes.nt.gov.au/police/firearmsweapons/licence-and-permit-information
+
+Relevant official workflow change:
+- From 1 January 2026, the Firearms Policy and Recording Unit will only process licence or permit applications after the required firearms self-check has been submitted.
+- The change is part of readiness work for the National Firearms Register.
+
+Interpretation:
+- Workflow/NFR capacity context only.
+- No exact FPRU staffing count, FTE, vacancies or funded establishment is stated.
