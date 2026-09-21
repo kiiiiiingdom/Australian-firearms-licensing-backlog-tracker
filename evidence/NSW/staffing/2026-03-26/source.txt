@@ -1,0 +1,23 @@
+Source: Parliament of New South Wales, Budget Estimates 2025-2026 - Responses to Supplementary Questions, Police and Counter-Terrorism
+Hearing: 27 February 2026
+Answers due: 26 March 2026
+URL: https://www.parliament.nsw.gov.au/lcdocs/other/23325/Answers%20to%20Supplementary%20QONs%20-%20Budget%20Estimates%20%20-%20Minister%20for%20Police.pdf
+
+Relevant question:
+"Can you provide a current workforce snapshot of the Firearms Registry.
+(a) Processing FTE
+(b) Vacancies
+(c) Contractors engaged
+(d) Contractor expenditure for 2024-25 and 2025-26 (to date)"
+
+Official answer:
+"a) 84 permanent positions
+b) 1
+c) Nil
+d) Nil"
+
+Interpretation:
+- The answer says "84 permanent positions"; it does not explicitly say 84 FTE or 84 filled headcount.
+- Record the vacancy separately.
+- No contractors were engaged at the time of the answer.
+- Do not convert "permanent positions" to FTE, headcount or funded establishment without another official source.
