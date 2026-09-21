@@ -1,0 +1,12 @@
+Source: ACT Policing, National Firearms Register
+Accessed: 21 September 2026
+URL: https://police.act.gov.au/firearms/national-firearms-register
+
+Relevant official capacity reform:
+- ACT Government and ACT Policing are enhancing the ACT Firearms Registry.
+- The Registry will transition from a paper-based system to a fully digital platform.
+- Improvements include licensing and permit process changes, upgraded registry systems, new technology for NFR integration, and data-quality improvements.
+
+Interpretation:
+- Administrative-capacity/ICT reform context only.
+- No exact Registry headcount, FTE, establishment or vacancy number is stated.
