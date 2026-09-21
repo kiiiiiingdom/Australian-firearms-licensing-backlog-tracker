@@ -1,0 +1,12 @@
+Source: Victoria Police, Firearms Licensing
+Accessed: 21 September 2026
+URL: https://www.police.vic.gov.au/firearms-licensing
+
+Relevant official workflow context:
+- Victoria Police identifies the Licensing and Regulation Division as the firearms regulator.
+- Online Firearm Licensing Services are available for specified licensing transactions.
+- The page publishes current processing information for firearm licensing work.
+
+Interpretation:
+- Licensing-division/workflow context only.
+- The division also regulates private security and weapons, so any division-wide workforce figure must not be treated as exact firearms-licensing capacity without an allocation.
