@@ -1,0 +1,12 @@
+Source: Parliament of New South Wales, Question and Answer tracking, answer received 18 June 2026
+URL: https://www.parliament.nsw.gov.au/parliamentary-business/questions-answers-tracking-details?id=108052
+
+Question concerned 22 additional Firearms Registry staff.
+
+Official answer:
+"The additional staff will be allocated to roles responsible for compliance and enforcement, customer service, adjudication and permits."
+"At the NSW Police Force's Firearms Registry."
+
+Interpretation:
+- 22 is an announced additional-staff/recruitment count, not a verified current headcount or FTE.
+- Roles span several functions; no assignment-specific count for new licences, renewals or PTAs is given.
