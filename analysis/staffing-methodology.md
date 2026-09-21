@@ -23,15 +23,17 @@ Where available, preserve the authority's exact measure rather than converting b
 
 - `headcount`
 - `fte`
+- `permanent_positions` — explicitly described permanent positions; do not assume these equal filled headcount, FTE or funded establishment
 - `funded_positions`
 - `vacancies`
+- `recruitment_positions` — announced or advertised additional positions; do not assume they are filled, vacant or net workforce growth
 - `sworn_headcount`
 - `sworn_fte`
 - `unsworn_headcount`
 - `unsworn_fte`
 - staff assigned specifically to new licences, renewals or permits to acquire
 
-`headcount`, `FTE`, funded establishment and filled positions are different concepts and must not be substituted for one another.
+`headcount`, `FTE`, permanent positions, funded establishment, vacancies, recruitment positions and filled positions are different concepts and must not be substituted for one another.
 
 ## Evidence quality
 
