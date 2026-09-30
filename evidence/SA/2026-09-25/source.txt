@@ -1,0 +1,26 @@
+Source: South Australia Police
+Page title: Status of my application
+URL: https://www.police.sa.gov.au/services-and-events/firearms-and-weapons/status-of-my-application
+Retrieved: 2026-09-30
+Page-stated update date: 2026-09-25
+
+Exact relevant wording:
+Application type | Processing applications submitted on and after
+Firearms licence renewals | 10 August 2026
+Permits to acquire a firearm | 05 August 2026
+Firearms licence application | 14 January 2026
+
+Updated (25 September 2026)
+
+Evidence status: verified
+
+Derived tracker metrics for firearms licence application:
+- backlog_age_days = 254
+- elapsed_days since 2026-09-18 = 7
+- processing_days_advanced = 16
+- speed_ratio = 2.2857
+- backlog_age_change_days = -9
+
+Interpretation:
+- Queue continued shrinking during this interval.
+- Progress remained faster than real time, but slower than the prior week's 43-day advance.
