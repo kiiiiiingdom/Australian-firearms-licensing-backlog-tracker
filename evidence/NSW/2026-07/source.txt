@@ -1,0 +1,28 @@
+Source: NSW Police Force Firearms Registry
+Document: Performance and Data Report July 2026
+URL: https://www.police.nsw.gov.au/__data/assets/pdf_file/0009/947925/Firearms_Registry_Performance_and_Data_Report_July_2026.PDF
+Retrieved: 2026-10-01
+Status: verified
+
+New licence average processing time (days):
+Apr 2026 64.5
+May 2026 61.6
+Jun 2026 52.56
+Jul 2026 47.76
+
+Permit to Acquire average processing time (days):
+Apr 2026 56.83
+May 2026 73.49
+Jun 2026 89.59
+Jul 2026 101.26
+
+Licence renewal average processing time (days):
+Apr 2026 10.61
+May 2026 10.37
+Jun 2026 10.43
+Jul 2026 15.88
+
+Report notes that average processing times include the 28-day cooling-off period. It also states Gun Safe data excludes paper applications, which are 2.5% of transactions, and that paper applications take longer because of postage and manual handling.
+
+Interpretation:
+New-licence processing improved from 64.5 days in April to 47.76 days in July. PTA processing worsened from 46.48 days in March to 101.26 days in July. Renewal processing was near 10-11 days through June, then rose to 15.88 days in July. These are average-time metrics, not queue-date backlog ages.
