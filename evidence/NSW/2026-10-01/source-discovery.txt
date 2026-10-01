@@ -1,0 +1,16 @@
+Source: NSW Police Force
+Page title: Firearms Data
+URL: https://www.police.nsw.gov.au/about_us/information_of_interest_to_the_community/firearms_data
+Retrieved: 2026-10-01
+
+Verified source discovery:
+The official NSW Police Firearms Data page currently lists:
+- Firearms Registry Performance and Data Report July 2026
+- Firearms Registry Performance and Data Report June 2026
+- Firearms Registry Performance and Data Report May 2026
+
+Evidence status: source_discovery
+
+Methodological note:
+- This file records only the verified existence of the July 2026 official report.
+- No July metric values are entered into data/observations.csv until the report itself is directly captured and the exact figures can be verified.
