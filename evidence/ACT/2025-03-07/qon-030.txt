@@ -1,0 +1,22 @@
+Source: ACT Legislative Assembly, Standing Committee on Legal Affairs
+Document title: QON No. 30 - Firearms registry
+URL: https://www.parliament.act.gov.au/__data/assets/pdf_file/0010/2823589/Legal-QON-030-Answer-JACS-Firearms-registry-MORRIS.pdf
+Hearing date: 18 February 2025
+Answer signed: 7 March 2025
+Retrieved: 2026-10-01
+
+Verified official information:
+- ACT Policing stated there were 22,739 registered firearms in the ACT and 7,118 licensed firearm holders.
+- ACT Policing said its current data management system had "extremely limited search and filtering parameters for data drawdown".
+- Answering the requested historical transfer question would require manual interrogation of ACT Policing systems and databases.
+- The answer states the National Firearms Register and uplift of the ACT Registry are expected to improve these capabilities.
+- Federal Government funding provided to date: $500,000.
+- The Federal Funding Agreement is stated to contribute up to 75% ($18.7m) of the total ACT Firearms Registry uplift cost over the four-year expected life of the program.
+- ACT Government contribution: up to 25% ($6.2m).
+- At the time of the answer, none of the $500,000 federal funding had been allocated; ACT Government funding included a 2024-25 Budget allocation of $996,000 for design and discovery work.
+
+Evidence status: verified
+
+Methodological notes:
+- This is Registry ICT/system-capacity and funding context, not a processing-time metric.
+- Do not treat whole-program funding as staffing or FTE.
