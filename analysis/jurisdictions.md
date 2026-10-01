@@ -18,7 +18,8 @@ Observed/source cadence:
 
 Staffing/capacity sources:
 - SAPOL Proactive Disclosure / FOI determinations.
-- Official disclosure-log entries have sought Firearms Branch staffing assigned specifically to PTAs, new licence applications and renewals, plus staffing shortages, resource requests and allocation/workflow material.
+- FOI Determination 26-1424 states that the Firearms Branch Registry and Adjudication sections have 17.8 substantive FTE positions; temporary/additional staffing is acknowledged but not quantified.
+- The same determination states Firearms Branch does not set specific processing-time KPIs or targets because of processing complexity and variability, and warns that legacy-system statistics are intended primarily for work-querying rather than reliable performance statistics.
 - Exact numeric staffing values should only be entered when the released determination/documents can be verified.
 
 Status: active.
@@ -81,8 +82,8 @@ Primary source family:
 - Firearms Registry performance/data reports published as official PDFs on the NSW Police website.
 
 Current verified source:
-- Data Report March 2026
-- https://www.police.nsw.gov.au/__data/assets/pdf_file/0008/934667/Data_Report_March_2026.pdf
+- Data Report March 2026 is the latest report for which exact licence-processing metrics are currently entered in the dataset.
+- The official NSW Police Firearms Data page was verified on 1 October 2026 as listing a newer Firearms Registry Performance and Data Report July 2026. The July metric values are not entered until the report itself is directly captured and verified.
 
 Observed/source cadence:
 - Monthly reporting series. Daily source discovery is acceptable, but the substantive metric is monthly.
@@ -149,8 +150,10 @@ Target processing metrics:
 Staffing/capacity target:
 - Registry/function-specific staffing if available; whole-of-ACT-Policing FTE is contextual only and must not be treated as firearms-licensing capacity.
 
-Historical workflow evidence:
+Historical workflow/capacity evidence:
 - ACT Policing reported a temporary Firearms Registry processing interruption in June 2024 after a damaged water main affected the Exhibit Management Centre.
+- ACT Legislative Assembly QON No. 30 (answer signed 7 March 2025) records that ACT Policing's then-current firearms data system had extremely limited search/filtering capability and some historical reporting required manual interrogation.
+- The same answer states the National Firearms Register/ACT Registry uplift was expected to improve these capabilities. It records $500,000 federal funding provided to date; the Federal Funding Agreement was stated to contribute up to 75% ($18.7m) of the ACT Registry uplift cost over four years, with ACT Government contributing up to 25% ($6.2m). This is ICT/program-capacity context, not staffing FTE.
 
 Status: source discovery required; do not infer a metric from statutory waiting periods alone.
 
