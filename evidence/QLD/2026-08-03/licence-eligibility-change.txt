@@ -1,0 +1,11 @@
+Source: Queensland Police Service
+URL: https://www.police.qld.gov.au/weapon-licensing/licensing-requirements-non-australian-citizens-fact-sheet
+Retrieved: 2026-10-02
+Effective date stated by QPS: 2026-08-03
+QPS wording: "introduced new eligibility criteria for weapons licences"
+
+Corroborating legislation:
+https://www.legislation.qld.gov.au/view/whole/html/asmade/act-2026-004/lh
+
+Evidence status: verified
+Note: policy/eligibility evidence only; not a processing-time or backlog metric.
