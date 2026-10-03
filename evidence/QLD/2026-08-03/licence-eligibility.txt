@@ -1,0 +1,25 @@
+Source: Queensland Police Service Weapons Licensing
+Page title: Licensing Requirements for Non-Australian Citizens - Fact Sheet
+URL: https://www.police.qld.gov.au/weapon-licensing/licensing-requirements-non-australian-citizens-fact-sheet
+Retrieved: 2026-10-02
+QPS page posted: 2026-08-04
+QPS page last updated: 2026-08-13
+Effective date stated by QPS: 2026-08-03
+
+Verified official change:
+- Amendments to the Weapons Act 1990 commenced on 3 August 2026.
+- QPS says they "introduced new eligibility criteria for weapons licences".
+- QPS says the amendments "limit the issue of licences to Australian citizens".
+- QPS also states exceptions apply for non-citizens with a genuine reason of sport/target shooting or for occupational purposes only.
+
+Primary legislation corroboration:
+Queensland Legislation records the Fighting Antisemitism and Keeping Guns out of the Hands of Terrorists and Criminals Amendment Act 2026 (No. 4), assented to 11 March 2026, with section 56 commencing on 3 August 2026. Section 56 amended Weapons Act 1990 section 10 by adding an Australian-citizenship limitation and exceptions.
+
+Legislation URL:
+https://www.legislation.qld.gov.au/view/whole/html/asmade/act-2026-004/lh
+
+Evidence status: verified
+
+Methodological note:
+- This is a licensing-eligibility policy change, not a processing-time/backlog metric.
+- Do not convert it into a processing-time observation or infer an effect on queue length without separate evidence.
