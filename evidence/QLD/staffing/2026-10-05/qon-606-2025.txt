@@ -1,0 +1,37 @@
+Source: Queensland Parliament, Question on Notice No. 606 of 2025
+Question asked: 10 June 2025
+URL: https://documents.parliament.qld.gov.au/tableoffice/questionsanswers/2025/606-2025.pdf
+Retrieved for tracker: 5 October 2026
+
+Scope:
+Weapons Licensing Group (WLG), Queensland Police Service.
+
+Official answer states that the substantive headcount for WLG was:
+
+As at 30 September 2024
+- Police permanent: 10
+- Staff member permanent: 64
+- Temporary: 33
+
+As at 31 December 2024
+- Police permanent: 10
+- Staff member permanent: 65
+- Temporary: 41
+
+As at 31 March 2025
+- Police permanent: 11
+- Staff member permanent: 62
+- Temporary: 38
+
+As at 31 May 2025
+- Police permanent: 11
+- Staff member permanent: 60
+- Temporary: 38
+
+The source notes that QPS does not employ temporary sworn officers.
+
+Methodological treatment:
+- Preserve the three components separately.
+- Do not sum them into a synthetic total-headcount field in the dataset.
+- "Police permanent", "staff member permanent", and "temporary" are source-native categories.
+- Temporary personnel are not converted into FTE.
