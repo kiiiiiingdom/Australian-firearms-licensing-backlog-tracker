@@ -1,0 +1,18 @@
+Source: Western Australian Office of the Auditor General, 2025 Transparency Report - Major IT Projects, Project 9: Firearms Licensing and Registry System
+URL: https://audit.wa.gov.au/wp-content/uploads/2025/06/Report-21_2025-Transparency-Report-Major-IT-Projects.pdf
+Retrieved for tracker: 5 October 2026
+
+Official project data:
+- Original estimated total cost: $25.33 million
+- Current estimated total cost: $35.12 million
+- Current funding: $24.78 million
+- Cost to date: $11.11 million
+- Current completion date: December 2026
+- Public-facing elements went live in March 2025.
+- The project is intended to replace manual processes, increase automation, and digitalise WA Police firearms licensing and registry processes.
+
+The OAG states that further funding will be required to finalise non-public-facing functionality and may also be required for national requirements.
+
+Methodological treatment:
+- Administrative/ICT capacity evidence, not staffing.
+- Monetary values are retained in evidence and notes rather than converted to staffing capacity.
