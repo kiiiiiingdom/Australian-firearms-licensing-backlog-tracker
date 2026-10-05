@@ -1,0 +1,17 @@
+Source: Office of the Auditor General Western Australia
+Report: 2025 Transparency Report - Major IT Projects, Report 21: 2024-25
+Date: 16 June 2025
+URL: https://audit.wa.gov.au/wp-content/uploads/2025/06/Report-21_2025-Transparency-Report-Major-IT-Projects.pdf
+
+Relevant project:
+WA Police Force - Firearms Licensing and Registry System
+
+Official figures:
+- Current estimated total cost: AUD 35.12 million
+- Approved funding: AUD 24.78 million
+- Percentage unfunded: 29%
+
+Interpretation:
+- This is dedicated firearms licensing/registry ICT-capacity funding information.
+- It is not a staffing, FTE, funded-position or vacancy measure.
+- No workforce count is inferred from project expenditure or funding.
