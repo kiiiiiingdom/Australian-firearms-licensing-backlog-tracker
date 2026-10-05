@@ -1,0 +1,14 @@
+Source: Queensland Police Service
+Title: Modernising Queensland's Weapons Licensing Services
+Last updated: 30 September 2026
+URL: https://www.police.qld.gov.au/units/weapons-licensing/modernising-queenslands-weapons-licensing-services
+
+Relevant official capacity information:
+- Work on the replacement Weapons Licensing Management System (WLMS) has commenced.
+- The new platform is intended to improve customer experience and weapons-licensing service efficiency.
+- It will support Queensland's transition to the National Firearms Register.
+- Staged releases are planned from March 2027.
+
+Interpretation:
+- Dedicated firearms/weapons licensing ICT-capacity reform.
+- No staffing headcount, FTE, vacancy or establishment number is stated and none is inferred.
