@@ -14,6 +14,7 @@ Staffing observations are classified by scope. Comparisons should prefer the nar
 2. `licensing_division` — a wider licensing/regulatory division that includes firearms plus other functions.
 3. `parent_command` — a broader command or business area.
 4. `whole_agency` — total police/department workforce; contextual only and not a proxy for licensing capacity.
+5. `firearms_system` — a dedicated firearms licensing/registry ICT or administrative system. Use for capacity infrastructure only; never treat it as a workforce denominator.
 
 A whole-agency workforce figure must never be compared directly with an exact firearms-unit figure as though they measure the same capacity.
 
@@ -31,6 +32,9 @@ Where available, preserve the authority's exact measure rather than converting b
 - `sworn_fte`
 - `unsworn_headcount`
 - `unsworn_fte`
+- `permanent_unsworn_headcount` and `temporary_unsworn_headcount` where the source separates civilian/staff-member employment status
+- `approved_permanent_sworn_positions` where an official source uses that exact establishment wording; do not relabel it as funded positions or vacancies
+- `estimated_total_cost_aud_m`, `approved_funding_aud_m`, and `percentage_unfunded` for dedicated licensing/registry ICT-capacity projects only
 - staff assigned specifically to new licences, renewals or permits to acquire
 
 `headcount`, `FTE`, permanent positions, funded establishment, vacancies, recruitment positions and filled positions are different concepts and must not be substituted for one another.
