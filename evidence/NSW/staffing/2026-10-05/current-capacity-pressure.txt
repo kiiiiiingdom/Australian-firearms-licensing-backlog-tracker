@@ -1,0 +1,15 @@
+Source: NSW Police Force
+Title: Firearms Registry
+Accessed: 5 October 2026
+URL: https://www.police.nsw.gov.au/online_services/firearms
+
+Relevant official operational-capacity explanation:
+- The Firearms Registry is implementing changes required by the Terrorism and Other Legislation Amendment Act 2025 (TOLA).
+- NSW Police states these reforms required updates to Registry systems, processes, policy and business practices.
+- The Registry has experienced a significant rise in some application volumes, increasing processing times across a range of services.
+- NSW Police states it is prioritising system enhancements, process improvements and resource allocation to restore normal service levels.
+- PTA system enhancements were scheduled for production in September and were expected to assist processing times.
+
+Interpretation:
+- Current official capacity-pressure and reform context.
+- No headcount, FTE, vacancy or funded-establishment number is stated, so none is inferred.
