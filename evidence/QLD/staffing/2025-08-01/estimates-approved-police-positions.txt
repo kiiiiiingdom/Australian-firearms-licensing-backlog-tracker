@@ -1,0 +1,14 @@
+Source: Queensland Parliament, 2025-26 Budget Estimates - Appropriation Bill 2025 - Volume of Additional Information
+URL: https://www.parliament.qld.gov.au/Work-of-the-Assembly/Tabled-Papers/docs/5825T0912/5825t912.pdf
+
+Relevant table:
+Police officers by area.
+
+Weapons Licensing Group:
+- 31 December 2024: Approved Permanent Positions 12; Substantive Headcount 10.
+- 30 June 2025: Approved Permanent Positions 19; Substantive Headcount 11.
+
+Interpretation:
+- "Approved Permanent Positions" is preserved using that exact concept.
+- It is not relabelled as funded establishment, FTE or vacancies.
+- The difference between approved permanent positions and substantive headcount is not recorded as a vacancy count because the source does not define it that way.
