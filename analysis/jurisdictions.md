@@ -69,6 +69,13 @@ Staffing/capacity sources:
 Historical/capacity evidence:
 - Queensland Parliament QON 1498 (2022) states that 50 FTE positions were assigned to Weapons Licensing since June 2022.
 
+System/workflow reform evidence:
+- QPS states that work on the replacement Weapons Licensing Management System (WLMS) has commenced.
+- QPS says the replacement platform is intended to improve customer experience and licensing-service efficiency and support Queensland's transition to the National Firearms Register.
+- Staged releases are planned from March 2027.
+- Source updated 30 September 2026; preserved at evidence/QLD/2026-09-30/wlms.txt.
+- This is ICT/workflow-capacity evidence, not a processing-time metric.
+
 Status: active.
 
 ## New South Wales
