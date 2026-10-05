@@ -1,0 +1,63 @@
+Source: Victoria Police
+Page title: Firearms licensing
+URL: https://www.police.vic.gov.au/firearms-licensing
+Retrieved: 2026-10-04
+Page-stated update date: 2026-10-05
+
+Exact relevant wording:
+Status of current applications
+Last updated 05 October 2026
+
+Application type | Processing applications submitted
+New firearm licence applications | 01 June 2026
+Firearm licence renewal applications | 29 July 2026
+Online permit to acquire | 23 September 2026
+Manual permit to acquire | 21 September 2026
+Import permits | 23 September 2026
+
+"The application processing times outlined above are indicative only. Complex applications, or those with suitability concerns, may take longer to process."
+
+"Additionally, permit to acquire applications can take up to 28 days to process."
+
+Evidence status: verified
+
+Derived tracker metrics versus the 28 September 2026 snapshot:
+
+New firearm licence applications:
+- backlog_age_days = 126
+- elapsed_days = 7
+- processing_days_advanced = 14
+- speed_ratio = 2.0000
+- backlog_age_change_days = -7
+- interpretation: queue age shrank over this interval.
+
+Firearm licence renewal applications:
+- backlog_age_days = 68
+- elapsed_days = 7
+- processing_days_advanced = 5
+- speed_ratio = 0.7143
+- backlog_age_change_days = +2
+
+Online permit to acquire:
+- backlog_age_days = 12
+- elapsed_days = 7
+- processing_days_advanced = 11
+- speed_ratio = 1.5714
+- backlog_age_change_days = -4
+
+Manual permit to acquire:
+- backlog_age_days = 14
+- elapsed_days = 7
+- processing_days_advanced = 7
+- speed_ratio = 1.0000
+- backlog_age_change_days = 0
+
+Import permits:
+- backlog_age_days = 12
+- elapsed_days = 7
+- processing_days_advanced = 12
+- speed_ratio = 1.7143
+- backlog_age_change_days = -5
+
+Capture-date note:
+- The official page displayed a source update date of 05 October 2026 when retrieved on 04 October 2026 in the tracker run environment. The displayed date is preserved verbatim rather than silently corrected.
