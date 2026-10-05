@@ -1,0 +1,17 @@
+# Queensland Police Service — Modernising Queensland's Weapons Licensing Services
+
+Observation date: 2026-10-06
+Source updated date: 2026-09-30
+Source title: Modernising Queensland's Weapons Licensing Services
+Source URL: https://www.police.qld.gov.au/units/weapons-licensing/modernising-queenslands-weapons-licensing-services
+Evidence status: verified
+
+Exact published wording:
+Work on the replacement Weapons Licensing Management System (WLMS) has commenced, marking a major milestone in the modernisation of Queensland’s weapons licensing services.
+
+The WLMS project will deliver a contemporary digital platform that will improve the customer experience, enhance weapons licensing service efficiency, strengthen public safety, and support Queensland’s transition to the National Firearms Register. The replacement WLMS will be delivered in staged releases planned from March 2027.
+
+Last updated: 30/09/2026
+
+Methodological note:
+This is workflow/ICT-capacity evidence, not a processing-time observation. It must not be compared numerically with Queensland's published average online application timeframes.
