@@ -1,0 +1,17 @@
+# Western Australia Police Force — portal processing prioritisation
+
+Jurisdiction: WA
+Observation date: 2026-10-06
+Source updated date: 2026-05-08
+Metric date: 2026-05-08
+Metric type: workflow_policy
+Series: portal_application_processing_order
+Source title: Firearms Portal Information
+Source URL: https://www.wa.gov.au/organisation/western-australia-police-force/firearms-portal-information
+Evidence status: verified
+
+Exact published wording:
+"Licensing Services are prioritising pre-registered accounts for access to the new email login option. New applications will be processed once these registrations have been completed."
+
+Methodological note:
+This is a published processing-order statement associated with portal transition. It is not a processing-time, processing-date or backlog-count metric and should not receive backlog-age or speed-ratio calculations.
