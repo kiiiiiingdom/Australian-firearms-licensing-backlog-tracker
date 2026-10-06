@@ -63,6 +63,7 @@ Examples include:
 - `backlog_count`
 - `service_standard_days`
 - `monthly_report`
+- `workflow_policy` — official processing preconditions, prioritisation rules, workflow changes or system-transition statements that affect how applications are handled but do not themselves publish a waiting-time, queue-date or backlog-count metric.
 
 A processing-date backlog should not be directly ranked against an average-processing-time measure without a clearly stated normalization method. The repository should preserve the authority's actual published measure rather than forcing all jurisdictions into one synthetic score.
 
@@ -94,6 +95,8 @@ Interpretation:
 - `speed_ratio < 1`: queue is advancing slower than real time; backlog age is growing.
 
 A single interval should not be treated as a structural trend. Rolling averages and longer windows are preferred.
+
+Workflow/policy observations must not receive backlog-age, processing-advance, speed-ratio or backlog-age-change calculations unless the official source also publishes a directly compatible quantitative processing metric. Policy effective dates should be stored as `metric_date` where explicitly stated; otherwise leave `metric_date` blank.
 
 ## Capacity analysis
 
