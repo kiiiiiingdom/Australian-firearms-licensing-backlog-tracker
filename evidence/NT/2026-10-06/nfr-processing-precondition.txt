@@ -1,0 +1,20 @@
+# Northern Territory Police — licence and permit processing precondition
+
+Jurisdiction: NT
+Observation date: 2026-10-06
+Source updated date: not stated
+Metric date / policy effective date: 2026-01-01
+Metric type: workflow_policy
+Series: licence_or_permit_processing_precondition
+Source title: Licence and Permit Applications and Information
+Source URL: https://pfes.nt.gov.au/police/firearmsweapons/licence-and-permit-information
+Evidence status: verified
+
+Exact published wording:
+"FPRU will only process licence or permit applications after the Firearms self-check form has been submitted."
+
+Official context:
+The page states that this requirement applies from 1 January 2026 and is associated with preparation for the National Firearms Register.
+
+Methodological note:
+This is a processing precondition, not a published processing-time, queue-date or backlog-count metric. It should not receive backlog-age, speed-ratio or trend calculations.
