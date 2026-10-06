@@ -144,7 +144,12 @@ Historical evidence:
 - September 2024: 1,354 firearm licence applications were outstanding; official correspondence referenced a potential six-week delay.
 - August 2025: 1,421 broader portal-scope transactions/applications were outstanding; this count includes additions, transfers/co-licensing and new licences.
 
-Status: source discovery continues; historical point-in-time backlog evidence now established.
+Portal-transition processing-order evidence:
+- WA Police's Firearms Portal Information page, last updated 8 May 2026, states that Licensing Services are prioritising pre-registered accounts for access to the new email-login option and that new applications will be processed once those registrations are completed.
+- Preserved at evidence/WA/2026-05-08/portal-prioritisation.txt.
+- Treat this as workflow/prioritisation evidence only; it does not quantify processing time or backlog size.
+
+Status: source discovery continues; historical point-in-time backlog evidence and current workflow evidence established.
 
 ## Australian Capital Territory
 
@@ -179,7 +184,13 @@ Historical throughput evidence:
 - NTPFES Annual Report 2023-24 records 2,655 firearm licences issued and 129 licence applications refused by the Firearms Policy and Recording Unit.
 - These are throughput/outcome measures, not processing-time or backlog measures.
 
-Status: source discovery required for a recurring processing-time/backlog metric.
+Current workflow/precondition evidence:
+- NT Police states that, from 1 January 2026, the Firearms Policy and Recording Unit will only process licence or permit applications after the required firearms self-check has been submitted.
+- The stated purpose is preparation of records for the National Firearms Register.
+- Preserved at evidence/NT/2026-10-06/nfr-processing-precondition.txt.
+- Treat this as a processing precondition, not a waiting-time or backlog metric.
+
+Status: source discovery required for a recurring processing-time/backlog metric; current processing-precondition evidence is now preserved.
 
 ## Cross-jurisdiction comparison rules
 
