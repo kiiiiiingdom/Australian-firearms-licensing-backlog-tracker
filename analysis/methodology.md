@@ -64,6 +64,7 @@ Examples include:
 - `service_standard_days`
 - `monthly_report`
 - `workflow_policy` — official processing preconditions, prioritisation rules, workflow changes or system-transition statements that affect how applications are handled but do not themselves publish a waiting-time, queue-date or backlog-count metric.
+- `transition_count` / `transition_percentage` / `transition_deadline` — official measures of a statutory or administrative migration/transition program. These describe transition progress and must not be treated as a new-application backlog unless the source explicitly defines them that way.
 
 A processing-date backlog should not be directly ranked against an average-processing-time measure without a clearly stated normalization method. The repository should preserve the authority's actual published measure rather than forcing all jurisdictions into one synthetic score.
 
