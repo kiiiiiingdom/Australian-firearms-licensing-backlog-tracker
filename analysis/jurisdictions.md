@@ -143,6 +143,8 @@ Staffing/capacity target:
 Historical evidence:
 - September 2024: 1,354 firearm licence applications were outstanding; official correspondence referenced a potential six-week delay.
 - August 2025: 1,421 broader portal-scope transactions/applications were outstanding; this count includes additions, transfers/co-licensing and new licences.
+- March 2026 transition-program status: WA Parliament recorded 82,807 transitional authorities issued; 78% of individual licences transitioned or closed, 3% expired, and 19% not yet transitioned as at 6 March 2026. The final transitional authorities were due to expire on 23 August 2026.
+- Preserve this as transition-program evidence rather than interpreting the 19% as a new-application backlog.
 
 Portal-transition processing-order evidence:
 - WA Police's Firearms Portal Information page, last updated 8 May 2026, states that Licensing Services are prioritising pre-registered accounts for access to the new email-login option and that new applications will be processed once those registrations are completed.
