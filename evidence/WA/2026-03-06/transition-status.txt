@@ -1,0 +1,24 @@
+# Western Australia Parliament — transitional authority status
+
+Jurisdiction: WA
+Observation date: 2026-10-09
+Source updated date: 2026-03-12
+Metric date: 2026-03-06
+Source title: Hansard Daily: Legislative Council - Thursday, March 12 2026
+Source URL: https://www.parliament.wa.gov.au/hansard/daily/uh/2026-03-12/19
+Evidence status: verified
+
+Published values:
+- transitional authorities issued: 82,807
+- individual firearm licences transitioned to new licences or closed: 78%
+- transitional authorities expired: 3%
+- transitional authorities not yet transitioned to new licences: 19%
+- final transitional-authority expiry date: 23 August 2026
+
+Exact published wording sufficient to verify the date/count:
+"correct as of 6 March 2026. (1) There were 82,807."
+
+Additional exact-value fields above are transcribed from the same official parliamentary answer.
+
+Methodological note:
+These figures describe the statutory transition program, not a new-application processing backlog. Do not calculate backlog age, processing advance or speed ratio from these percentages.
