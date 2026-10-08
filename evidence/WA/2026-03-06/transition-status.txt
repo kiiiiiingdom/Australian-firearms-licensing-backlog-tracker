@@ -2,7 +2,8 @@
 
 Jurisdiction: WA
 Observation date: 2026-10-09
-Source updated date: 2026-03-12
+Source updated date: not stated
+Source publication date: 2026-03-12
 Metric date: 2026-03-06
 Source title: Hansard Daily: Legislative Council - Thursday, March 12 2026
 Source URL: https://www.parliament.wa.gov.au/hansard/daily/uh/2026-03-12/19
