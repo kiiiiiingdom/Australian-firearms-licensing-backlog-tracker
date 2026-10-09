@@ -1,0 +1,17 @@
+# Tasmania Police Firearms Services — Eligibility
+
+jurisdiction: TAS
+observation_date: 2026-10-09
+source_updated_date: not stated on page
+metric_date: not explicitly stated; left blank for the observation
+metric_type: minimum_wait_days
+series: licence_application_minimum_wait
+source_title: Eligibility - Tasmania Police Firearms Services
+source_url: https://fas.police.tas.gov.au/obtaining-a-licence/eligibility/
+evidence_status: verified — official Tasmania Police Firearms Services page, checked 2026-10-09
+
+Exact official wording:
+"The minimum time for processing of an application is 28 days from the date of application, after which time applicants will receive notification by mail"
+
+Interpretation:
+This is a minimum timeframe, not a live backlog or an observed completion-time average. Do not infer a processing-date queue, queue length, actual average wait, or speed ratio from this rule.
