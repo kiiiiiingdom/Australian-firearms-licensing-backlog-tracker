@@ -62,9 +62,11 @@ Examples include:
 - `average_processing_weeks`
 - `backlog_count`
 - `service_standard_days`
+- `minimum_wait_days` — a statutory or administrative minimum interval before an application can be issued or completed; this is not evidence of current backlog or actual average processing time.
 - `monthly_report`
 - `workflow_policy` — official processing preconditions, prioritisation rules, workflow changes or system-transition statements that affect how applications are handled but do not themselves publish a waiting-time, queue-date or backlog-count metric.
 - `transition_count` / `transition_percentage` / `transition_deadline` — official measures of a statutory or administrative migration/transition program. These describe transition progress and must not be treated as a new-application backlog unless the source explicitly defines them that way.
+- `administrative_fee` — an official licence, permit or registration fee retained only where it is materially relevant to a licensing-policy or system-change record. Fee observations are contextual and do not measure processing performance.
 
 A processing-date backlog should not be directly ranked against an average-processing-time measure without a clearly stated normalization method. The repository should preserve the authority's actual published measure rather than forcing all jurisdictions into one synthetic score.
 
@@ -98,6 +100,8 @@ Interpretation:
 A single interval should not be treated as a structural trend. Rolling averages and longer windows are preferred.
 
 Workflow/policy observations must not receive backlog-age, processing-advance, speed-ratio or backlog-age-change calculations unless the official source also publishes a directly compatible quantitative processing metric. Policy effective dates should be stored as `metric_date` where explicitly stated; otherwise leave `metric_date` blank.
+
+Minimum-wait observations must not be interpreted as current backlog, observed average completion time or service performance. Administrative-fee observations are policy context only and receive no queue calculations.
 
 ## Capacity analysis
 
