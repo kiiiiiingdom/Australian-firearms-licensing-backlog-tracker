@@ -114,6 +114,7 @@ Authority: Tasmania Police Firearms Services
 
 Current processing information found:
 - Eligibility page states that the minimum time for processing a licence application is 28 days from application.
+- Preserved at evidence/TAS/2026-10-09/licence-minimum-processing-time.txt.
 - This is a minimum statutory/administrative timeframe, not evidence of current backlog.
 
 Primary source:
@@ -164,12 +165,20 @@ Target processing metrics:
 Staffing/capacity target:
 - Registry/function-specific staffing if available; whole-of-ACT-Policing FTE is contextual only and must not be treated as firearms-licensing capacity.
 
+Current licensing workflow/policy evidence:
+- ACT Policing states that a permit to acquire cannot be issued before 28 days after the Firearms Registry receives the application. A separate ACT Policing page expresses the equivalent rule as no issue until 29 days after application.
+- New firearms licence and renewal submissions require an appointment with the ACT Firearms Registry.
+- From 1 July 2026, the adult firearms licence fee increased from AUD 179 to AUD 487 and the permit-to-acquire fee from AUD 20 to AUD 30.
+- ACT Policing states that the new licence fee supports delivery of a new digital ACT Firearms Registry.
+- Preserved at evidence/ACT/2026-10-10/licensing-policy.txt.
+- The minimum-wait rule is not evidence of actual average processing time or current backlog; fee values are policy context only.
+
 Historical workflow/capacity evidence:
 - ACT Policing reported a temporary Firearms Registry processing interruption in June 2024 after a damaged water main affected the Exhibit Management Centre.
 - ACT Legislative Assembly QON No. 30 (answer signed 7 March 2025) records that ACT Policing's then-current firearms data system had extremely limited search/filtering capability and some historical reporting required manual interrogation.
 - The same answer states the National Firearms Register/ACT Registry uplift was expected to improve these capabilities. It records $500,000 federal funding provided to date; the Federal Funding Agreement was stated to contribute up to 75% ($18.7m) of the ACT Registry uplift cost over four years, with ACT Government contributing up to 25% ($6.2m). This is ICT/program-capacity context, not staffing FTE.
 
-Status: source discovery required; do not infer a metric from statutory waiting periods alone.
+Status: source discovery required for a recurring backlog/actual-processing-time metric; current minimum-wait and workflow-policy evidence is preserved.
 
 ## Northern Territory
 
