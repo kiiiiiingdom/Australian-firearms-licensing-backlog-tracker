@@ -1,0 +1,54 @@
+# ACT Policing — firearms licensing workflow and fees
+
+jurisdiction: ACT
+observation_date: 2026-10-10
+source_updated_date: not stated
+evidence_status: verified
+
+## Permit to acquire minimum wait
+metric_type: minimum_wait_days
+metric_date: not explicitly stated
+metric_value: 28
+metric_unit: days
+source_title: Exchange, fees and renewals | ACT Policing
+source_url: https://police.act.gov.au/community-safety/firearms/firearms-licences/exchange%2C-fees-and-renewals
+
+Exact official wording:
+"Firearms Permits can not be issued before 28 days after the day the Firearms Registry receives the application."
+
+Interpretation:
+This is a statutory/administrative minimum issue interval, not a live backlog or average processing-time metric. A separate ACT Policing page expresses the same rule as no issue until 29 days after application.
+
+## New licence appointment workflow
+metric_type: workflow_policy
+metric_date: not explicitly stated
+metric_value: appointment required
+metric_unit: policy
+source_title: ACT Firearms Registry | ACT Policing
+source_url: https://police.act.gov.au/firearms/act-firearms-registry
+
+Exact official wording:
+"An appointment is required for a new Firearms Licence or to re-new your Licence."
+
+Interpretation:
+This is a submission/workflow requirement, not a processing-time metric.
+
+## Fee changes effective 1 July 2026
+metric_type: administrative_fee
+metric_date: 2026-07-01
+source_title: Exchange, fees and renewals | ACT Policing
+source_url: https://police.act.gov.au/community-safety/firearms/firearms-licences/exchange%2C-fees-and-renewals
+
+Exact official wording:
+"Adult firearms licence from $179 to $487"
+"Permit to acquire from $20 to $30"
+
+Structured values:
+- adult_firearms_licence_fee: AUD 487
+- permit_to_acquire_fee: AUD 30
+
+Official context:
+ACT Policing states that the new licence fee supports delivery of a new digital ACT Firearms Registry.
+
+Methodological note:
+Fee values and workflow requirements are contextual policy evidence. They must not receive backlog-age, speed-ratio or processing-trend calculations.
