@@ -1,0 +1,20 @@
+# Western Australia Police Force — Group Permits unavailable
+
+jurisdiction: WA
+observation_date: 2026-10-10
+source_updated_date: 2026-09-10
+metric_date: 2026-09-10
+metric_type: permit_availability_policy
+series: group_permit_availability
+source_title: Apply for a Firearms Permit
+source_url: https://www.wa.gov.au/service/security/law-enforcement/apply-firearms-permit
+evidence_status: verified
+
+Exact official wording:
+"Please be advised that Group Permits are no longer available."
+
+Official context:
+The page lists Equivalent Authority Permit and Miscellaneous Possession Permit pathways under the Firearms Regulations 2024.
+
+Methodological note:
+This is a permit-pathway policy change, not a processing-time or backlog metric. The page does not state the exact date Group Permits ceased to be available.
