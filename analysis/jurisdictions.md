@@ -76,6 +76,16 @@ System/workflow reform evidence:
 - Source updated 30 September 2026; preserved at evidence/QLD/2026-09-30/wlms.txt.
 - This is ICT/workflow-capacity evidence, not a processing-time metric.
 
+Non-citizen eligibility evidence:
+- QPS states that amendments commencing 3 August 2026 generally limit weapons licences to Australian citizens, with stated non-citizen exceptions for sport/target shooting genuine reasons and occupational purposes only.
+- Preserved at evidence/QLD/2026-08-03/non-citizen-eligibility.txt.
+- This is eligibility-policy evidence, not a processing metric.
+
+Future storage-compliance evidence:
+- QPS states that from 12 March 2027 timber storage containers will no longer be approved and Categories A, B, C, E and M must be stored in a solid steel safe.
+- Preserved at evidence/QLD/2026-10-10/storage-compliance-2027.txt.
+- Queensland legislation currently records Part 8 of the 2026 amendment Act as not yet proclaimed into force; retain that commencement-status qualification alongside the QPS announced compliance date.
+
 Status: active.
 
 ## New South Wales
@@ -152,7 +162,12 @@ Portal-transition processing-order evidence:
 - Preserved at evidence/WA/2026-05-08/portal-prioritisation.txt.
 - Treat this as workflow/prioritisation evidence only; it does not quantify processing time or backlog size.
 
-Status: source discovery continues; historical point-in-time backlog evidence and current workflow evidence established.
+Permit-pathway evidence:
+- WA Police's Apply for a Firearms Permit page, last updated 10 September 2026, states that Group Permits are no longer available.
+- Preserved at evidence/WA/2026-09-10/group-permits.txt.
+- The page does not state the exact cessation date, so the tracker does not infer one.
+
+Status: source discovery continues; historical point-in-time backlog evidence and current workflow/policy evidence established.
 
 ## Australian Capital Territory
 
