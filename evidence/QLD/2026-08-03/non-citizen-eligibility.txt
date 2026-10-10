@@ -1,0 +1,24 @@
+# Queensland Police Service — non-citizen licence eligibility
+
+jurisdiction: QLD
+observation_date: 2026-10-10
+source_updated_date: 2026-08-04
+metric_date: 2026-08-03
+metric_type: eligibility_policy
+series: non_citizen_weapons_licence_eligibility
+source_title: Licensing Requirements for Non-Australian Citizens - Fact Sheet
+source_url: https://www.police.qld.gov.au/weapon-licensing/licensing-requirements-non-australian-citizens-fact-sheet
+evidence_status: verified
+
+Exact official wording:
+"These amendments limit the issue of licences to Australian citizens, while providing exceptions for non-citizens"
+
+Officially stated exceptions:
+- genuine reason of sport or target shooting
+- occupational purposes only
+
+Context:
+QPS states that the amendments commenced on 3 August 2026.
+
+Methodological note:
+This is an eligibility-policy change, not a processing-time or backlog metric. It receives no queue calculations.
