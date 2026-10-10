@@ -1,0 +1,22 @@
+# Queensland Police Service — 2027 storage compliance changes
+
+jurisdiction: QLD
+observation_date: 2026-10-10
+source_updated_date: not stated
+metric_date: 2027-03-12
+metric_type: future_legal_requirement
+series: storage_compliance_change
+source_title: Weapons News
+source_url: https://www.police.qld.gov.au/units/weapons-licensing/weapons-news
+evidence_status: verified
+
+Exact official wording:
+"From 12 March 2027:"
+"Timber storage containers will no longer be approved for weapons storage."
+"All Category A, B, C, E and M weapons must be stored in a solid steel safe."
+
+Legal-status qualification:
+Queensland legislation currently records Part 8 of the 2026 amendment Act as not yet proclaimed into force. The tracker therefore preserves the QPS announced 12 March 2027 compliance date while distinguishing it from provisions already commenced.
+
+Methodological note:
+This is a future storage requirement, not a licensing-processing metric. It receives no backlog or speed-ratio calculations.
