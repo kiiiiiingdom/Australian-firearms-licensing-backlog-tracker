@@ -67,6 +67,9 @@ Examples include:
 - `workflow_policy` — official processing preconditions, prioritisation rules, workflow changes or system-transition statements that affect how applications are handled but do not themselves publish a waiting-time, queue-date or backlog-count metric.
 - `transition_count` / `transition_percentage` / `transition_deadline` — official measures of a statutory or administrative migration/transition program. These describe transition progress and must not be treated as a new-application backlog unless the source explicitly defines them that way.
 - `administrative_fee` — an official licence, permit or registration fee retained only where it is materially relevant to a licensing-policy or system-change record. Fee observations are contextual and do not measure processing performance.
+- `eligibility_policy` — an official change to who may qualify for a licence or permit or the genuine reasons available to them. This is legal/policy evidence, not processing performance.
+- `future_legal_requirement` — a future-dated requirement officially announced or legislated but not yet in force at the observation date. Preserve the announced date and any commencement-status qualification.
+- `permit_availability_policy` — an official change to whether a permit pathway exists or remains available. This is policy evidence, not a processing metric.
 
 A processing-date backlog should not be directly ranked against an average-processing-time measure without a clearly stated normalization method. The repository should preserve the authority's actual published measure rather than forcing all jurisdictions into one synthetic score.
 
@@ -102,6 +105,8 @@ A single interval should not be treated as a structural trend. Rolling averages 
 Workflow/policy observations must not receive backlog-age, processing-advance, speed-ratio or backlog-age-change calculations unless the official source also publishes a directly compatible quantitative processing metric. Policy effective dates should be stored as `metric_date` where explicitly stated; otherwise leave `metric_date` blank.
 
 Minimum-wait observations must not be interpreted as current backlog, observed average completion time or service performance. Administrative-fee observations are policy context only and receive no queue calculations.
+
+Eligibility, future-law and permit-availability observations receive no queue calculations. Future requirements must distinguish an agency-announced compliance date from the legislation's current commencement status where those differ.
 
 ## Capacity analysis
 
