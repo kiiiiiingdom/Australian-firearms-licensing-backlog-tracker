@@ -1,0 +1,20 @@
+# NSW Police Firearms Registry — processing-pressure explanation
+
+jurisdiction: NSW
+observation_date: 2026-10-11
+source_updated_date: not stated
+metric_date: not stated
+metric_type: workflow_policy
+series: registry_processing_pressure_explanation
+source_title: Firearms Registry - NSW Police Public Site
+source_url: https://www.police.nsw.gov.au/online_services/firearms
+evidence_status: verified
+
+Exact official wording:
+"The Firearms Registry has also experienced a significant rise in some application volumes"
+
+Official explanation, paraphrased:
+NSW Police says implementation of the Terrorism and Other Legislation Amendment Act 2025 required updates to Registry systems, processes, policy and business practices. It also says some application volumes increased, processing times rose across multiple services, and the Registry is prioritising system enhancements, process improvements and resource allocation to restore normal service levels. PTA system enhancements were scheduled for production completion in September.
+
+Methodological note:
+This is official explanatory context for processing pressure. It does not by itself quantify backlog size or establish the cause of any individual application's delay.
