@@ -1,0 +1,12 @@
+Official primary source: Victorian Government / Premier's Office media release
+Title: New Firearms Laws To Keep Victorians Safe
+Publication date: 17 June 2026
+URL: https://www.premier.vic.gov.au/new-firearms-laws-keep-victorians-safe
+Evidence retrieved/recorded: 12 October 2026
+
+Relevant official sentence:
+"We invested $38.4 million to upgrade firearms licensing systems in the Budget"
+
+Classification: dedicated firearms-licensing ICT/system budget allocation (AUD 38.4 million).
+This is not a staffing number, current FTE, headcount, verified project total cost, or assurance that all funds had been expended by the publication date. The announcement links the upgrade to preparedness for the National Firearms Register.
+Evidence status: verified.
