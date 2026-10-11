@@ -1,0 +1,10 @@
+Source: Queensland Parliament, Question on Notice 398 of 2011
+URL: https://documents.parliament.qld.gov.au/tableoffice/questionsanswers/2011/398-2011.pdf
+Asked 24 March 2011; recorded 12 October 2026.
+
+Total approved branch staffing (FTE), per parliamentary answer:
+2011: 90; 2010: 90; 2009: 91; 2008: 102.
+
+The 2011 figure is explicitly footnoted as approved staffing at 7 March 2011, not actual filled FTE. Same-day dates for 2008-2010 are not confirmed by the source. Do not infer actual headcount from these figures.
+
+The answer separately describes short-term additional staffing outside those totals and system-transition changes. This file records aggregate administrative capacity only, not individual personnel.
