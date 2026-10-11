@@ -1,0 +1,52 @@
+# South Australia Police — Status of my application
+
+jurisdiction: SA
+observation_date: 2026-10-11
+source_updated_date: 2026-10-09
+metric_date: 2026-10-09
+source_title: SAPOL - Status of my application
+source_url: https://www.police.sa.gov.au/services-and-events/firearms-and-weapons/status-of-my-application
+evidence_status: verified from official dynamic-page snapshot captured during tracker monitoring
+
+Published processing dates:
+- Firearms licence renewals: 21 August 2026
+- Permits to acquire a firearm: 26 August 2026
+- Firearms licence application: 28 January 2026
+
+Exact wording sufficient to verify the snapshot:
+"Firearms licence renewals | 21 August 2026"
+"Permits to acquire a firearm | 26 August 2026"
+"Firearms licence application | 28 January 2026"
+"Updated (09 October 2026)"
+
+Derived metrics versus 02 October 2026:
+
+Firearms licence application:
+- backlog_age_days = 254
+- elapsed_days = 7
+- processing_days_advanced = 14
+- speed_ratio = 2.0000
+- backlog_age_change_days = -7
+- interpretation: shrinking over this interval
+
+Firearms licence renewals:
+- backlog_age_days = 49
+- elapsed_days = 7
+- processing_days_advanced = 6
+- speed_ratio = 0.8571
+- backlog_age_change_days = +1
+- interpretation: broadly stable to slightly growing over this interval
+
+Permits to acquire a firearm:
+- backlog_age_days = 44
+- elapsed_days = 7
+- processing_days_advanced = 11
+- speed_ratio = 1.5714
+- backlog_age_change_days = -4
+- interpretation: shrinking over this interval
+
+Longer-window note:
+From 11 September to 9 October 2026, the new-licence processing date advanced 73 days over 28 elapsed days, giving a speed ratio of about 2.61 and reducing backlog age by 45 days. This is evidence of recent queue reduction, not proof of a permanent structural change.
+
+Capture note:
+The SAPOL page is dynamic and public caches may later expose a different historical page state. This record preserves the verified 09 October 2026 snapshot observed during monitoring.
