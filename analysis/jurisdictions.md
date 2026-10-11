@@ -16,6 +16,13 @@ Primary processing source:
 Observed/source cadence:
 - SAPOL states that the table is provided each week; practical monitoring cadence: daily capture, expecting roughly weekly changes.
 
+Latest verified processing snapshot:
+- Source updated 9 October 2026.
+- New firearms licence applications: processing 28 January 2026 submissions; backlog age 254 days; weekly speed ratio 2.0000, indicating shrinkage over that interval.
+- Licence renewals: processing 21 August 2026 submissions; backlog age 49 days; broadly stable over the interval.
+- Permits to acquire: processing 26 August 2026 submissions; backlog age 44 days; weekly speed ratio 1.5714, indicating shrinkage over that interval.
+- Preserved at evidence/SA/2026-10-09/source.txt.
+
 Staffing/capacity sources:
 - SAPOL Proactive Disclosure / FOI determinations.
 - FOI Determination 26-1424 states that the Firearms Branch Registry and Adjudication sections have 17.8 substantive FTE positions; temporary/additional staffing is acknowledged but not quantified.
@@ -99,14 +106,21 @@ Primary source family:
 - Firearms Registry performance/data reports published as official PDFs on the NSW Police website.
 
 Current verified source:
-- Data Report March 2026 is the latest report for which exact licence-processing metrics are currently entered in the dataset.
-- The official NSW Police Firearms Data page was verified on 1 October 2026 as listing a newer Firearms Registry Performance and Data Report July 2026. The July metric values are not entered until the report itself is directly captured and verified.
+- Firearms Registry Performance and Data Report July 2026 is directly captured and its April-July 2026 new-licence, PTA and renewal averages are entered in the dataset.
+- The July 2026 report remains the latest verified monthly performance report currently captured in the repository.
 
 Observed/source cadence:
 - Monthly reporting series. Daily source discovery is acceptable, but the substantive metric is monthly.
 
 Important methodological note:
 - NSW states that its average processing time includes the 28-day cooling-off period. Cross-jurisdiction comparisons must account for that definition.
+
+Current official processing-pressure context:
+- NSW Police states that implementation of the Terrorism and Other Legislation Amendment Act 2025 required updates to Firearms Registry systems, processes, policy and business practices.
+- NSW Police also states that some application volumes increased and processing times rose across a range of services.
+- It says system enhancements, process improvements and resource allocation are being prioritised to restore normal service levels.
+- Preserved at evidence/NSW/2026-10-11/processing-pressure.txt.
+- Treat these statements as official explanatory context, not as proof that any one factor caused a particular applicant's delay.
 
 Staffing/capacity target:
 - NSW Police annual reports, parliamentary estimates/questions, Firearms Registry reports, audit material and official establishment documents.
@@ -126,6 +140,12 @@ Current processing information found:
 - Eligibility page states that the minimum time for processing a licence application is 28 days from application.
 - Preserved at evidence/TAS/2026-10-09/licence-minimum-processing-time.txt.
 - This is a minimum statutory/administrative timeframe, not evidence of current backlog.
+
+Current workflow/form evidence:
+- Tasmania Police published two new licence application forms for release on 1 September 2026: the initial Firearms Licence Application and the renewal form.
+- The agency states that the final forms followed public feedback and further stakeholder consultation.
+- Preserved at evidence/TAS/2026-09-01/forms-workflow.txt.
+- This is a workflow/form change, not a processing-time metric.
 
 Primary source:
 - https://fas.police.tas.gov.au/obtaining-a-licence/eligibility/
