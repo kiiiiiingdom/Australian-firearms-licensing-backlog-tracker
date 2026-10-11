@@ -1,0 +1,12 @@
+Official primary source: Parliament of Victoria, Legislative Council Hansard
+Debate: Firearms Amendment Bill 2026, Committee stage
+Date: 13 August 2026
+URL: https://www.parliament.vic.gov.au/parliamentary-activity/hansard/hansard-details/HANSARD-974425065-36308
+Evidence retrieved/recorded: 12 October 2026
+
+A member asked for firearms-specific full-time staff in the Licensing and Regulation Division (LRD), compared with the preceding two years.
+Ministerial response: there is no dedicated group whose sole work is firearm licensing; staff also process private security licensing and prohibited-weapon approvals. The Government said Victoria Police manages detailed allocation and vacancies as operational matters.
+
+Interpretation: firearms-specific staff totals cannot be inferred from LRD totals without a verified workload or roster allocation. Do not use division FTE as a denominator for firearms-only applications.
+No numeric FTE or vacancy count was supplied by this exchange.
+Evidence status: context_only; verified statement of organisational scope.
