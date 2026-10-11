@@ -1,0 +1,20 @@
+# Tasmania Police Firearms Services — new application forms
+
+jurisdiction: TAS
+observation_date: 2026-10-11
+source_updated_date: 2026-08-31
+metric_date: 2026-09-01
+metric_type: workflow_policy
+series: licence_application_forms_release
+source_title: Release of new Firearms Licence Application forms
+source_url: https://fas.police.tas.gov.au/release-of-new-firearms-licence-application-forms/
+evidence_status: verified
+
+Exact official wording:
+"Two new licence application forms have been approved for release on 1 September 2026"
+
+Official context, paraphrased:
+The two forms are the Firearms Licence Application and the Firearms Licence Application - Renewal. Tasmania Police says the final forms followed public feedback and further stakeholder consultation.
+
+Methodological note:
+This is an application-form/workflow change, not a processing-time or backlog metric. It receives no queue calculations.
