@@ -1,0 +1,66 @@
+# Victoria Police — Firearms licensing
+
+jurisdiction: VIC
+observation_date: 2026-10-13
+source_updated_date: 2026-10-12
+metric_date: 2026-10-12
+source_title: Victoria Police - Firearms licensing
+source_url: https://www.police.vic.gov.au/firearms-licensing
+evidence_status: verified
+
+Exact published wording:
+"Last updated 12 October 2026"
+"New firearm licence applications | 02 June 2026"
+"Firearm licence renewal applications | 31 July 2026"
+"Online permit to acquire | 28 September 2026"
+"Manual permit to acquire | 28 September 2026"
+"Import permits | 01 October 2026"
+
+Official qualification:
+"The application processing times outlined above are indicative only. Complex applications, or those with suitability concerns, may take longer to process."
+"Additionally, permit to acquire applications can take up to 28 days to process."
+
+Derived metrics versus 05 October 2026:
+
+New firearm licence applications:
+- backlog_age_days = 132
+- elapsed_days = 7
+- processing_days_advanced = 1
+- speed_ratio = 0.1429
+- backlog_age_change_days = +6
+- interpretation: growing over this interval
+
+Firearm licence renewal applications:
+- backlog_age_days = 73
+- elapsed_days = 7
+- processing_days_advanced = 2
+- speed_ratio = 0.2857
+- backlog_age_change_days = +5
+- interpretation: growing over this interval
+
+Online permit to acquire:
+- backlog_age_days = 14
+- elapsed_days = 7
+- processing_days_advanced = 5
+- speed_ratio = 0.7143
+- backlog_age_change_days = +2
+- interpretation: slightly growing over this interval
+
+Manual permit to acquire:
+- backlog_age_days = 14
+- elapsed_days = 7
+- processing_days_advanced = 7
+- speed_ratio = 1.0000
+- backlog_age_change_days = 0
+- interpretation: broadly stable
+
+Import permits:
+- backlog_age_days = 11
+- elapsed_days = 7
+- processing_days_advanced = 8
+- speed_ratio = 1.1429
+- backlog_age_change_days = -1
+- interpretation: broadly stable to slightly shrinking
+
+Longer-window note:
+For new firearm licence applications, 14 September to 12 October 2026 spans 28 elapsed days and the processing date advanced from 05 May to 02 June, also 28 days. Backlog age was 132 days at both endpoints, consistent with a broadly stable backlog-age over that four-week window. This does not establish intent or a fixed-backlog policy.
