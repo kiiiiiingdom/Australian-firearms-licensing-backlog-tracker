@@ -45,6 +45,16 @@ Primary processing source:
 Observed/source cadence:
 - Dynamic status table with a page-level "Last updated" date. Exact publication cadence is not stated; daily monitoring is sufficient to capture changes within about 24 hours.
 
+Latest verified processing snapshot:
+- Source updated 12 October 2026.
+- New firearm licence applications: processing 02 June 2026 submissions; backlog age 132 days; weekly speed ratio 0.1429, so backlog age grew by 6 days over the latest interval.
+- Licence renewals: processing 31 July 2026; backlog age 73 days; weekly speed ratio 0.2857.
+- Online PTA: processing 28 September 2026; backlog age 14 days; weekly speed ratio 0.7143.
+- Manual PTA: processing 28 September 2026; backlog age 14 days; weekly speed ratio 1.0000, broadly stable.
+- Import permits: processing 01 October 2026; backlog age 11 days; weekly speed ratio 1.1429.
+- For new-licence applications over 14 September to 12 October, the processing date advanced 28 days over 28 elapsed days and backlog age was 132 days at both endpoints, consistent with a broadly stable four-week backlog-age.
+- Preserved at evidence/VIC/2026-10-12/source.txt.
+
 Staffing/capacity target:
 - Licensing and Regulation Division workforce reports, annual reports, parliamentary material and budget/establishment records.
 - Prefer firearms-specific allocation if available; division-level staffing is broader than the firearms function and must be labelled accordingly.
