@@ -1,0 +1,38 @@
+# NSW Police Force Firearms Registry — September 2026 monthly public report
+
+jurisdiction: NSW
+observation_date: 2026-10-14
+source_updated_date: not stated
+metric_date: 2026-09-30
+source_title: Firearms Registry — Public Website Data Reporting - September 2026
+source_url: https://www.police.nsw.gov.au/about_us/information_of_interest_to_the_community/firearms_data
+evidence_status: verified
+primary_evidence: official NSW Police September 2026 monthly report, directly examined during tracker monitoring on 2026-10-14
+direct_pdf_url: unavailable in the current connector/search context; the official Firearms Data page is preserved as the durable source entry point rather than inventing a PDF URL
+scope: Gun Safe data, subject to the paper-based exclusion caveat below
+
+Verified published September 2026 values:
+- New licence application average processing time: 41.94 days.
+- Permit to Acquire average processing time: 95.35 days.
+- Licence renewal average processing time: 54.80 days.
+- Renewal applications submitted: 4,209.
+- Renewal applications processed: 632.
+
+Exact chart-label/value wording sufficient to verify the observations:
+- "Sep 26" — 41.94 days (new licence average processing time).
+- "Sep 26" — 95.35 days (PTA average processing time).
+- "Sep 26" — 54.80 days (renewal average processing time).
+- "Sep 26" — 4,209 renewal applications submitted.
+- "Sep 26" — 632 renewal applications processed.
+
+Official method/caveat wording carried by this monthly report series:
+- "Gun Safe data does not include paper-based applications. Paper based applications represent 2.5% of all transactions."
+- Average processing times for paper-based applications are longer because of postage and manual handling.
+- New-licence and PTA average processing times include the 28-day cooling-off period.
+
+Methodological handling:
+- These are monthly average-time and monthly-volume observations, not processing-date queue metrics.
+- Do not calculate backlog age or speed ratio from them.
+- Submitted and processed counts can relate to different cohorts; their difference must not be treated as an independently verified backlog count.
+- Same-series changes from August to September 2026: new licence 45.22 -> 41.94 days (-3.28); PTA 104.17 -> 95.35 days (-8.82); renewal 40.76 -> 54.80 days (+14.04).
+- From July to September 2026: new licence 47.76 -> 41.94 days (-5.82); PTA 101.26 -> 95.35 days (-5.91); renewal 15.88 -> 54.80 days (+38.92).
