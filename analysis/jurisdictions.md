@@ -116,11 +116,19 @@ Primary source family:
 - Firearms Registry performance/data reports published as official PDFs on the NSW Police website.
 
 Current verified source:
-- Firearms Registry Performance and Data Report July 2026 is directly captured and its April-July 2026 new-licence, PTA and renewal averages are entered in the dataset.
-- The July 2026 report remains the latest verified monthly performance report currently captured in the repository.
+- August 2026 and September 2026 Firearms Registry monthly reports are now captured in the repository.
+- September 2026 is the latest verified monthly performance period currently entered in the dataset.
+- September average processing times: new licence 41.94 days, PTA 95.35 days, renewal 54.80 days.
+- August evidence is preserved at evidence/NSW/2026-08/source.txt; September evidence at evidence/NSW/2026-09/source.txt.
 
 Observed/source cadence:
 - Monthly reporting series. Daily source discovery is acceptable, but the substantive metric is monthly.
+
+Recent monthly trend:
+- New-licence average processing time improved from 47.76 days in July to 45.22 in August and 41.94 in September.
+- PTA average processing time rose from 101.26 days in July to 104.17 in August, then improved to 95.35 in September.
+- Renewal average processing time deteriorated from 15.88 days in July to 40.76 in August and 54.80 in September.
+- August renewal volume: 4,165 submitted and 163 processed; September: 4,209 submitted and 632 processed. These counts are different cohorts and must not be subtracted to claim a formal backlog count.
 
 Important methodological note:
 - NSW states that its average processing time includes the 28-day cooling-off period. Cross-jurisdiction comparisons must account for that definition.
