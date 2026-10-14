@@ -64,6 +64,7 @@ Examples include:
 - `service_standard_days`
 - `minimum_wait_days` — a statutory or administrative minimum interval before an application can be issued or completed; this is not evidence of current backlog or actual average processing time.
 - `monthly_report`
+- `monthly_count` — a monthly submitted, processed, finalised or other volume count published by an authority. Preserve the authority's label and cohort scope; do not subtract unlike monthly counts to manufacture a backlog figure.
 - `workflow_policy` — official processing preconditions, prioritisation rules, workflow changes or system-transition statements that affect how applications are handled but do not themselves publish a waiting-time, queue-date or backlog-count metric.
 - `transition_count` / `transition_percentage` / `transition_deadline` — official measures of a statutory or administrative migration/transition program. These describe transition progress and must not be treated as a new-application backlog unless the source explicitly defines them that way.
 - `administrative_fee` — an official licence, permit or registration fee retained only where it is materially relevant to a licensing-policy or system-change record. Fee observations are contextual and do not measure processing performance.
@@ -107,6 +108,8 @@ Workflow/policy observations must not receive backlog-age, processing-advance, s
 Minimum-wait observations must not be interpreted as current backlog, observed average completion time or service performance. Administrative-fee observations are policy context only and receive no queue calculations.
 
 Eligibility, future-law and permit-availability observations receive no queue calculations. Future requirements must distinguish an agency-announced compliance date from the legislation's current commencement status where those differ.
+
+Monthly counts must not be converted into backlog estimates unless the authority explicitly defines the relationship. Submitted and processed/finalised counts may represent different cohorts and outcome states.
 
 ## Capacity analysis
 
