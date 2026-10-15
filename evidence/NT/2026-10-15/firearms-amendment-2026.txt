@@ -1,0 +1,50 @@
+# Northern Territory — Firearms Amendment Act 2026 licensing changes
+
+jurisdiction: NT
+observation_date: 2026-10-15
+source_updated_date: not stated
+metric_date: 2026-06-30
+metric_type: legal_policy
+source_title: Firearms/Weapons | NT Police, Fire & Emergency Services; Firearms Amendment Act 2026
+source_url: https://pfes.nt.gov.au/police/firearmsweapons
+legislation_url: https://legislation.nt.gov.au/en/legislationportal/acts/~/link.aspx?_id=D261015132D447FE89524EAEFF4BFAA4&format=assented
+evidence_status: verified
+
+Commencement:
+Northern Territory legislation records Firearms Amendment Act 2026, Act No. 10 of 2026, assent 28 May 2026 and commencement 30 June 2026.
+
+## Licence continuation after timely renewal application
+
+Exact official NT Police wording:
+"A licence continues to be in force beyond its expiry, provided:"
+- "an application for a new firearms licence of the same licence type has been lodged before the existing licence expires"
+- "the application has not been granted or refused"
+- "the existing licence has not been revoked."
+
+Legislative wording sufficient to verify:
+"a licence continues in force beyond its expiry if, before the expiry" the licensee has lodged an application for a new licence of the same type and the application has not been granted or refused; the continued licence expires on grant or refusal unless earlier revoked.
+
+Interpretation:
+This protects the legal continuity of a timely renewal applicant while the replacement application is pending. It is not a processing-time or backlog metric.
+
+## Longer corporate and employee licence periods
+
+Exact official NT Police wording:
+"A new firearms corporate licence and firearms employee licence may now be issued for periods of up to 10 years."
+
+Interpretation:
+This changes maximum licence duration for those licence types. It does not quantify processing performance.
+
+## Licence and permit conditions
+
+Exact official NT Police wording:
+"Conditions may now be added, revoked or varied during the currency of a licence or permit."
+
+Legislative wording sufficient to verify:
+The Commissioner may revoke or vary a condition of a licence or permit and may specify further conditions during the period of a licence or permit.
+
+Interpretation:
+This is a legal/administrative power affecting licence and permit conditions during their term. It is not a processing-time metric.
+
+Methodological note:
+No backlog age, processing advance, speed ratio or backlog-age-change calculations apply to these legal-policy observations.
