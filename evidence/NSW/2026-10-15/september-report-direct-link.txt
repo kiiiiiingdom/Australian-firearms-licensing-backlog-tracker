@@ -1,0 +1,31 @@
+# NSW Police September 2026 report: direct source recovery and additional monthly counts
+
+jurisdiction: NSW
+observation_date: 2026-10-15
+source_updated_date: not stated
+metric_date: 2026-09-30
+source_title: Firearms Registry — Public Website Data Reporting - September 2026
+official_pdf_url: https://www.police.nsw.gov.au/__data/assets/pdf_file/0016/950002/Firearms_Registry_Public_Website_Data_Reporting_Presentation_-_September_2026.pdf
+official_index_url: https://www.police.nsw.gov.au/about_us/information_of_interest_to_the_community/firearms_data
+evidence_status: verified
+source_discovery: The official Firearms Data index now exposes a direct September 2026 PDF link (previous monitoring preserved only the index URL). Earlier evidence remains at evidence/NSW/2026-09/source.txt and is not overwritten.
+verification: official PDF opened and individual chart pages visually inspected on 2026-10-15.
+
+New verified data points not previously entered in observations.csv:
+- PDF page 6 (zero-indexed 5): "PTA Applications Submitted per Month"; "Sep 26" = 3,736 applications.
+- PDF page 7 (zero-indexed 6): "PTAs Finalised per Month"; "Sep 26" = 2,249 PTAs. Official chart states finalisations include expired, issued, lapsed, refused, re-issued, revoked, suspended, used and finalised.
+- PDF page 9 (zero-indexed 8): "New Licence Applications Submitted per Month"; "Sep 26" = 1,738 applications.
+- PDF page 10 (zero-indexed 9): "Ave Processing Time & New Licence Applications Processed per Month"; "Sep 26" = 1,351 applications processed.
+
+Previously entered September values additionally re-verified directly on PDF:
+- PTA average processing time: 95.35 days (PDF page 8; zero-indexed 7).
+- New licence average processing time: 41.94 days (PDF page 10; zero-indexed 9).
+- Renewal applications submitted: 4,209 (PDF page 11; zero-indexed 10).
+- Renewal applications processed: 632 (PDF page 12; zero-indexed 11).
+- Renewal average processing time: 54.80 days (PDF page 12; zero-indexed 11).
+
+Important scope/methodological caveats:
+- PDF page 3: "Gun Safe data does not include paper-based applications." Paper-based items account for 2.5% of all transactions as reported.
+- PTA and new-licence average processing times include the 28-day cooling-off period.
+- Monthly submitted, processed and finalised counts can represent different cohorts or outcomes. Neither submitted minus processed nor submitted minus finalised is a verified backlog count.
+- No processing-date queue or speed ratio can be inferred from these monthly statistics.
