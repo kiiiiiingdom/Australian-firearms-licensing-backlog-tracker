@@ -119,7 +119,8 @@ Current verified source:
 - August 2026 and September 2026 Firearms Registry monthly reports are now captured in the repository.
 - September 2026 is the latest verified monthly performance period currently entered in the dataset.
 - September average processing times: new licence 41.94 days, PTA 95.35 days, renewal 54.80 days.
-- August evidence is preserved at evidence/NSW/2026-08/source.txt; September evidence at evidence/NSW/2026-09/source.txt.
+- September monthly volumes additionally captured: PTA submitted 3,736; PTA finalised 2,249; new-licence applications submitted 1,738; new-licence applications processed 1,351; renewal submitted 4,209; renewal processed 632.
+- August evidence is preserved at evidence/NSW/2026-08/source.txt; September evidence at evidence/NSW/2026-09/source.txt; recovered direct-PDF source evidence at evidence/NSW/2026-10-15/september-report-direct-link.txt.
 
 Observed/source cadence:
 - Monthly reporting series. Daily source discovery is acceptable, but the substantive metric is monthly.
@@ -254,7 +255,15 @@ Current workflow/precondition evidence:
 - Preserved at evidence/NT/2026-10-06/nfr-processing-precondition.txt.
 - Treat this as a processing precondition, not a waiting-time or backlog metric.
 
-Status: source discovery required for a recurring processing-time/backlog metric; current processing-precondition evidence is now preserved.
+Current legal-policy evidence:
+- Firearms Amendment Act 2026 commenced on 30 June 2026.
+- A licence can continue beyond expiry where an application for a new licence of the same type was lodged before expiry, remains undecided and the existing licence has not been revoked.
+- New firearms corporate and employee licences may be issued for periods of up to 10 years.
+- Licence and permit conditions may be added, revoked or varied during the currency of a licence or permit.
+- Preserved at evidence/NT/2026-10-15/firearms-amendment-2026.txt.
+- These are legal/administrative rules and do not quantify backlog or processing time.
+
+Status: source discovery required for a recurring processing-time/backlog metric; current processing-precondition and legal-policy evidence is preserved.
 
 ## Cross-jurisdiction comparison rules
 
