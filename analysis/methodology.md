@@ -71,6 +71,7 @@ Examples include:
 - `eligibility_policy` — an official change to who may qualify for a licence or permit or the genuine reasons available to them. This is legal/policy evidence, not processing performance.
 - `future_legal_requirement` — a future-dated requirement officially announced or legislated but not yet in force at the observation date. Preserve the announced date and any commencement-status qualification.
 - `permit_availability_policy` — an official change to whether a permit pathway exists or remains available. This is policy evidence, not a processing metric.
+- `legal_policy` — a commenced statutory change affecting licence or permit validity, duration, conditions, renewal continuity or other legal administration, without itself publishing a processing-time metric.
 
 A processing-date backlog should not be directly ranked against an average-processing-time measure without a clearly stated normalization method. The repository should preserve the authority's actual published measure rather than forcing all jurisdictions into one synthetic score.
 
@@ -110,6 +111,8 @@ Minimum-wait observations must not be interpreted as current backlog, observed a
 Eligibility, future-law and permit-availability observations receive no queue calculations. Future requirements must distinguish an agency-announced compliance date from the legislation's current commencement status where those differ.
 
 Monthly counts must not be converted into backlog estimates unless the authority explicitly defines the relationship. Submitted and processed/finalised counts may represent different cohorts and outcome states.
+
+Legal-policy observations receive no queue calculations unless the same official source separately publishes a compatible processing metric. Preserve the commencement/effective date as `metric_date` when explicitly stated.
 
 ## Capacity analysis
 
