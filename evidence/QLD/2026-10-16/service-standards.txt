@@ -1,0 +1,40 @@
+# Queensland Police Service — additional published renewal and B709 processing benchmarks
+
+jurisdiction: QLD
+observation_date: 2026-10-16
+source_updated_date: not stated
+metric_date: not stated
+source_title: Weapons News | QPS
+source_url: https://www.police.qld.gov.au/units/weapons-licensing/weapons-news
+evidence_status: verified
+source_type: Official Queensland Police Service public website, viewed 16 October 2026
+source_publication_date: not stated for these statements; DO NOT interpret as a new announcement dated 16 October 2026
+
+## Firearm licence renewals
+
+Exact official published wording:
+"Licence renewal applications remain a priority to ensure these applications are processed within 42 days of expiry of the licence."
+"Renewals are processed in order of licence expiry date."
+"Licence renewal applications lodged on or before the day the licence expires will ensure the licence remains valid until 42 days after expiry, or otherwise decided."
+
+Classification:
+- renewal_processing_target_after_expiry: service_standard_days = 42. This is a target tied to licence expiry, NOT a measured average or the duration since application was submitted.
+- renewal_processing_order: workflow_policy = expiry-date order.
+- renewal_timely_submission_validity: workflow_policy = official statement that timely applications keep the licence valid until 42 days after expiry or otherwise decided. This is an official summary and should not be treated as an independent interpretation of statutory provisions.
+
+## Police certification for importation (B709)
+
+Exact official published wording:
+"Police certification for importation (B709) applications are being processed in order of receipt, with most applications being processed within 21 days."
+
+Classification:
+- b709_import_certification_typical_processing: typical_processing_days = 21. The qualifier 'most' is part of the metric. It is not an average, formal guarantee, processing-date queue, or a current dated series.
+
+## Official context and cautions
+
+"Incomplete applications and applications which require further investigation may take longer to be processed."
+"Weapons Licensing are experiencing extended delays."
+
+The same page refers separately to the dynamically dated average timeframes for new licence and PTA applications on the QPS Weapons Licensing homepage, last verified here as at 04/10/2026: 20 weeks and 19 days, respectively.
+
+Do not compute backlog age, elapsed metric time, speed ratio or trend from these undated policy/typical-time statements. Do not compare the 42-day expiry-based renewal target with the 21-day B709 'most' statement or the 20-week new-licence average as though they were the same metric.
