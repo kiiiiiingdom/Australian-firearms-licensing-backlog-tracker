@@ -1,0 +1,22 @@
+jurisdiction: ACT
+observation_date: 2026-10-18
+source_updated_date: not stated
+metric_date: not stated
+metric_type: workflow_policy
+evidence_status: verified
+source_title: Exchange, fees and renewals | ACT Policing
+source_url: https://police.act.gov.au/community-safety/firearms/firearms-licences/exchange,-fees-and-renewals
+supplementary_source_title: ACT Firearms Registry | ACT Policing
+supplementary_source_url: https://police.act.gov.au/firearms/act-firearms-registry
+source_type: official ACT Policing website
+source_verification_date: 2026-10-18
+
+Exact ACT Policing wording:
+- "A renewal of a firearms licence is considered to be a fresh application except for the Safe Handling Assessment."
+- "Existing firearms licence holders should re-apply for their licence between 30 and 60 days before the expiration of their current licence."
+- "When undertaking a licence renewal, it is treated as new licence and supporting evidence for a genuine reasons to hold a licence must be supplied with the application."
+
+Interpretation and limits:
+- Renewal is assessed as a fresh application for specified purposes, with an exception for the Safe Handling Assessment; original validity/expiry must not be inferred from this extract.
+- The stated 30–60 days is an applicant submission recommendation, not a published processing-time average or service standard.
+- This is a workflow-policy record, without any queue-date or backlog trend calculation.
