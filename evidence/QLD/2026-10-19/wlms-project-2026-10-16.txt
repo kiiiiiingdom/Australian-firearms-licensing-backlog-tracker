@@ -1,0 +1,17 @@
+jurisdiction: QLD
+observation_date: 2026-10-19
+source_updated_date: 2026-10-16
+metric_date: 2026-10-16
+metric_type: workflow_policy
+evidence_status: verified
+source_title: Modernising Queensland's Weapons Licensing Services | QPS
+source_url: https://www.police.qld.gov.au/units/weapons-licensing/modernising-queenslands-weapons-licensing-services
+source_kind: Official Queensland Police Service public page
+
+Exact official wording:
+"Work on the replacement Weapons Licensing Management System (WLMS) has commenced, marking a major milestone in the modernisation of Queensland’s weapons licensing services."
+"The replacement WLMS will be delivered in staged releases planned from March 2027."
+"Last updated: 16/10/2026"
+
+Official stated purpose: improve customer experience and licensing efficiency, strengthen public safety, support transition to the National Firearms Register.
+Interpretation: planned rollout from March 2027; not an already implemented operational improvement, no proven causal impact on 2026 processing time. Do not infer misconduct, intentional delay, or current reduction in backlog.
