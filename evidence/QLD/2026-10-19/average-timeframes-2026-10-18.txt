@@ -1,0 +1,25 @@
+jurisdiction: QLD
+observation_date: 2026-10-19
+source_updated_date: 2026-10-18
+metric_date: 2026-10-18
+evidence_status: verified
+source_title: Weapons Licensing | Queensland Police Service
+source_url: https://www.police.qld.gov.au/units/weapons-licensing
+source_kind: official police public website
+
+Exact official published metric wording / values:
+Current average online application timeframes as at 18/10/2026
+New licence applications | 21 weeks
+Permit to acquire applications | 20 days
+
+Exact source context excerpts:
+Weapons Licensing Group is currently experiencing increased application volumes across a number of services, resulting in longer processing times for some applications and permits.
+We continue to prioritise resources and assess processing timeframes to manage demand, while also reviewing business processes to identify opportunities for service improvements and greater efficiency.
+The Queensland Police Service is pleased to announce that work on the replacement Weapons Licensing Management System (WLMS) has commenced.
+A Permit to Acquire applied for using a new licence application case reference, in accordance with section 39 of the Weapons Act 1990, requires the determination of the licence before the Permit to Acquire is actioned.
+
+Validated calculations / comparison (not source quotes):
+- New licence applications - 21 weeks [prior 2026-10-04: 20 weeks; directly comparable average-time series, not queue date]
+- Permit to acquire applications - 20 days [prior 2026-10-04: 19 days; directly comparable average-time series, not queue date]
+
+Interpretation: QLD publishes average online timeframes; do not compute backlog age or speed ratio. WLMS commencement is not proof that the project has affected measured processing times. QLD PTA workflow dependency is independent of published average.
