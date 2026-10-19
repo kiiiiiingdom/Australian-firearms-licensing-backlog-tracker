@@ -1,0 +1,27 @@
+Official NSW parliamentary answer received 20 December 2018 (published 21 December 2018).
+URL: https://www.parliament.nsw.gov.au/parliamentary-business/questions-answers-tracking-details?id=11513
+Observed 19 October 2026.
+
+EXACT SOURCE HEADINGS:
+"Financial Year | New | Renewed"
+2010-11 | 24 | 4
+2011-12 | 30 | 6
+2012-13 | 34 | 6
+2013-14 | 36 | 8
+2014-15 | 20 | 7
+2015-16 | 22 | 9
+2016-17 | 31 | 11
+2017-18 | 29 | 9
+
+"Date | Staff (Headcount)"
+30 June 2011 | 83
+30 June 2012 | 82
+30 June 2013 | 81
+30 June 2014 | 83
+30 June 2015 | 79
+30 June 2016 | 82
+30 June 2017 | 96
+30 June 2018 | 92
+
+Exact definition: "the average processing time from receipt of the application at the Firearms Registry to the day the licence is approved to be issued."
+Data as reported on 17 November 2018. Annual processing averages are days; headcount is NOT FTE. Not comparable to licence arrival by post or modern monthly reports without reconciling definitions.
