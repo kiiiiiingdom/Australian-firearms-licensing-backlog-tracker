@@ -53,6 +53,7 @@ jobs:
           node scripts/check_dashboard_data.mjs
           node scripts/generate_site.mjs --check
           mkdocs build --strict --clean
+          python3 scripts/check_built_site.py
       - uses: actions/upload-pages-artifact@v4
         with:
           path: site/
