@@ -25,7 +25,7 @@ Each panel represents **one business category**; queue-date lag is not completed
 
 Use the dropdowns to select an application type and reference jurisdiction. **This is a ratio of reported queue-date lags, not a ranking of staff efficiency.** / 选择业务类别与基准州；指数仅描述公开队列日期的相对滞后，不代表警员办事效率。
 
-<div id="benchmark-comparison" class="compare-panel" data-source="assets/dashboard-data.json"><p>Loading verified snapshot / 加载已核实数据…</p></div>
+<div id="benchmark-comparison" class="compare-panel" data-source="../assets/dashboard-data.json"><p>Loading verified snapshot / 加载已核实数据…</p></div>
 
 ## Official average-time series / 官方平均办理时间
 
