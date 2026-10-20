@@ -8,4 +8,6 @@ This project's original charts and metadata are presented separately from source
 
 **Reuse guidance:** cite the original authority, source title, URL and reporting date. Copying an entire official document is not necessary to verify a reported metric.
 
-**Status:** rights register is preliminary and public release remains blocked pending manual review.
+**Status:** Source repository is **PUBLIC**; the separate GitHub Pages site is not yet deployed. Source-rights review remains incomplete. This does not represent a copyright clearance.
+
+**Independent analysis / 独立声明:** This is a community-maintained research project, not an Australian police, government, or parliamentary service. Logo and original-document rights remain with their owners. / 本项目是独立公开数据研究，不隶属于澳大利亚警察、政府或议会机构。
