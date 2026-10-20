@@ -49,7 +49,21 @@ function buildSite(observationsText, staffingText) {
     }).filter(Boolean);
   }
   const outputs={};
-  outputs["docs/assets/dashboard-data.json"]=JSON.stringify({generated_from:"verified committed CSV records",categories:categoryRows},null,2)+"\n";
+  const trends={};
+  for(const [cat,mapping] of Object.entries(SERIES)){
+    trends[cat]={};
+    for(const [jur,series] of Object.entries(mapping)){
+      const matches=obs.filter(r=>r.jurisdiction===jur&&r.series===series&&r.metric_type==="processing_date"&&officialDate(r)>="2026-09-01"&&/^\d{4}-\d{2}-\d{2}$/.test(officialDate(r))&&Number.isInteger(Number(r.backlog_age_days))&&Number(r.backlog_age_days)>=0&&/^https:\/\//.test(r.source_url||"")&&/^evidence\//.test(r.evidence_path||"")).sort(compare);
+      const dates=new Map();
+      for(const r of matches){
+        const date=officialDate(r),value=Number(r.backlog_age_days);
+        if(dates.has(date)&&dates.get(date).backlog_age_days!==value)throw Error("Conflicting verified trend data: "+cat+"/"+jur+"/"+date);
+        dates.set(date,{date,backlog_age_days:value,processing_date:r.processing_date,source_url:r.source_url,evidence_path:r.evidence_path});
+      }
+      trends[cat][jur]={series,points:[...dates.values()]};
+    }
+  }
+  outputs["docs/assets/dashboard-data.json"]=JSON.stringify({generated_from:"verified committed CSV records",categories:categoryRows,trends},null,2)+"\n";
   function barSvg(title,subtitle,rows,foot){
     const h=185+rows.length*92;
     let s=`<svg xmlns="http://www.w3.org/2000/svg" width="1150" height="${h}" viewBox="0 0 1150 ${h}" role="img" aria-label="${xml(title)}"><title>${xml(title)}</title><rect width="1150" height="${h}" fill="#f6f9fb"/><rect x="32" y="29" width="7" height="54" rx="3" fill="#168092"/><text x="60" y="60" font-size="31" font-weight="700" font-family="Arial,sans-serif" fill="#193e57">${xml(title)}</text><text x="60" y="88" font-size="18" font-family="Arial,sans-serif" fill="#536a79">${xml(subtitle)}</text>`;
