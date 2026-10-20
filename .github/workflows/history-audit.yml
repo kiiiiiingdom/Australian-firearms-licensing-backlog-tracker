@@ -16,7 +16,8 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          persist-credentials: false
+          persist-credentials: true
+          # Read-only token is required to fetch private-repository PR refs.
       - name: Include remote PR refs in read-only scan
         run: |
           git fetch --no-tags origin '+refs/pull/*/head:refs/audit-pr/*'
