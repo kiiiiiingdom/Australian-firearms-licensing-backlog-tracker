@@ -6,6 +6,10 @@
 
 See [Preliminary audit progress](audit-progress-2026-10-20.md). Zero Actions artifacts and a first-pass PR/log scan do not constitute whole-history clearance. Run the full-clone scanner, review its findings and expand to all PR refs before publication.
 
+## Evidence and rights audit / 来源与权利审查
+
+Current-state evidence review: [77-source extract triage](evidence-audit-2026-10-20.md) and [15-domain rights register](source-rights-register.md). All publisher reuse decisions remain pending manual review.
+
 ## Mandatory security and privacy work / 必须完成
 
 - [ ] Inspect **all reachable commits and their changed file contents**, not only current `main`, for personal applicant dates, licence or application numbers, names, private correspondence, emails, phone numbers, credentials, tokens and internal notes.
@@ -32,6 +36,7 @@ See [Preliminary audit progress](audit-progress-2026-10-20.md). Zero Actions art
 
 ```sh
 python3 scripts/validate_contributions.py
+python3 scripts/check_source_provenance.py
 node scripts/generate_readme_visuals.mjs --check
 node scripts/check_dashboard_data.mjs
 node scripts/generate_site.mjs --check
