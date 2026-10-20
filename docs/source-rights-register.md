@@ -38,4 +38,4 @@ The maintainers' original data compilation may be CC BY 4.0; **that licence does
 
 For each host and each exceptional document, record the publisher's exact rights page (and date), any exclusions, attribution, whether short quoted extracts can be reproduced, and reviewer decision. **All entries remain pending** until a person has completed this review.
 
-See [release checklist](release-checklist.md) and [data licence scope](../DATA-LICENSE.md).
+See [release checklist](release-checklist.md) and [data licence scope](https://github.com/kiiiiiingdom/Australian-firearms-licensing-backlog-tracker/blob/main/DATA-LICENSE.md).
