@@ -3,7 +3,7 @@
 **Verified repository snapshots; NOT live government data or individual application forecasts.**  
 **以下为仓库已核实记录，不是实时政府数据，也不提供个人审批预测。**
 
-<div class="hero-links"><a href="jurisdictions/SA/">South Australia</a><a href="jurisdictions/VIC/">Victoria</a><a href="methodology/comparison-indices/" class="secondary">Comparison rules / 比较方法</a></div>
+<div class="hero-links"><a href="../jurisdictions/SA/">South Australia</a><a href="../jurisdictions/VIC/">Victoria</a><a href="../methodology/comparison-indices/" class="secondary">Comparison rules / 比较方法</a></div>
 
 ## Published queue-date backlog age / 处理日期积压年龄
 
