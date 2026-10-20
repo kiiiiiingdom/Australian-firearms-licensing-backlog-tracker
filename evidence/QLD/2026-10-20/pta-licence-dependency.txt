@@ -1,0 +1,12 @@
+jurisdiction: QLD
+observation_date: 2026-10-20
+source_updated_date: not stated
+metric_date: not applicable
+metric_type: workflow_policy
+evidence_status: verified
+source_title: Weapons Licensing | Queensland Police Service
+source_url: https://www.police.qld.gov.au/units/weapons-licensing
+official wording:
+"A Permit to Acquire applied for using a new licence application case reference, in accordance with section 39 of the Weapons Act 1990, requires the determination of the licence before the Permit to Acquire is actioned."
+source context: evidence/QLD/2026-10-19/average-timeframes-2026-10-18.txt independently preserves the official wording.
+methodology: This is a dependency between new licence determination and permit processing. It is not a processing-time average or a queue-date metric. It does not establish an individual processing duration or delay cause.
