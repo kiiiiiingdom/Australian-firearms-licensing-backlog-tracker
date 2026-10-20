@@ -30,6 +30,7 @@ extra_css:
   - assets/dashboard.css
 extra_javascript:
   - assets/benchmark.js
+  - assets/history.js
 nav:
   - Home / 首页: index.md
   - National dashboard / 全国总览: overview.md
