@@ -1,0 +1,21 @@
+name: Validate public observations
+on:
+  pull_request:
+    paths:
+      - 'data/observations.csv'
+      - 'evidence/**'
+      - 'scripts/validate_contributions.py'
+      - 'templates/observations-header.csv'
+      - '.github/workflows/validate-observations.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Validate CSV schema, dates, arithmetic and source paths
+        run: python3 scripts/validate_contributions.py
