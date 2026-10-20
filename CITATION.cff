@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Please cite the repository and the original official source for every statistic used."
+title: "Australian Firearms Licensing Backlog Tracker"
+type: dataset
+authors:
+  - name: "Australian Firearms Licensing Backlog Tracker contributors"
+repository-code: "https://github.com/kiiiiiingdom/Australian-firearms-licensing-backlog-tracker"
+url: "https://github.com/kiiiiiingdom/Australian-firearms-licensing-backlog-tracker"
+abstract: "Evidence-first compilation of publicly reported Australian firearms-licensing administrative processing metrics and staffing disclosures."
+license: CC-BY-4.0
+keywords:
+  - Australia
+  - administrative data
+  - firearms licensing
+  - public administration
+  - open data
