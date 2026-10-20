@@ -24,3 +24,17 @@ Repository inspected: `kiiiiiingdom/Australian-firearms-licensing-backlog-tracke
 7. Require explicit publication approval; a passing code/CSV/site CI job is **not** a privacy clearance.
 
 **No automated history scan can certify an absence of personal information or copyrighted third-party material.**
+
+
+## Expanded automated Git-history candidate scan — 20 October 2026
+
+GitHub Actions [run 39363929339](https://github.com/kiiiiiingdom/Australian-firearms-licensing-backlog-tracker/actions/runs/39363929339) completed successfully in the **private** repository after fetching full branch history and pull-request heads.
+
+- **13 reachable Git refs**, including **7 fetched PR refs**.
+- **1,030 reachable Git objects**, including **223 unique reachable blobs**.
+- **0 blobs matched the scanner's current secret, non-noreply email, phone, labelled personal-case or residential-address patterns**.
+- Source file changes were not needed for remediation based on those pattern results.
+- The scanner is **candidate-based** and its results are not comprehensive privacy certification. Review of uncaptured/unreachable objects, media contents, innocuously worded personal details, original-source copyright and any later Actions material remains outstanding.
+- An earlier job failed because the audit-only checkout did not retain its read-only private-repository authentication; this was corrected and the follow-up run passed.
+
+**Publication remains blocked pending independent human review and explicit approval.**

@@ -1,0 +1,28 @@
+name: Pre-publication history candidate scan
+on:
+  pull_request:
+    paths:
+      - 'scripts/audit_git_history.py'
+      - '.github/workflows/history-audit.yml'
+      - 'docs/audit-progress-2026-10-20.md'
+  workflow_dispatch:
+permissions:
+  contents: read
+  pull-requests: read
+jobs:
+  history-candidate-scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+          # Read-only token is required to fetch private-repository PR refs.
+      - name: Include remote PR refs in read-only scan
+        run: |
+          git fetch --no-tags origin '+refs/pull/*/head:refs/audit-pr/*'
+          git fetch --tags origin
+      - name: Inspect historical Git objects
+        run: python3 scripts/audit_git_history.py
+      - name: Explicit publication warning
+        run: echo "This candidate scan does not authorise public release; conduct private manual review."
