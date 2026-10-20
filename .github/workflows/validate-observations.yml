@@ -19,6 +19,8 @@ jobs:
         run: node scripts/check_dashboard_data.mjs
       - name: Verify all eight generated state pages and national visualizations
         run: node scripts/generate_site.mjs --check
+      - name: Validate official-source provenance and rights registry coverage
+        run: python3 scripts/check_source_provenance.py
       - name: Install MkDocs Material
         run: python3 -m pip install -r requirements-docs.txt
       - name: Validate bilingual documentation site build (not deployed)
