@@ -1,0 +1,65 @@
+{
+  "generated_from": "verified committed CSV records",
+  "categories": {
+    "new": [
+      {
+        "key": "SA",
+        "label": "SA · new licence",
+        "series": "firearms_licence_application",
+        "backlog_age_days": 254,
+        "metric_date": "2026-10-09",
+        "source_url": "https://www.police.sa.gov.au/services-and-events/firearms-and-weapons/status-of-my-application",
+        "evidence_path": "evidence/SA/2026-10-09/source.txt"
+      },
+      {
+        "key": "VIC",
+        "label": "VIC · new licence",
+        "series": "new_firearm_licence_application",
+        "backlog_age_days": 132,
+        "metric_date": "2026-10-12",
+        "source_url": "https://www.police.vic.gov.au/firearms-licensing",
+        "evidence_path": "evidence/VIC/2026-10-12/source.txt"
+      }
+    ],
+    "renewal": [
+      {
+        "key": "SA",
+        "label": "SA · renewal",
+        "series": "firearms_licence_renewal",
+        "backlog_age_days": 49,
+        "metric_date": "2026-10-09",
+        "source_url": "https://www.police.sa.gov.au/services-and-events/firearms-and-weapons/status-of-my-application",
+        "evidence_path": "evidence/SA/2026-10-09/source.txt"
+      },
+      {
+        "key": "VIC",
+        "label": "VIC · renewal",
+        "series": "firearm_licence_renewal_application",
+        "backlog_age_days": 73,
+        "metric_date": "2026-10-12",
+        "source_url": "https://www.police.vic.gov.au/firearms-licensing",
+        "evidence_path": "evidence/VIC/2026-10-12/source.txt"
+      }
+    ],
+    "pta": [
+      {
+        "key": "SA",
+        "label": "SA · online PTA",
+        "series": "permit_to_acquire",
+        "backlog_age_days": 44,
+        "metric_date": "2026-10-09",
+        "source_url": "https://www.police.sa.gov.au/services-and-events/firearms-and-weapons/status-of-my-application",
+        "evidence_path": "evidence/SA/2026-10-09/source.txt"
+      },
+      {
+        "key": "VIC",
+        "label": "VIC · online PTA",
+        "series": "online_permit_to_acquire",
+        "backlog_age_days": 14,
+        "metric_date": "2026-10-12",
+        "source_url": "https://www.police.vic.gov.au/firearms-licensing",
+        "evidence_path": "evidence/VIC/2026-10-12/source.txt"
+      }
+    ]
+  }
+}
