@@ -38,4 +38,6 @@ The [national dashboard](docs/overview.md) separates **processing-date age**, **
 
 **Technical:** Static documentation is configured with MkDocs Material (`mkdocs.yml`); local preview with `pip install -r requirements-docs.txt && mkdocs serve`. GitHub Pages publication and repository visibility are separate decisions and have **not** been enabled.
 
-**Licence:** Code/data licence remains under pre-publication review; third-party official excerpts retain their own terms. / 正式公开前须确定许可与原始官方材料再利用条件。
+**Licensing:** Original repository software is [MIT licensed](LICENSE); the maintainers' original data compilation and charts are offered under [CC BY 4.0](DATA-LICENSE.md), to the extent rights are owned. This does **not** relicense third-party official excerpts. Citation metadata: [CITATION.cff](CITATION.cff).
+
+**Publication:** Repository remains PRIVATE; [release gate and history audit](docs/release-checklist.md) are not complete. GitHub Pages deployment is manual and disabled for private repositories. / 仓库尚未公开；完整历史及发布安全审计未完成，不应提前对外发布。
