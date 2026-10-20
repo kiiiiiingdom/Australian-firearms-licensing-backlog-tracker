@@ -1,0 +1,26 @@
+# OFFICIAL SOURCE EVIDENCE EXTRACT — TEMPLATE, NOT AN OBSERVATION
+jurisdiction: [ACT|NSW|NT|QLD|SA|TAS|VIC|WA]
+observation_date: [YYYY-MM-DD — actual retrieval date]
+source_updated_date: [YYYY-MM-DD if explicitly stated, else "not stated"]
+metric_date: [YYYY-MM-DD or period endpoint, else "not stated"]
+metric_type: [source-defined type]
+series: [stable series name]
+source_title: [exact official title]
+source_url: [full official URL]
+source_kind: [police | government | parliament | audit | official disclosure | legislation]
+evidence_status: [verified | provisional | disputed]
+capture_method: [how the official page or original document was directly inspected]
+snapshot_reference: [file/archival link if preserved, else "none"]
+sha256: [when an original binary snapshot is stored; otherwise "not applicable"]
+
+## Exact official wording (short extract)
+"[Paste only the exact original words necessary to establish the published point]"
+
+## Official explanation / context
+[Quote or clearly attribute relevant staffing, workflow, IT, service standard, legislation or complexity explanations; otherwise "none stated"]
+
+## Interpretation and limitations (separate from official wording)
+[Scope, definition, timing and comparability limits; never invent a causal claim or individual projection]
+
+## Privacy check
+[Confirm no applicant-specific or other private personal information is present]
