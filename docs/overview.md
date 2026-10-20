@@ -5,6 +5,16 @@
 
 <div class="hero-links"><a href="../jurisdictions/SA/">South Australia</a><a href="../jurisdictions/VIC/">Victoria</a><a href="../methodology/comparison-indices/" class="secondary">Comparison rules / 比较方法</a></div>
 
+## Queue-date comparison workbench / 官方队列日期交互比较
+
+The selectable reference index compares **published queue-date ages**, not officer productivity or actual individual wait durations. / 指数只表示官方公布处理日期的相对滞后，不代表警员效率或个人办理时间。
+
+<div id="benchmark-comparison" class="compare-panel" data-source="../assets/dashboard-data.json"><p>Loading verified records / 加载已核实数据…</p></div>
+
+## Detailed static figures / 各业务静态图表
+
+Interactive comparison above uses dated verified snapshots; the charts below are read-only fallbacks. / 上方可切换业务与天数或相对指数，下方保留可核验的静态图。
+
 ## Published queue-date backlog age / 处理日期积压年龄
 
 These are categories, not a pooled cross-state efficiency ranking. Published as-at dates differ. / 仅在业务类别内描述公开处理日期滞后，且各州统计日并非完全相同。
@@ -20,12 +30,6 @@ These are categories, not a pooled cross-state efficiency ranking. Published as-
 ### Permit to acquire / PTA
 
 ![PTA backlog age](images/pta-backlog.svg)
-
-## Select reference = 1.00 / 自选相对基准 1.00
-
-The selectable reference index compares **published queue-date ages**, not officer productivity or actual individual wait durations. / 指数只表示官方公布处理日期的相对滞后，不代表警员效率或个人办理时间。
-
-<div id="benchmark-comparison" class="compare-panel" data-source="../assets/dashboard-data.json"><p>Loading verified records / 加载已核实数据…</p></div>
 
 ## Average time series / 官方平均办理时间
 
