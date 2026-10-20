@@ -95,3 +95,20 @@
 .history-table a{color:#14634c!important}
 .history-disclaimer{font-size:.72rem;color:#60776b;border-top:1px solid #e0e9e3;padding-top:.8rem;margin-top:1.2rem}
 @media(max-width:620px){.history-controls{grid-template-columns:1fr}.history-stats{grid-template-columns:1fr}.history-stat{border-right:0;border-bottom:1px solid #d9e5df;padding:.72rem 0}.history-stat:last-child{border-bottom:0}}
+
+
+/* Compact public-data coverage cards, preserving textual statuses beyond color */
+.coverage-control{display:flex;flex-direction:column;gap:.5rem;max-width:25rem;font-weight:700;margin:1rem 0}
+.coverage-caption{font-size:.78rem;color:#526a61}
+.coverage-cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.75rem;margin:1rem 0 2rem}
+.coverage-card{border:1px solid #d6e1dc;background:#fafbf9;padding:1.1rem;min-width:0}
+.coverage-card-head{display:flex;flex-wrap:wrap;align-items:flex-start;justify-content:space-between;gap:.45rem}
+.coverage-card-head strong{font-size:.9rem}
+.coverage-status{font-size:.65rem;font-weight:700;background:#e9efeb;color:#33574a;padding:.22rem .43rem}
+.coverage-within_30{background:#e2f1e8;color:#1a5d43}
+.coverage-within_90{background:#f1ecdb;color:#67532b}
+.coverage-older_90,.coverage-future_dated,.coverage-undated{background:#f3e7e3;color:#713e35}
+.coverage-value{font-size:.83rem;font-weight:700;margin:.75rem 0 .35rem}
+.coverage-date{font-size:.72rem;color:#536c61;line-height:1.5}
+.coverage-source{font-size:.72rem;font-weight:700;color:#16654a!important;text-decoration:underline}
+@media(max-width:750px){.coverage-cards{grid-template-columns:1fr}}

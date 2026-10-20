@@ -49,6 +49,55 @@ function buildSite(observationsText, staffingText) {
     }).filter(Boolean);
   }
   const outputs={};
+
+  // Strict evidence coverage: presence of a verified record, not a claim about what
+  // a government does/does not publish. Use the OFFICIAL metric/as-of date, not
+  // our late archive capture date, when classifying dated source records.
+  const coverageCategories=[
+    {key:"new_queue",label:"New licence queue-date / 新证队列日期",short:"New licence / 新证",group:"queue"},
+    {key:"renewal_queue",label:"Renewal queue-date / 续证队列日期",short:"Renewal / 续证",group:"queue"},
+    {key:"pta_queue",label:"PTA queue-date / PTA 队列日期",short:"PTA",group:"queue"},
+    {key:"average",label:"Published mean processing / 官方平均办理时间",short:"Official means / 均时",group:"other"},
+    {key:"backlog",label:"Published backlog counts / 官方积压数量",short:"Backlog counts / 数量",group:"other"},
+    {key:"staffing",label:"Firearms unit staffing / 岗位及人员记录",short:"Staffing / 人员",group:"other"},
+    {key:"context",label:"Workflows, rules, minimums / 流程、法规及最低等待",short:"Process / 流程",group:"other"}
+  ];
+  const sourceRows=[...obs,...staffing];
+  const snapshotDate=sourceRows.map(r=>r.observation_date).filter(s=>/^\d{4}-\d{2}-\d{2}$/.test(s)).sort().at(-1)||"";
+  if(!snapshotDate)throw Error("Missing a dated archive snapshot for coverage");
+  const staffingFields=["headcount","fte","permanent_positions","funded_positions","vacancies","recruitment_positions","sworn_headcount","sworn_fte","unsworn_headcount","unsworn_fte","permanent_unsworn_headcount","temporary_unsworn_headcount","approved_permanent_sworn_positions","assigned_new_licences","assigned_renewals","assigned_pta"];
+  const policyTypes=new Set(["workflow_policy","legal_policy","eligibility_policy","permit_availability_policy","minimum_wait_days","service_standard_days","typical_processing_days","administrative_fee","future_legal_requirement","transition_deadline"]);
+  const coverageMatch=(key,jur,r)=>{
+    if(r.jurisdiction!==jur||!/^https:\/\//.test(r.source_url||"")||!r.evidence_path)return false;
+    if(key==="new_queue"||key==="renewal_queue"||key==="pta_queue"){
+      const cat=key==="new_queue"?"new":key==="renewal_queue"?"renewal":"pta";
+      return !!SERIES[cat][jur]&&r.metric_type==="processing_date"&&r.series===SERIES[cat][jur]&&r.processing_date!==""&&Number.isFinite(Number(r.backlog_age_days))&&r.backlog_age_days!=="";
+    }
+    if(key==="average")return (r.metric_type==="average_processing_days"||r.metric_type==="average_processing_weeks")&&r.metric_value!==""&&Number.isFinite(Number(r.metric_value));
+    if(key==="backlog")return r.metric_type==="backlog_count"&&r.metric_value!==""&&Number.isFinite(Number(r.metric_value));
+    if(key==="staffing")return r.scope==="exact_firearms_unit"&&staffingFields.some(f=>r[f]!==""&&r[f]!==undefined&&Number.isFinite(Number(r[f])));
+    return key==="context"&&policyTypes.has(r.metric_type);
+  };
+  const recordDate=(key,r)=>key==="staffing"?(r.as_of_date||""):(r.metric_date||r.source_updated_date||"");
+  const coverageRows=JURS.map(jur=>{
+    const cells={};
+    for(const def of coverageCategories){
+      const matches=(def.key==="staffing"?staffing:obs).filter(r=>coverageMatch(def.key,jur,r));
+      // A newer official date takes precedence; source date is NEVER silently
+      // replaced by archive observation_date.
+      matches.sort((a,b)=>recordDate(def.key,a).localeCompare(recordDate(def.key,b))||a.observation_date.localeCompare(b.observation_date));
+      const item=matches.at(-1);
+      if(!item){cells[def.key]={status:"no_record",record_count:0};continue;}
+      const date=recordDate(def.key,item);
+      const age=/^\d{4}-\d{2}-\d{2}$/.test(date)?Math.round((Date.parse(snapshotDate+"T00:00:00Z")-Date.parse(date+"T00:00:00Z"))/86400000):null;
+      const status=age===null?"undated":age<0?"future_dated":age<=30?"within_30":age<=90?"within_90":"older_90";
+      const value=def.key.endsWith("_queue")?item.backlog_age_days+" d lag":def.key==="average"?item.metric_value+" "+item.metric_unit:def.key==="backlog"?item.metric_value+" "+item.metric_unit:def.key==="staffing"?item.metric_type.replaceAll("_"," "):item.metric_type.replaceAll("_"," ");
+      cells[def.key]={status,source_date:date,age_days:age,metric_type:item.metric_type,series:item.series||"",record_count:matches.length,description:value,source_url:item.source_url,evidence_path:item.evidence_path};
+    }
+    return {jurisdiction:jur,name:NAMES[jur],cells};
+  });
+  outputs["docs/assets/coverage-data.json"]=JSON.stringify({generated_from:"verified committed CSV records",snapshot_date:snapshotDate,categories:coverageCategories,rows:coverageRows},null,2)+"\n";
+
   const trends={};
   for(const [cat,mapping] of Object.entries(SERIES)){
     trends[cat]={};
@@ -64,6 +113,17 @@ function buildSite(observationsText, staffingText) {
     }
   }
   outputs["docs/assets/dashboard-data.json"]=JSON.stringify({generated_from:"verified committed CSV records",categories:categoryRows,trends},null,2)+"\n";
+  const coverageLabels={within_30:"Within 30 d / 近期",within_90:"31–90 d / 较旧",older_90:">90 d / 历史",future_dated:"Future effective / 未来日期",undated:"Undated / 未注明",no_record:"Not in archive / 未收录"};
+  const coverageHead="| Jurisdiction / 辖区 | "+coverageCategories.map(x=>x.short).join(" | ")+" |\n|---|"+coverageCategories.map(()=>"---").join("|")+"|\n";
+  let coverageTable=coverageHead;
+  for(const row of coverageRows){
+    coverageTable+="| ["+row.jurisdiction+"](jurisdictions/"+row.jurisdiction+".md) | "+coverageCategories.map(category=>{
+      const cell=row.cells[category.key];if(cell.status==="no_record")return "— <small>Not in archive</small>";
+      const url=cell.source_url;
+      return "**"+coverageLabels[cell.status]+"**<small>  \n"+(cell.source_date||"Date missing")+" · "+cell.record_count+" record(s) · [official source]("+url+")</small>";
+    }).join(" | ")+" |\n";
+  }
+  outputs["docs/coverage.md"]="# Data coverage by jurisdiction / 八州数据覆盖矩阵\n\n**Archive snapshot: "+snapshotDate+" / 资料库快照："+snapshotDate+"**. This matrix summarizes *verified records in this repository*, not everything published by governments. No archive entry does **not** mean a government has published nothing. / 矩阵仅说明本仓库已收录、已核实的记录；未收录不代表政府未公开。\n\n## Read the matrix / 如何阅读\n\n- **Within 30 d / 近期** and **31–90 d / 较旧** measure days from the original official source date to the archive snapshot. They do **not** certify a currently active policy or a currently valid queue estimate.\n- **>90 d / 历史** denotes older official source dates; a historical count or staffing figure must not be interpreted as the current total.\n- **Future effective / 未来日期** is a separately flagged future-dated record, not a current statistic. **Undated / 未注明** cannot be age-classified.\n- **Not in archive / 未收录** means no matching verified record for this narrowly defined metric, never zero delay or confirmation that the authority publishes nothing.\n- **Queue-date** means published processing date lag. Official means, backlog counts, staffing figures and policies are *different metric families*. / 队列日期、平均办理耗时、积压数量和人员口径不能混算。\n\n## Coverage matrix / 覆盖矩阵\n\n"+coverageTable+"\n## Browse and filter / 交互筛选\n\n<div id=\"coverage-workbench\" data-source=\"assets/coverage-data.json\"><p>Loading coverage data / 正在载入覆盖记录…</p></div>\n\n**Source methodology:** [Comparison indices](methodology/comparison-indices.md) · [Data freshness](methodology/data-freshness.md) · [Original observations](https://github.com/kiiiiiingdom/Australian-firearms-licensing-backlog-tracker/blob/main/data/observations.csv) · [Staffing](https://github.com/kiiiiiingdom/Australian-firearms-licensing-backlog-tracker/blob/main/data/staffing.csv).\n";
   function barSvg(title,subtitle,rows,foot){
     const h=185+rows.length*92;
     let s=`<svg xmlns="http://www.w3.org/2000/svg" width="1150" height="${h}" viewBox="0 0 1150 ${h}" role="img" aria-label="${xml(title)}"><title>${xml(title)}</title><rect width="1150" height="${h}" fill="#f6f9fb"/><rect x="32" y="29" width="7" height="54" rx="3" fill="#168092"/><text x="60" y="60" font-size="31" font-weight="700" font-family="Arial,sans-serif" fill="#193e57">${xml(title)}</text><text x="60" y="88" font-size="18" font-family="Arial,sans-serif" fill="#536a79">${xml(subtitle)}</text>`;
@@ -153,7 +213,7 @@ Explore the **same jurisdiction and business series over time**. Every plotted p
 
 <div id="history-workbench" data-source="../assets/dashboard-data.json"><p>Loading verified history / 加载已核实历史数据…</p></div>
 
-## Detailed static figures / 各业务静态图表\n\nInteractive comparison above uses dated verified snapshots; the charts below are read-only fallbacks. / 上方可切换业务与天数或相对指数，下方保留可核验的静态图。\n\n## Published queue-date backlog age / 处理日期积压年龄\n\nThese are categories, not a pooled cross-state efficiency ranking. Published as-at dates differ. / 仅在业务类别内描述公开处理日期滞后，且各州统计日并非完全相同。\n\n### New licence / 新证\n\n![New licence backlog age](images/new-licence-backlog.svg)\n\n### Renewal / 续证\n\n![Renewal backlog age](images/renewal-backlog.svg)\n\n### Permit to acquire / PTA\n\n![PTA backlog age](images/pta-backlog.svg)\n\n## Average time series / 官方平均办理时间\n\n![NSW and QLD officially published means](images/average-time-overview.svg)\n\nQLD online averages and NSW registry averages have different definitions and possible statutory waiting inclusions. We convert weeks to days only for **visual scale**, not a harmonised performance index. / 单位换算只是方便阅读，绝不据此给警方效率排名。\n\n## Own-history change / 各序列自身变化\n\n![Within-series relative indices](images/historical-index.svg)\n\nEach series uses its own earliest verified positive backlog-age point since September 2026 as 1.00; periods differ. / 每个序列分别以其 2026 年 9 月以来最早有效已核实值为 1.00 基准，无法视为相同起点的横向实验。\n\n## Staff and administrative resources / 官方人员及处理能力\n\n![Distinct official staffing and resources](images/staffing-capacity-overview.svg)\n\n[Official staffing CSV](${baseurl}data/staffing.csv) · [Staffing scope method](${baseurl}analysis/staffing-methodology.md)\n\n## Other jurisdictions / 无连续可比指标的辖区\n\nACT, NT, TAS and WA currently hold official workflow, statutory or historical observations without a continuous comparable current processing-date series. Missing values do not mean zero backlog. / 缺少连续数据不代表不存在积压。\n\n[ACT](jurisdictions/ACT.md) · [NT](jurisdictions/NT.md) · [TAS](jurisdictions/TAS.md) · [WA](jurisdictions/WA.md) · [Methodology](methodology/comparison-indices.md)\n`;
+## National evidence coverage / 八州证据覆盖\n\nSee the [eight-jurisdiction coverage matrix](coverage.md) for verified records, source dates, and missing archive categories. / [查看八州覆盖矩阵](coverage.md)，区分官方已核实数据、历史记录和资料库未收录项目。\n\n## Detailed static figures / 各业务静态图表\n\nInteractive comparison above uses dated verified snapshots; the charts below are read-only fallbacks. / 上方可切换业务与天数或相对指数，下方保留可核验的静态图。\n\n## Published queue-date backlog age / 处理日期积压年龄\n\nThese are categories, not a pooled cross-state efficiency ranking. Published as-at dates differ. / 仅在业务类别内描述公开处理日期滞后，且各州统计日并非完全相同。\n\n### New licence / 新证\n\n![New licence backlog age](images/new-licence-backlog.svg)\n\n### Renewal / 续证\n\n![Renewal backlog age](images/renewal-backlog.svg)\n\n### Permit to acquire / PTA\n\n![PTA backlog age](images/pta-backlog.svg)\n\n## Average time series / 官方平均办理时间\n\n![NSW and QLD officially published means](images/average-time-overview.svg)\n\nQLD online averages and NSW registry averages have different definitions and possible statutory waiting inclusions. We convert weeks to days only for **visual scale**, not a harmonised performance index. / 单位换算只是方便阅读，绝不据此给警方效率排名。\n\n## Own-history change / 各序列自身变化\n\n![Within-series relative indices](images/historical-index.svg)\n\nEach series uses its own earliest verified positive backlog-age point since September 2026 as 1.00; periods differ. / 每个序列分别以其 2026 年 9 月以来最早有效已核实值为 1.00 基准，无法视为相同起点的横向实验。\n\n## Staff and administrative resources / 官方人员及处理能力\n\n![Distinct official staffing and resources](images/staffing-capacity-overview.svg)\n\n[Official staffing CSV](${baseurl}data/staffing.csv) · [Staffing scope method](${baseurl}analysis/staffing-methodology.md)\n\n## Other jurisdictions / 无连续可比指标的辖区\n\nACT, NT, TAS and WA currently hold official workflow, statutory or historical observations without a continuous comparable current processing-date series. Missing values do not mean zero backlog. / 缺少连续数据不代表不存在积压。\n\n[ACT](jurisdictions/ACT.md) · [NT](jurisdictions/NT.md) · [TAS](jurisdictions/TAS.md) · [WA](jurisdictions/WA.md) · [Methodology](methodology/comparison-indices.md)\n`;
   return outputs;
 }
 const site=buildSite(readFileSync(join(ROOT,'data/observations.csv'),'utf8'),readFileSync(join(ROOT,'data/staffing.csv'),'utf8'));

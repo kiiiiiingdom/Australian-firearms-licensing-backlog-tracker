@@ -17,6 +17,10 @@ Explore the **same jurisdiction and business series over time**. Every plotted p
 
 <div id="history-workbench" data-source="../assets/dashboard-data.json"><p>Loading verified history / 加载已核实历史数据…</p></div>
 
+## National evidence coverage / 八州证据覆盖
+
+See the [eight-jurisdiction coverage matrix](coverage.md) for verified records, source dates, and missing archive categories. / [查看八州覆盖矩阵](coverage.md)，区分官方已核实数据、历史记录和资料库未收录项目。
+
 ## Detailed static figures / 各业务静态图表
 
 Interactive comparison above uses dated verified snapshots; the charts below are read-only fallbacks. / 上方可切换业务与天数或相对指数，下方保留可核验的静态图。
