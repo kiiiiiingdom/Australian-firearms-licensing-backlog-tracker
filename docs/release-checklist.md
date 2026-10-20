@@ -1,6 +1,6 @@
 # Release gate / 发布前检查清单
 
-**2026-10-20 status: NOT APPROVED FOR PUBLIC RELEASE.** This document is a gate, not authority to switch visibility.
+**2026-10-20 update: repository PUBLIC and main branch Ruleset ACTIVE. Separate GitHub Pages site NOT DEPLOYED. Human third-party rights and publication review remains outstanding.**
 
 ## Current review notes
 
@@ -24,10 +24,10 @@ Current-state evidence review: [77-source extract triage](evidence-audit-2026-10
 
 ## Required technical publication sequence / 技术操作次序
 
-1. Keep repo private while checking outstanding items.
-2. Ensure `main` PR checks and no-force-push rules can be configured in the selected GitHub plan. A 2026-10-20 private-repository ruleset request returned a plan/access 403.
-3. Once the entire review passes, decide explicitly whether to make source repo public, and whether to make the Pages site public. These are separate acts.
-4. Following owner approval, change visibility in GitHub UI and configure `main` protections, required validation status, PR review and restricted history rewrites.
+1. The repository is already public: urgently assess any third-party evidence extracts that need adjustment and do not treat a private-to-public switch as pending.
+2. Verified active `Main Breach Protection` ruleset targets default branch, requires PR, `validate`, linear history, and blocks deletion/force push.
+3. Review source rights, privacy and generated website before authorising a separate GitHub Pages launch.
+4. Maintain active `main` protections; changes must use PR + CI.
 5. In Settings > Pages choose **GitHub Actions** as deployment source, then run the **manually-triggered** workflow `Publish documented site` with the publication confirmation enabled.
 6. Verify accessible live Pages URLs, navigation, language, mobile responsiveness, the benchmark interaction and source links.
 7. Check GitHub Actions logs/Pages site for unintended public data.
@@ -44,6 +44,6 @@ python3 -m pip install -r requirements-docs.txt
 mkdocs build --clean --strict
 ```
 
-GitHub Pages workflow is **manual-only**, and explicitly refuses to deploy while the repository is private.
+GitHub Pages workflow is **manual-only**, but the repository is now public. Its explicit `confirm_publication` checkbox is the remaining launch gate; do not enable it before rights review and owner approval.
 
 **Read first:** [Pre-publication review](pre-publication-review.md) and [data freshness](methodology/data-freshness.md).
