@@ -1,41 +1,45 @@
 # Third-party source rights register / 第三方来源权利登记
 
-**Status: preliminary rights triage. Repository is already PUBLIC; independent third-party reuse review remains pending before any separate website launch.**
+**Status: source-host notices reviewed where available; individual-document reuse still requires checking. The repository is PUBLIC, while the separate GitHub Pages site has not yet been launched.**
 
-The maintainers' original data compilation may be CC BY 4.0; **that licence does not relicense any original government, police, parliamentary, audit-office, FOI or RTI material**. Each source remains governed by its publisher's rights, exclusions, attribution requirements and any applicable law. Retain source titles, URLs, capture dates and only brief necessary evidence excerpts.
+The maintainers' original compilation and analysis can have their own licence, but **official excerpts, FOI responses, parliamentary records, logos, images and PDFs are not sublicensed by this project**. Data facts and independently authored summaries should be distinguished from verbatim reproductions.
 
-| Source host | Dataset records (20 Oct 2026) | Rights review | Publication decision |
+已公开的仓库收录了第三方官方证据。核对来源网站的版权声明并不等于取得所有附件、议会记录或第三方提交件的转载许可。图表与原创整理采用本项目许可时，不应将其套用到原始官方材料。
+
+## Source-host notices / 来源网站版权条款（2026-10-20）
+
+| Source host | Records | Host-level notice and verified scope | Individual-document decision |
 |---|---:|---|---|
-| www.police.nsw.gov.au | 48 | Publisher-specific conditions need confirmation for the extracts | Pending human review |
-| www.parliament.nsw.gov.au | 24 | Parliamentary proceedings and other content may have distinct rights | Pending human review |
-| www.police.qld.gov.au | 18 | General state-government CC reuse can have exclusions; confirm this material | Pending human review |
-| www.police.sa.gov.au | 17 | Check SAPOL copyright and third-party exclusions | Pending human review |
-| www.police.vic.gov.au | 14 | Verify current page/document rights and permitted reproduction | Pending human review |
-| www.parliament.wa.gov.au | 7 | Parliamentary copyright and rights may differ from wa.gov.au | Pending human review |
-| pfes.nt.gov.au | 7 | Check NT agency terms and attribution/reuse restrictions | Pending human review |
-| police.act.gov.au | 6 | Check ACT Policing site and linked AFP terms separately | Pending human review |
-| documents.parliament.qld.gov.au | 5 | Verify specific tabled document / parliamentary rights | Pending human review |
-| www.wa.gov.au | 2 | Check conditions for WA Government reuse and commercial use | Pending human review |
-| fas.police.tas.gov.au | 2 | Check Tasmania Police Firearms Services publishing terms | Pending human review |
-| www.parliament.qld.gov.au | 2 | Parliamentary materials require source-level rights check | Pending human review |
-| www.police.tas.gov.au | 1 | Check Tasmania Police rights notices | Pending human review |
-| www.parliament.tas.gov.au | 1 | Check parliamentary terms | Pending human review |
-| audit.wa.gov.au | 1 | Check Auditor General document-specific terms | Pending human review |
+| www.police.nsw.gov.au | 48 | [NSW Police copyright](https://www.police.nsw.gov.au/services/additional_services/freedom_of_information/more_information?a=79): **CC BY 4.0** for NSW Police-owned site material; third-party items, logos and specifically excluded materials are not covered. Required attribution is described by NSW Police. | **Conditional**: source-owned text only; source-specific exclusions pending |
+| www.parliament.nsw.gov.au | 24 | [NSW Parliament copyright](https://www.parliament.nsw.gov.au/copyright): allows many uses of Parliament-owned material subject to attribution, purpose and non-misrepresentation rules; modifications or charging for access need permission; committee third-party submissions have special restrictions. | **Conditional**: parliamentary own material versus third-party submissions must be checked |
+| www.police.qld.gov.au | 18 | [Queensland Police copyright](https://www.police.qld.gov.au/copyright): **CC BY 4.0** for QPS-owned website material unless otherwise noted; logos, trademarks and third-party works excluded. | **Conditional**: document-specific exceptions pending |
+| www.police.sa.gov.au | 17 | [SAPOL copyright](https://www.police.sa.gov.au/copyright): **CC BY 4.0** for qualifying SAPOL-owned site material; images, logos and third-party works excluded. Derivative charts and statistics require the *Based on: South Australia Police material* attribution form. | **Conditional**: confirm each FOI/publication exception; graph attribution required |
+| www.police.vic.gov.au | 14 | [Victoria Police disclaimer](https://www.police.vic.gov.au/disclaimer): copyright and crest restrictions; this notice is **not sufficient proof that all police.vic.gov.au material is CC BY 4.0**. Government-wide policies from other Victorian sites must not be automatically substituted. | **Pending**: link, cite, independently summarize; direct reproduction requires review |
+| www.parliament.wa.gov.au | 7 | [WA Parliament copyright](https://www.parliament.wa.gov.au/WebCMS/WebCMS.nsf/content/copyright): conditioned, attributed use of Parliament-owned material; **commercial reuse needs permission**; third-party submissions are excluded and linking is preferred over reproducing full records. | **Conditional**: link to source; review parliamentary context |
+| pfes.nt.gov.au | 7 | [NT Police copyright](https://pfes.nt.gov.au/node/849): restrictions on changing, retransmitting and use beyond specified exceptions; written consent may be needed. No blanket CC reuse claim. | **Restricted / review required**: independently summarize and link; avoid verbatim republishing without review |
+| police.act.gov.au | 6 | [ACT Policing disclaimer](https://police.act.gov.au/disclaimer): linking is allowed subject to conditions, while redistribution or commercialisation of AFP site content requires prior written approval. | **Restricted / review required**: avoid reproducing site prose; link directly |
+| documents.parliament.qld.gov.au | 5 | [QLD Parliament open data terms](https://www.parliament.qld.gov.au/Work-of-the-Assembly/Open-Data/Terms-of-Service) address the API and proceedings, **not a general reuse licence for every tabled PDF**. | **Pending**: examine individual parliamentary document notices |
+| www.wa.gov.au | 2 | WA Government material can have **document-specific** copyright statements; e.g. [WA online open-data copyright](https://data.wa.gov.au/copyright) restricts commercial uses absent stated exceptions. No blanket CC status is inferred for all wa.gov.au pages. | **Pending**: verify page/PDF-specific rights |
+| fas.police.tas.gov.au | 2 | General reuse notice for this exact site has not been independently verified. | **Pending**: source links and original factual summaries only |
+| www.parliament.qld.gov.au | 2 | [QLD Parliament terms](https://www.parliament.qld.gov.au/Work-of-the-Assembly/Open-Data/Terms-of-Service) cover specific API/proceedings uses; not a licence for every parliamentary extract. | **Pending**: individual document and proceeding rights |
+| www.police.tas.gov.au | 1 | No verified host-wide CC reuse notice for this exact source. | **Pending**: link and summarize without wholesale reproduction |
+| www.parliament.tas.gov.au | 1 | [Tasmanian Parliament submission guidance](https://www.parliament.tas.gov.au/__data/assets/pdf_file/0035/96929/Making-a-Written-Submission-10-September-2025.pdf) highlights independent republication and parliamentary-privilege issues. This is **not** a blanket licence. | **Pending**: review type of document before any verbatim reuse |
+| audit.wa.gov.au | 1 | Office of the Auditor General reports have not been individually checked for a reusable content licence. [Original publisher](https://audit.wa.gov.au/). | **Pending**: quote minimally, independently summarize and link |
 
-**Total: 155 official-source records (130 processing/policy, 25 staffing).** Counts are **records**, not unique documents or licensed items.
+**Coverage: 155 structured records (130 observations, 25 staffing records), 15 hosts.** This is a count of entries, not unique copyrighted documents. A checked **host notice does not imply that any particular extract has completed human copyright review**.
 
-## Publishing rules / 发布规则
+## Practical safe-use policy / 发布时的实际处理规则
 
-1. Distinguish independently authored metadata, calculations and original charts from embedded government quotations.
-2. Keep the original URL, publisher name, document title and observation/as-at date with each quote.
-3. Prefer an independently written summary and a direct original link over reproducing lengthy passages or whole PDFs.
-4. Never assert that all third-party content has CC BY 4.0 status; do not upload whole third-party PDFs or screenshots solely for convenience.
-5. Keep `evidence/` historical extracts in place until a documented rights decision; if material needs to be removed, assess Git history and PR refs before declaring it unavailable.
-6. A verified numerical fact may be included in original analysis, but the source excerpt/document may have different reproduction rights.
-7. A copyright review is separate from privacy, site security and methodological verification.
+1. Display factual metrics, official reporting dates, and independently authored chart titles and calculations; do not copy an entire police page, report, logo, chart or government template into the website.
+2. Each relevant datum should lead to its **official source URL**, statistical definition, report date and an evidence identifier.
+3. For SAPOL-derived waiting-age charts, acknowledge **Based on: South Australia Police material**, point to the official source, and identify that calendar-date arithmetic is ours.
+4. For other CC BY 4.0-covered source-owned text, include publisher attribution and original URL, mark changes, and preserve original disclaimers when applicable; do not imply official endorsement.
+5. For WA/NSW parliamentary records, NT Police, ACT Policing, QLD parliamentary records and unverified sites, prefer **links and independently worded summaries** rather than copying original passages. Never imply that a forwarded source PDF automatically carries an open licence.
+6. The existing PUBLIC Git history may include older excerpts. Editing a current file cannot remove past commits or third-party rights; work through any identified issue separately.
+7. Changes to application channels, sample definition or dates must be reviewed as scientific/methodological matters, separately from copyright.
 
-## Per-source reviewer sign-off / 人工签核
+## Reviewer sign-off / 逐文件人工确认
 
-For each host and each exceptional document, record the publisher's exact rights page (and date), any exclusions, attribution, whether short quoted extracts can be reproduced, and reviewer decision. **Entries remain pending** until each source's terms and any document-specific exclusions are reviewed; a public repository is not a legal clearance.
+For any substantive quoted text, reproduced table, screenshot or original PDF, identify the **actual file**, rightsholder, document-specific notice, permission or exception, attribution, and reviewer. Those decisions are **still pending**. Until then, do not describe this as a completed legal clearance for the repository or Pages.
 
-See [release checklist](release-checklist.md) and [data licence scope](https://github.com/kiiiiiingdom/Australian-firearms-licensing-backlog-tracker/blob/main/DATA-LICENSE.md).
+[Project data licence scope](https://github.com/kiiiiiingdom/Australian-firearms-licensing-backlog-tracker/blob/main/DATA-LICENSE.md) · [Release checklist](release-checklist.md) · [Evidence review](evidence-audit-2026-10-20.md)
