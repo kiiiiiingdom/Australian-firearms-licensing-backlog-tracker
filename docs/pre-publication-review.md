@@ -4,16 +4,16 @@
 The repository is PRIVATE. This is a pre-publication checklist, **not** permission to change visibility. Public release must be a separate explicit decision after review.
 
 ## Known findings
-- `data/observations.csv` has 130 observation rows. On the main branch examined 20 October 2026, 39 had 22 columns under a 21-column header. An exact-cell-preserving repair is proposed separately in PR #2. Merge and rerun validation before publishing.
-- PR #1 introduces external contributor documentation, standard AI evidence collection prompt, Issue/PR templates, and validation tooling. The contribution kit is not merged yet.
+- `data/observations.csv` has 130 observation rows. The main branch originally contained 39 records with an extra empty cell; PR #2 repaired them on 20 October 2026 and was merged as c0b4cccbaa29d9ba3ffa29aa2cc8d2792214d32a. After repair, all 130 rows have exactly 21 columns.
+- PR #1 introduces external contributor documentation, standard AI evidence collection prompt, Issue/PR templates, and validation tooling; run 39353627404 passed on 20 October 2026 with 0 errors and 0 warnings. The contribution kit is pending merge at the time of this note.
 - An index of 178 repository tree entries was checked, including current README, analysis, scripts, datasets and dated evidence. The index contains no evident private-application files by filename. **Filename review cannot establish absence of private data inside files or history.**
 - Recent commit metadata was viewed, but a complete audit of all reachable Git history, old versions, forks, tags, PR content, artifacts and Actions logs **has not been completed**. Do not claim otherwise.
 - A machine-oriented privacy check is not a substitute for human inspection of text and metadata.
 - No data or software LICENSE was selected at this point; rights to source extracts and reusable contributions must be reviewed before publication.
 
 ## Release gate — maintainer approval required for each item
-- [ ] PR #2 CSV repair reviewed and merged; verify exactly 130 logical rows and 21 columns.
-- [ ] PR #1 reviewed and merged, after PR #2, and automated validation passes with real GitHub Actions run.
+- [x] PR #2 CSV repair merged; all 130 logical rows now have 21 columns.
+- [ ] PR #1 reviewed and merged after PR #2. Pre-merge GitHub Actions run 39353627404 passed; rerun/confirm any follow-up changes.
 - [ ] Check ALL tracked files, not just paths, for names, application numbers, emails, addresses, private correspondence, applicant-specific dates/projections, credentials or tokens.
 - [ ] Audit **entire reachable Git history**, tags, other branches, releases, issues, PRs and downloadable workflow artifacts for private information. Private history becomes visible when a private repo goes public. If sensitive data is found, determine safe remediation separately before publishing.
 - [ ] Decide LICENSE for code and data, as applicable; verify that each reproduced official-source extract may be republished lawfully with attribution.
