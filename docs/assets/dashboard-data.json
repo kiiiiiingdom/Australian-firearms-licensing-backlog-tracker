@@ -44,7 +44,7 @@
     "pta": [
       {
         "key": "SA",
-        "label": "SA · online PTA",
+        "label": "SA · PTA",
         "series": "permit_to_acquire",
         "backlog_age_days": 44,
         "metric_date": "2026-10-09",

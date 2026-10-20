@@ -50,6 +50,7 @@ jobs:
           python3 scripts/validate_contributions.py
           node scripts/generate_readme_visuals.mjs --check
           node scripts/check_dashboard_data.mjs
+          node scripts/generate_site.mjs --check
           mkdocs build --strict --clean
       - uses: actions/upload-pages-artifact@v4
         with:

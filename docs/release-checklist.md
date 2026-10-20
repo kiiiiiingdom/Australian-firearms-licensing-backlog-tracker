@@ -2,6 +2,10 @@
 
 **2026-10-20 status: NOT APPROVED FOR PUBLIC RELEASE.** This document is a gate, not authority to switch visibility.
 
+## Current review notes
+
+See [Preliminary audit progress](audit-progress-2026-10-20.md). Zero Actions artifacts and a first-pass PR/log scan do not constitute whole-history clearance. Run the full-clone scanner, review its findings and expand to all PR refs before publication.
+
 ## Mandatory security and privacy work / 必须完成
 
 - [ ] Inspect **all reachable commits and their changed file contents**, not only current `main`, for personal applicant dates, licence or application numbers, names, private correspondence, emails, phone numbers, credentials, tokens and internal notes.
@@ -30,6 +34,7 @@
 python3 scripts/validate_contributions.py
 node scripts/generate_readme_visuals.mjs --check
 node scripts/check_dashboard_data.mjs
+node scripts/generate_site.mjs --check
 python3 -m pip install -r requirements-docs.txt
 mkdocs build --clean --strict
 ```

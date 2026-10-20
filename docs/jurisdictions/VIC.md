@@ -1,32 +1,31 @@
 # VIC · Victoria
 
-**Official verified records / 官方已核实数据**  
-This is a published-data snapshot, **not** an individual licence application forecast. / 仅记录公开行政数据，不预测个人审批时间。
+**Official verified records / 官方已核实记录**. Not a personal application-date forecast. / 不提供个人审批时间预测。
 
-[← National dashboard / 返回全国总览](../overview.md)
+[← National dashboard / 全国总览](../overview.md)
 
-## Latest published series / 最新入库指标
+## Latest official records / 最新官方记录
 
-| Series / 指标 | Type / 口径 | Official value / 官方数值 | As at / 统计日期 | Evidence / 证据 |
+| Series / 业务 | Metric type / 口径 | Value / 数值 | Official as-at / 官方统计日 | Evidence / 证据 |
 |---|---|---|---|---|
-| `new_firearm_licence_application` | `processing_date` | processing 2026-06-02 · 132 d queue-date lag | 2026-10-12 | [official source](https://www.police.vic.gov.au/firearms-licensing) · [evidence](https://github.com/kiiiiiingdom/Australian-firearms-licensing-backlog-tracker/blob/main/evidence/VIC/2026-10-12/source.txt) |
-| `firearm_licence_renewal_application` | `processing_date` | processing 2026-07-31 · 73 d queue-date lag | 2026-10-12 | [official source](https://www.police.vic.gov.au/firearms-licensing) · [evidence](https://github.com/kiiiiiingdom/Australian-firearms-licensing-backlog-tracker/blob/main/evidence/VIC/2026-10-12/source.txt) |
-| `online_permit_to_acquire` | `processing_date` | processing 2026-09-28 · 14 d queue-date lag | 2026-10-12 | [official source](https://www.police.vic.gov.au/firearms-licensing) · [evidence](https://github.com/kiiiiiingdom/Australian-firearms-licensing-backlog-tracker/blob/main/evidence/VIC/2026-10-12/source.txt) |
-| `manual_permit_to_acquire` | `processing_date` | processing 2026-09-28 · 14 d queue-date lag | 2026-10-12 | [official source](https://www.police.vic.gov.au/firearms-licensing) · [evidence](https://github.com/kiiiiiingdom/Australian-firearms-licensing-backlog-tracker/blob/main/evidence/VIC/2026-10-12/source.txt) |
-| `import_permit` | `processing_date` | processing 2026-10-01 · 11 d queue-date lag | 2026-10-12 | [official source](https://www.police.vic.gov.au/firearms-licensing) · [evidence](https://github.com/kiiiiiingdom/Australian-firearms-licensing-backlog-tracker/blob/main/evidence/VIC/2026-10-12/source.txt) |
+| `new_firearm_licence_application` | `processing_date` | processing 2026-06-02 · queue-date lag 132 d | 2026-10-12 | [official source](https://www.police.vic.gov.au/firearms-licensing) · [evidence](https://github.com/kiiiiiingdom/Australian-firearms-licensing-backlog-tracker/blob/main/evidence/VIC/2026-10-12/source.txt) |
+| `firearm_licence_renewal_application` | `processing_date` | processing 2026-07-31 · queue-date lag 73 d | 2026-10-12 | [official source](https://www.police.vic.gov.au/firearms-licensing) · [evidence](https://github.com/kiiiiiingdom/Australian-firearms-licensing-backlog-tracker/blob/main/evidence/VIC/2026-10-12/source.txt) |
+| `online_permit_to_acquire` | `processing_date` | processing 2026-09-28 · queue-date lag 14 d | 2026-10-12 | [official source](https://www.police.vic.gov.au/firearms-licensing) · [evidence](https://github.com/kiiiiiingdom/Australian-firearms-licensing-backlog-tracker/blob/main/evidence/VIC/2026-10-12/source.txt) |
+| `manual_permit_to_acquire` | `processing_date` | processing 2026-09-28 · queue-date lag 14 d | 2026-10-12 | [official source](https://www.police.vic.gov.au/firearms-licensing) · [evidence](https://github.com/kiiiiiingdom/Australian-firearms-licensing-backlog-tracker/blob/main/evidence/VIC/2026-10-12/source.txt) |
+| `import_permit` | `processing_date` | processing 2026-10-01 · queue-date lag 11 d | 2026-10-12 | [official source](https://www.police.vic.gov.au/firearms-licensing) · [evidence](https://github.com/kiiiiiingdom/Australian-firearms-licensing-backlog-tracker/blob/main/evidence/VIC/2026-10-12/source.txt) |
 
 ## Trend / 历史趋势
 
-![VIC new licence historical queue-date lag](../images/vic-new-trend.svg)
+![VIC new licence queue-date history](../images/vic-new-trend.svg)
 
-## Staffing and administrative context / 人员与行政背景
+## Staffing and capacity / 人员与行政能力
 
-No verified quantitative staffing entry currently in this repository. / 仓库暂无已核实的同口径人员数值。
+No matching verified quantitative workforce data in the current archive. / 当前资料库尚无同口径的已核实人员数据。
 
-## Data limitations / 数据局限
+## Evidence limitations / 数据局限
 
-- Statistics use the official source's own date and type; data may be historical. / 数据使用官方原始统计日期和定义，可能具有滞后性。
-- Counts, legal minimum waits and staffing posts are never substituted for queue age. / 不把人数、最低等待期或岗位编制等同于积压年龄。
-- Missing public statistics are not zero. / 未公开不等于零。
+- Published processing dates, averages, minimum waits and staffing measures are different quantities. / 不同指标不可混为一谈。
+- Disclosure dates can differ. Missing data do not represent zero backlog. / 数据日期各异；未公开不等于零积压。
+- The archive does not include individual applicant data or case-specific predictions. / 本资料库不存储个人申请数据。
 
-[Raw observations](https://github.com/kiiiiiingdom/Australian-firearms-licensing-backlog-tracker/blob/main/data/observations.csv) · [Evidence archive](https://github.com/kiiiiiingdom/Australian-firearms-licensing-backlog-tracker/tree/main/evidence/VIC)
+[Raw processing observations](https://github.com/kiiiiiingdom/Australian-firearms-licensing-backlog-tracker/blob/main/data/observations.csv) · [Raw staffing disclosures](https://github.com/kiiiiiingdom/Australian-firearms-licensing-backlog-tracker/blob/main/data/staffing.csv) · [Evidence directory](https://github.com/kiiiiiingdom/Australian-firearms-licensing-backlog-tracker/tree/main/evidence/VIC)

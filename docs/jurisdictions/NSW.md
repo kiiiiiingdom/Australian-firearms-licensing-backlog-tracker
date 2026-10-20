@@ -1,15 +1,14 @@
 # NSW · New South Wales
 
-**Official verified records / 官方已核实数据**  
-This is a published-data snapshot, **not** an individual licence application forecast. / 仅记录公开行政数据，不预测个人审批时间。
+**Official verified records / 官方已核实记录**. Not a personal application-date forecast. / 不提供个人审批时间预测。
 
-[← National dashboard / 返回全国总览](../overview.md)
+[← National dashboard / 全国总览](../overview.md)
 
-## Latest published series / 最新入库指标
+## Latest official records / 最新官方记录
 
-| Series / 指标 | Type / 口径 | Official value / 官方数值 | As at / 统计日期 | Evidence / 证据 |
+| Series / 业务 | Metric type / 口径 | Value / 数值 | Official as-at / 官方统计日 | Evidence / 证据 |
 |---|---|---|---|---|
-| `registry_processing_pressure_explanation` | `workflow_policy` | higher volumes and implementation changes affecting service levels policy | not stated | [official source](https://www.police.nsw.gov.au/online_services/firearms) · [evidence](https://github.com/kiiiiiingdom/Australian-firearms-licensing-backlog-tracker/blob/main/evidence/NSW/2026-10-11/processing-pressure.txt) |
+| `registry_processing_pressure_explanation` | `workflow_policy` | higher volumes and implementation changes affecting service levels policy | not stated / 未注明 | [official source](https://www.police.nsw.gov.au/online_services/firearms) · [evidence](https://github.com/kiiiiiingdom/Australian-firearms-licensing-backlog-tracker/blob/main/evidence/NSW/2026-10-11/processing-pressure.txt) |
 | `new_licence_application_average` | `average_processing_days` | 41.94 days | 2026-09-30 | [official source](https://www.police.nsw.gov.au/__data/assets/pdf_file/0016/950002/Firearms_Registry_Public_Website_Data_Reporting_Presentation_-_September_2026.pdf) · [evidence](https://github.com/kiiiiiingdom/Australian-firearms-licensing-backlog-tracker/blob/main/evidence/NSW/2026-09/source.txt) |
 | `pta_average` | `average_processing_days` | 95.35 days | 2026-09-30 | [official source](https://www.police.nsw.gov.au/__data/assets/pdf_file/0016/950002/Firearms_Registry_Public_Website_Data_Reporting_Presentation_-_September_2026.pdf) · [evidence](https://github.com/kiiiiiingdom/Australian-firearms-licensing-backlog-tracker/blob/main/evidence/NSW/2026-09/source.txt) |
 | `licence_renewal_average` | `average_processing_days` | 54.8 days | 2026-09-30 | [official source](https://www.police.nsw.gov.au/__data/assets/pdf_file/0016/950002/Firearms_Registry_Public_Website_Data_Reporting_Presentation_-_September_2026.pdf) · [evidence](https://github.com/kiiiiiingdom/Australian-firearms-licensing-backlog-tracker/blob/main/evidence/NSW/2026-09/source.txt) |
@@ -29,24 +28,24 @@ This is a published-data snapshot, **not** an individual licence application for
 
 ## Trend / 历史趋势
 
-Continuous queue-date trend charts are not available under the current verified source type. / 当前官方资料没有适用的连续处理日期序列，故不绘制伪趋势。
+A comparable continuous processing-date series has not been verified for this jurisdiction. / 暂无适用于该辖区的连续处理日期序列，不制作虚假趋势图。
 
-## Staffing and administrative context / 人员与行政背景
+## Staffing and capacity / 人员与行政能力
 
-| Official measure / 口径 | Value / 数值 | As at | Source / 来源 |
+| Measure / 口径 | Reported values / 记录 | Official as-at / 官方日期 | Evidence / 证据 |
 |---|---|---|---|
-| `headcount` | headcount: 83 | 2011-06-30 | [official source](https://www.parliament.nsw.gov.au/parliamentary-business/questions-answers-tracking-details?id=11513) · [evidence](https://github.com/kiiiiiingdom/Australian-firearms-licensing-backlog-tracker/blob/main/evidence/NSW/2018-12-20/processing-headcount-values.txt) |
-| `headcount` | headcount: 82 | 2012-06-30 | [official source](https://www.parliament.nsw.gov.au/parliamentary-business/questions-answers-tracking-details?id=11513) · [evidence](https://github.com/kiiiiiingdom/Australian-firearms-licensing-backlog-tracker/blob/main/evidence/NSW/2018-12-20/processing-headcount-values.txt) |
-| `headcount` | headcount: 81 | 2013-06-30 | [official source](https://www.parliament.nsw.gov.au/parliamentary-business/questions-answers-tracking-details?id=11513) · [evidence](https://github.com/kiiiiiingdom/Australian-firearms-licensing-backlog-tracker/blob/main/evidence/NSW/2018-12-20/processing-headcount-values.txt) |
-| `headcount` | headcount: 83 | 2014-06-30 | [official source](https://www.parliament.nsw.gov.au/parliamentary-business/questions-answers-tracking-details?id=11513) · [evidence](https://github.com/kiiiiiingdom/Australian-firearms-licensing-backlog-tracker/blob/main/evidence/NSW/2018-12-20/processing-headcount-values.txt) |
-| `permanent_positions` | permanent_positions: 84; vacancies: 1 | 2026-03-26 | [official source](https://www.parliament.nsw.gov.au/lcdocs/other/23325/Answers%20to%20Supplementary%20QONs%20-%20Budget%20Estimates%20%20-%20Minister%20for%20Police.pdf) · [evidence](https://github.com/kiiiiiingdom/Australian-firearms-licensing-backlog-tracker/blob/main/evidence/NSW/staffing/2026-03-26/source.txt) |
-| `recruitment_positions` | recruitment_positions: 22 | 2026-06-18 | [official source](https://www.parliament.nsw.gov.au/parliamentary-business/questions-answers-tracking-details?id=108052) · [evidence](https://github.com/kiiiiiingdom/Australian-firearms-licensing-backlog-tracker/blob/main/evidence/NSW/staffing/2026-06-18/source.txt) |
-| `seconded_headcount` | headcount: 10 | 2021-10-18 | [official source](https://www.parliament.nsw.gov.au/parliamentary-business/questions-answers-tracking-details?id=88766) · [evidence](https://github.com/kiiiiiingdom/Australian-firearms-licensing-backlog-tracker/blob/main/evidence/NSW/2021-10-18/source.txt) |
+| `headcount` | headcount 83 | 2011-06-30 | [official source](https://www.parliament.nsw.gov.au/parliamentary-business/questions-answers-tracking-details?id=11513) · [evidence](https://github.com/kiiiiiingdom/Australian-firearms-licensing-backlog-tracker/blob/main/evidence/NSW/2018-12-20/processing-headcount-values.txt) |
+| `headcount` | headcount 82 | 2012-06-30 | [official source](https://www.parliament.nsw.gov.au/parliamentary-business/questions-answers-tracking-details?id=11513) · [evidence](https://github.com/kiiiiiingdom/Australian-firearms-licensing-backlog-tracker/blob/main/evidence/NSW/2018-12-20/processing-headcount-values.txt) |
+| `headcount` | headcount 81 | 2013-06-30 | [official source](https://www.parliament.nsw.gov.au/parliamentary-business/questions-answers-tracking-details?id=11513) · [evidence](https://github.com/kiiiiiingdom/Australian-firearms-licensing-backlog-tracker/blob/main/evidence/NSW/2018-12-20/processing-headcount-values.txt) |
+| `headcount` | headcount 83 | 2014-06-30 | [official source](https://www.parliament.nsw.gov.au/parliamentary-business/questions-answers-tracking-details?id=11513) · [evidence](https://github.com/kiiiiiingdom/Australian-firearms-licensing-backlog-tracker/blob/main/evidence/NSW/2018-12-20/processing-headcount-values.txt) |
+| `seconded_headcount` | headcount 10 | 2021-10-18 | [official source](https://www.parliament.nsw.gov.au/parliamentary-business/questions-answers-tracking-details?id=88766) · [evidence](https://github.com/kiiiiiingdom/Australian-firearms-licensing-backlog-tracker/blob/main/evidence/NSW/2021-10-18/source.txt) |
+| `permanent_positions` | permanent_positions 84; vacancies 1 | 2026-03-26 | [official source](https://www.parliament.nsw.gov.au/lcdocs/other/23325/Answers%20to%20Supplementary%20QONs%20-%20Budget%20Estimates%20%20-%20Minister%20for%20Police.pdf) · [evidence](https://github.com/kiiiiiingdom/Australian-firearms-licensing-backlog-tracker/blob/main/evidence/NSW/staffing/2026-03-26/source.txt) |
+| `recruitment_positions` | recruitment_positions 22 | 2026-06-18 | [official source](https://www.parliament.nsw.gov.au/parliamentary-business/questions-answers-tracking-details?id=108052) · [evidence](https://github.com/kiiiiiingdom/Australian-firearms-licensing-backlog-tracker/blob/main/evidence/NSW/staffing/2026-06-18/source.txt) |
 
-## Data limitations / 数据局限
+## Evidence limitations / 数据局限
 
-- Statistics use the official source's own date and type; data may be historical. / 数据使用官方原始统计日期和定义，可能具有滞后性。
-- Counts, legal minimum waits and staffing posts are never substituted for queue age. / 不把人数、最低等待期或岗位编制等同于积压年龄。
-- Missing public statistics are not zero. / 未公开不等于零。
+- Published processing dates, averages, minimum waits and staffing measures are different quantities. / 不同指标不可混为一谈。
+- Disclosure dates can differ. Missing data do not represent zero backlog. / 数据日期各异；未公开不等于零积压。
+- The archive does not include individual applicant data or case-specific predictions. / 本资料库不存储个人申请数据。
 
-[Raw observations](https://github.com/kiiiiiingdom/Australian-firearms-licensing-backlog-tracker/blob/main/data/observations.csv) · [Evidence archive](https://github.com/kiiiiiingdom/Australian-firearms-licensing-backlog-tracker/tree/main/evidence/NSW)
+[Raw processing observations](https://github.com/kiiiiiingdom/Australian-firearms-licensing-backlog-tracker/blob/main/data/observations.csv) · [Raw staffing disclosures](https://github.com/kiiiiiingdom/Australian-firearms-licensing-backlog-tracker/blob/main/data/staffing.csv) · [Evidence directory](https://github.com/kiiiiiingdom/Australian-firearms-licensing-backlog-tracker/tree/main/evidence/NSW)
