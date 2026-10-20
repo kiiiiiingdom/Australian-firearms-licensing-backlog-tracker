@@ -15,3 +15,7 @@ jobs:
         run: python3 scripts/validate_contributions.py
       - name: Verify README dashboard SVGs match the committed CSV data
         run: node scripts/generate_readme_visuals.mjs --check
+      - name: Install MkDocs Material
+        run: python3 -m pip install -r requirements-docs.txt
+      - name: Validate bilingual documentation site build (not deployed)
+        run: mkdocs build --clean --strict

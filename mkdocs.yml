@@ -1,0 +1,48 @@
+site_name: Australian Firearms Licensing Tracker | 澳洲枪证行政数据
+site_description: Evidence-first, bilingual Australian firearms licensing processing research
+site_url: https://kiiiiiingdom.github.io/Australian-firearms-licensing-backlog-tracker/
+repo_url: https://github.com/kiiiiiingdom/Australian-firearms-licensing-backlog-tracker
+repo_name: kiiiiiingdom/Australian-firearms-licensing-backlog-tracker
+docs_dir: docs
+site_dir: site
+theme:
+  name: material
+  language: en
+  palette:
+    primary: blue grey
+    accent: teal
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.tracking
+    - content.code.copy
+    - toc.follow
+plugins:
+  - search
+markdown_extensions:
+  - tables
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+extra_css:
+  - assets/dashboard.css
+extra_javascript:
+  - assets/benchmark.js
+nav:
+  - Home / 首页: index.md
+  - National dashboard / 全国总览: overview.md
+  - Jurisdictions / 各辖区:
+      - SA · South Australia: jurisdictions/SA.md
+      - VIC · Victoria: jurisdictions/VIC.md
+      - NSW · New South Wales: jurisdictions/NSW.md
+      - QLD · Queensland: jurisdictions/QLD.md
+      - WA · Western Australia: jurisdictions/WA.md
+      - TAS · Tasmania: jurisdictions/TAS.md
+      - ACT · Australian Capital Territory: jurisdictions/ACT.md
+      - NT · Northern Territory: jurisdictions/NT.md
+  - Methodology / 方法:
+      - Relative indices / 相对指数: methodology/comparison-indices.md
+      - Data freshness / 数据时效: methodology/data-freshness.md
+      - Contribution guide / 贡献入口: contribute.md
