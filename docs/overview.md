@@ -11,6 +11,12 @@ The selectable reference index compares **published queue-date ages**, not offic
 
 <div id="benchmark-comparison" class="compare-panel" data-source="../assets/dashboard-data.json"><p>Loading verified records / 加载已核实数据…</p></div>
 
+## Historical queue-date changes / 历史积压变化
+
+Explore the **same jurisdiction and business series over time**. Every plotted point has an official observation date and a link to its original source. Fewer than two points are not interpreted as a trend. / 选择辖区及业务，按真实日期查看同口径历史数据；每个观测点均附官方来源。
+
+<div id="history-workbench" data-source="../assets/dashboard-data.json"><p>Loading verified history / 加载已核实历史数据…</p></div>
+
 ## Detailed static figures / 各业务静态图表
 
 Interactive comparison above uses dated verified snapshots; the charts below are read-only fallbacks. / 上方可切换业务与天数或相对指数，下方保留可核验的静态图。

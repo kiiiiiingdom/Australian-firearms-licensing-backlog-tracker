@@ -61,5 +61,162 @@
         "evidence_path": "evidence/VIC/2026-10-12/source.txt"
       }
     ]
+  },
+  "trends": {
+    "new": {
+      "SA": {
+        "series": "firearms_licence_application",
+        "points": [
+          {
+            "date": "2026-09-11",
+            "backlog_age_days": 299,
+            "processing_date": "2025-11-16",
+            "source_url": "https://www.police.sa.gov.au/services-and-events/firearms-and-weapons/status-of-my-application",
+            "evidence_path": "evidence/SA/2026-09-11/source.txt"
+          },
+          {
+            "date": "2026-09-18",
+            "backlog_age_days": 263,
+            "processing_date": "2025-12-29",
+            "source_url": "https://www.police.sa.gov.au/services-and-events/firearms-and-weapons/status-of-my-application",
+            "evidence_path": "evidence/SA/2026-09-18/source.txt"
+          },
+          {
+            "date": "2026-09-25",
+            "backlog_age_days": 254,
+            "processing_date": "2026-01-14",
+            "source_url": "https://www.police.sa.gov.au/services-and-events/firearms-and-weapons/status-of-my-application",
+            "evidence_path": "evidence/SA/2026-09-25/source.txt"
+          },
+          {
+            "date": "2026-10-02",
+            "backlog_age_days": 261,
+            "processing_date": "2026-01-14",
+            "source_url": "https://www.police.sa.gov.au/services-and-events/firearms-and-weapons/status-of-my-application",
+            "evidence_path": "evidence/SA/2026-10-02/source.txt"
+          },
+          {
+            "date": "2026-10-09",
+            "backlog_age_days": 254,
+            "processing_date": "2026-01-28",
+            "source_url": "https://www.police.sa.gov.au/services-and-events/firearms-and-weapons/status-of-my-application",
+            "evidence_path": "evidence/SA/2026-10-09/source.txt"
+          }
+        ]
+      },
+      "VIC": {
+        "series": "new_firearm_licence_application",
+        "points": [
+          {
+            "date": "2026-09-14",
+            "backlog_age_days": 132,
+            "processing_date": "2026-05-05",
+            "source_url": "https://www.police.vic.gov.au/firearms-licensing",
+            "evidence_path": "evidence/VIC/2026-09-14/source.txt"
+          },
+          {
+            "date": "2026-09-28",
+            "backlog_age_days": 133,
+            "processing_date": "2026-05-18",
+            "source_url": "https://www.police.vic.gov.au/firearms-licensing",
+            "evidence_path": "evidence/VIC/2026-09-28/source.txt"
+          },
+          {
+            "date": "2026-10-05",
+            "backlog_age_days": 126,
+            "processing_date": "2026-06-01",
+            "source_url": "https://www.police.vic.gov.au/firearms-licensing",
+            "evidence_path": "evidence/VIC/2026-10-05/source.txt"
+          },
+          {
+            "date": "2026-10-12",
+            "backlog_age_days": 132,
+            "processing_date": "2026-06-02",
+            "source_url": "https://www.police.vic.gov.au/firearms-licensing",
+            "evidence_path": "evidence/VIC/2026-10-12/source.txt"
+          }
+        ]
+      }
+    },
+    "renewal": {
+      "SA": {
+        "series": "firearms_licence_renewal",
+        "points": [
+          {
+            "date": "2026-10-02",
+            "backlog_age_days": 48,
+            "processing_date": "2026-08-15",
+            "source_url": "https://www.police.sa.gov.au/services-and-events/firearms-and-weapons/status-of-my-application",
+            "evidence_path": "evidence/SA/2026-10-02/source.txt"
+          },
+          {
+            "date": "2026-10-09",
+            "backlog_age_days": 49,
+            "processing_date": "2026-08-21",
+            "source_url": "https://www.police.sa.gov.au/services-and-events/firearms-and-weapons/status-of-my-application",
+            "evidence_path": "evidence/SA/2026-10-09/source.txt"
+          }
+        ]
+      },
+      "VIC": {
+        "series": "firearm_licence_renewal_application",
+        "points": [
+          {
+            "date": "2026-10-05",
+            "backlog_age_days": 68,
+            "processing_date": "2026-07-29",
+            "source_url": "https://www.police.vic.gov.au/firearms-licensing",
+            "evidence_path": "evidence/VIC/2026-10-05/source.txt"
+          },
+          {
+            "date": "2026-10-12",
+            "backlog_age_days": 73,
+            "processing_date": "2026-07-31",
+            "source_url": "https://www.police.vic.gov.au/firearms-licensing",
+            "evidence_path": "evidence/VIC/2026-10-12/source.txt"
+          }
+        ]
+      }
+    },
+    "pta": {
+      "SA": {
+        "series": "permit_to_acquire",
+        "points": [
+          {
+            "date": "2026-10-02",
+            "backlog_age_days": 48,
+            "processing_date": "2026-08-15",
+            "source_url": "https://www.police.sa.gov.au/services-and-events/firearms-and-weapons/status-of-my-application",
+            "evidence_path": "evidence/SA/2026-10-02/source.txt"
+          },
+          {
+            "date": "2026-10-09",
+            "backlog_age_days": 44,
+            "processing_date": "2026-08-26",
+            "source_url": "https://www.police.sa.gov.au/services-and-events/firearms-and-weapons/status-of-my-application",
+            "evidence_path": "evidence/SA/2026-10-09/source.txt"
+          }
+        ]
+      },
+      "VIC": {
+        "series": "online_permit_to_acquire",
+        "points": [
+          {
+            "date": "2026-10-05",
+            "backlog_age_days": 12,
+            "processing_date": "2026-09-23",
+            "source_url": "https://www.police.vic.gov.au/firearms-licensing",
+            "evidence_path": "evidence/VIC/2026-10-05/source.txt"
+          },
+          {
+            "date": "2026-10-12",
+            "backlog_age_days": 14,
+            "processing_date": "2026-09-28",
+            "source_url": "https://www.police.vic.gov.au/firearms-licensing",
+            "evidence_path": "evidence/VIC/2026-10-12/source.txt"
+          }
+        ]
+      }
+    }
   }
 }
