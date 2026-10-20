@@ -1,54 +1,52 @@
 # National dashboard / 全国总览
 
-**Verified repository snapshots · Not live government queue estimates**  
-**以下仅展示仓库已核实记录，非政府实时排队数据**。
+**Verified repository snapshots; NOT live government data or individual application forecasts.**  
+**以下为仓库已核实记录，不是实时政府数据，也不提供个人审批预测。**
 
-<div class="hero-links"><a href="jurisdictions/SA/">South Australia</a><a href="jurisdictions/VIC/">Victoria</a><a href="methodology/comparison-indices/" class="secondary">Methodology / 方法</a></div>
+<div class="hero-links"><a href="jurisdictions/SA/">South Australia</a><a href="jurisdictions/VIC/">Victoria</a><a href="methodology/comparison-indices/" class="secondary">Comparison rules / 比较方法</a></div>
 
-## Queue-date backlog age / 处理日期积压年龄
+## Published queue-date backlog age / 处理日期积压年龄
 
-Each panel represents **one business category**; queue-date lag is not completed-case average time, and the source as-at dates differ between states. / 各面板只比较同一业务类别，且官方统计日期可能不同。
+These are categories, not a pooled cross-state efficiency ranking. Published as-at dates differ. / 仅在业务类别内描述公开处理日期滞后，且各州统计日并非完全相同。
 
 ### New licence / 新证
 
-![New licence queue-date lag](images/new-licence-backlog.svg)
+![New licence backlog age](images/new-licence-backlog.svg)
 
 ### Renewal / 续证
 
-![Renewal queue-date lag](images/renewal-backlog.svg)
+![Renewal backlog age](images/renewal-backlog.svg)
 
 ### Permit to acquire / PTA
 
-![PTA queue-date lag](images/pta-backlog.svg)
+![PTA backlog age](images/pta-backlog.svg)
 
-## Interactive benchmark = 1.00 / 可选择基准值 1.00
+## Select reference = 1.00 / 自选相对基准 1.00
 
-Use the dropdowns to select an application type and reference jurisdiction. **This is a ratio of reported queue-date lags, not a ranking of staff efficiency.** / 选择业务类别与基准州；指数仅描述公开队列日期的相对滞后，不代表警员办事效率。
+The selectable reference index compares **published queue-date ages**, not officer productivity or actual individual wait durations. / 指数只表示官方公布处理日期的相对滞后，不代表警员效率或个人办理时间。
 
-<div id="benchmark-comparison" class="compare-panel" data-source="../assets/dashboard-data.json"><p>Loading verified snapshot / 加载已核实数据…</p></div>
+<div id="benchmark-comparison" class="compare-panel" data-source="../assets/dashboard-data.json"><p>Loading verified records / 加载已核实数据…</p></div>
 
-## Official average-time series / 官方平均办理时间
+## Average time series / 官方平均办理时间
 
-![Average processing times (NSW and QLD)](images/average-time-overview.svg)
+![NSW and QLD officially published means](images/average-time-overview.svg)
 
-NSW and QLD use different statistical definitions and statutory waiting periods. These bars display days only as **visual scale conversion**, not an equivalent efficiency index. / 不同统计定义及法定等待期影响可比性，仅换算单位辅助阅读，不据此排名。
+QLD online averages and NSW registry averages have different definitions and possible statutory waiting inclusions. We convert weeks to days only for **visual scale**, not a harmonised performance index. / 单位换算只是方便阅读，绝不据此给警方效率排名。
 
-## Own-history indices / 相对于自身历史基期
+## Own-history change / 各序列自身变化
 
-![Within-series historical indices](images/historical-index.svg)
+![Within-series relative indices](images/historical-index.svg)
 
-Each series uses its first positive verified backlog-age snapshot from September 2026 onward as its own reference = 1.00. **The dates differ**. / 各序列分别采用自 2026 年 9 月起最早已核实有效点为基准，基期并不一致。
+Each series uses its own earliest verified positive backlog-age point since September 2026 as 1.00; periods differ. / 每个序列分别以其 2026 年 9 月以来最早有效已核实值为 1.00 基准，无法视为相同起点的横向实验。
 
-## Evidence-linked staffing / 官方人员与处理能力
+## Staff and administrative resources / 官方人员及处理能力
 
-![Staffing disclosures](images/staffing-capacity-overview.svg)
+![Distinct official staffing and resources](images/staffing-capacity-overview.svg)
 
-[Staffing data](https://github.com/kiiiiiingdom/Australian-firearms-licensing-backlog-tracker/blob/main/data/staffing.csv) · [Staffing methodology](https://github.com/kiiiiiingdom/Australian-firearms-licensing-backlog-tracker/blob/main/analysis/staffing-methodology.md)
+[Official staffing CSV](https://github.com/kiiiiiingdom/Australian-firearms-licensing-backlog-tracker/blob/main/data/staffing.csv) · [Staffing scope method](https://github.com/kiiiiiingdom/Australian-firearms-licensing-backlog-tracker/blob/main/analysis/staffing-methodology.md)
 
-## Other jurisdictions / 其他辖区
+## Other jurisdictions / 无连续可比指标的辖区
 
-ACT, NT, TAS and WA currently have policy, service-standard, throughput or point-in-time records but lack a sufficiently consistent current queue-date series for the national comparison. **Not published ≠ zero backlog.** / 缺少可比公开数据不代表没有积压。
+ACT, NT, TAS and WA currently hold official workflow, statutory or historical observations without a continuous comparable current processing-date series. Missing values do not mean zero backlog. / 缺少连续数据不代表不存在积压。
 
-[ACT](jurisdictions/ACT.md) · [NT](jurisdictions/NT.md) · [TAS](jurisdictions/TAS.md) · [WA](jurisdictions/WA.md)
-
-[Metric definitions](methodology/comparison-indices.md) · [Data freshness](methodology/data-freshness.md)
+[ACT](jurisdictions/ACT.md) · [NT](jurisdictions/NT.md) · [TAS](jurisdictions/TAS.md) · [WA](jurisdictions/WA.md) · [Methodology](methodology/comparison-indices.md)
