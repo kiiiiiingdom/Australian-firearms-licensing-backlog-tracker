@@ -40,4 +40,4 @@ The [national dashboard](docs/overview.md) separates **processing-date age**, **
 
 **Licensing:** Original repository software is [MIT licensed](LICENSE); the maintainers' original data compilation and charts are offered under [CC BY 4.0](DATA-LICENSE.md), to the extent rights are owned. This does **not** relicense third-party official excerpts. Citation metadata: [CITATION.cff](CITATION.cff).
 
-**Publication:** Repository remains PRIVATE; [release gate and history audit](docs/release-checklist.md) are not complete. GitHub Pages deployment is manual and disabled for private repositories. / 仓库尚未公开；完整历史及发布安全审计未完成，不应提前对外发布。
+**Publication:** Repository is now **PUBLIC** and the `main` ruleset is active. GitHub Pages has **not** been deployed; [remaining rights and website launch review](docs/release-checklist.md) is still required. / 仓库已公开且主分支规则生效；独立网站尚未部署，仍需完成第三方材料和网站发布复核。

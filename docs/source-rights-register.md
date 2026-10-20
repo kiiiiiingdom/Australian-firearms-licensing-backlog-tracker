@@ -1,6 +1,6 @@
 # Third-party source rights register / 第三方来源权利登记
 
-**Status: preliminary rights triage, not a legal clearance for public release.**
+**Status: preliminary rights triage. Repository is already PUBLIC; independent third-party reuse review remains pending before any separate website launch.**
 
 The maintainers' original data compilation may be CC BY 4.0; **that licence does not relicense any original government, police, parliamentary, audit-office, FOI or RTI material**. Each source remains governed by its publisher's rights, exclusions, attribution requirements and any applicable law. Retain source titles, URLs, capture dates and only brief necessary evidence excerpts.
 
@@ -36,6 +36,6 @@ The maintainers' original data compilation may be CC BY 4.0; **that licence does
 
 ## Per-source reviewer sign-off / 人工签核
 
-For each host and each exceptional document, record the publisher's exact rights page (and date), any exclusions, attribution, whether short quoted extracts can be reproduced, and reviewer decision. **All entries remain pending** until a person has completed this review.
+For each host and each exceptional document, record the publisher's exact rights page (and date), any exclusions, attribution, whether short quoted extracts can be reproduced, and reviewer decision. **Entries remain pending** until each source's terms and any document-specific exclusions are reviewed; a public repository is not a legal clearance.
 
 See [release checklist](release-checklist.md) and [data licence scope](https://github.com/kiiiiiingdom/Australian-firearms-licensing-backlog-tracker/blob/main/DATA-LICENSE.md).

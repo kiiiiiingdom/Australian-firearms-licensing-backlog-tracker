@@ -1,8 +1,8 @@
 # Preliminary pre-publication audit progress — 20 October 2026
 
-**Status: incomplete, not a clearance to make the repository public.**
+**Status update: repository became PUBLIC on 20 October 2026; candidate history scan passed, but human rights and privacy review is still incomplete.**
 
-Repository inspected: `kiiiiiingdom/Australian-firearms-licensing-backlog-tracker`; visibility remains **Private**.
+Repository inspected: `kiiiiiingdom/Australian-firearms-licensing-backlog-tracker`; visibility was **Private** at the time of the earlier audit; the repository has since become **PUBLIC**.
 
 ## Live connector observations
 
@@ -37,4 +37,4 @@ GitHub Actions [run 39363929339](https://github.com/kiiiiiingdom/Australian-fire
 - The scanner is **candidate-based** and its results are not comprehensive privacy certification. Review of uncaptured/unreachable objects, media contents, innocuously worded personal details, original-source copyright and any later Actions material remains outstanding.
 - An earlier job failed because the audit-only checkout did not retain its read-only private-repository authentication; this was corrected and the follow-up run passed.
 
-**Publication remains blocked pending independent human review and explicit approval.**
+**Separate GitHub Pages launch remains on hold pending independent human review.**

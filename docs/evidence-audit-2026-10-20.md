@@ -1,6 +1,6 @@
 # Evidence and publication audit — 20 October 2026
 
-**Status: NOT CLEARED FOR PUBLIC RELEASE.**
+**Status: repository already PUBLIC; standalone website launch and third-party reuse review NOT YET CLEARED.**
 
 ## Current committed evidence
 
@@ -22,7 +22,7 @@
 1. Check each official publisher's current reuse rules and any exceptions for individual PDFs, parliamentary records, logos and FOI excerpts.
 2. Inspect generated website and PR history for private data that would not match a keyword rule.
 3. Recheck original sources and metric dates, including quoted wording and context.
-4. Obtain explicit repository-owner approval before switching visibility and publishing Pages.
-5. Configure and verify main branch protection and publication workflow controls.
+4. Obtain explicit repository-owner approval before deploying the separate GitHub Pages site.
+5. Main branch ruleset is active; verify site deployment controls and inspect the built site.
 
-Keep the repository PRIVATE until all gates are cleared.
+Repository is already PUBLIC; avoid further dissemination of unreviewed excerpts and do not deploy Pages until remaining reviews are complete.
