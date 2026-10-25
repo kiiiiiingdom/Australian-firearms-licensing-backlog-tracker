@@ -8,6 +8,7 @@
 
 | Series / 业务 | Metric type / 口径 | Value / 数值 | Official as-at / 官方统计日 | Evidence / 证据 |
 |---|---|---|---|---|
+| `licence_application_processing_delay_advisory` | `workflow_policy` | applications may take up to 2 months policy | not stated / 未注明 | [official source](https://www.service.tas.gov.au/services/recreation-and-animals/firearms-gun-licence/apply-for-a-firearms-licence/) · [evidence](https://github.com/kiiiiiingdom/Australian-firearms-licensing-backlog-tracker/blob/main/evidence/TAS/2026-10-25/licence-processing-delay-advisory.txt) |
 | `licence_application_minimum_wait` | `minimum_wait_days` | 28 days | not stated / 未注明 | [official source](https://fas.police.tas.gov.au/obtaining-a-licence/eligibility/) · [evidence](https://github.com/kiiiiiingdom/Australian-firearms-licensing-backlog-tracker/blob/main/evidence/TAS/2026-10-09/licence-minimum-processing-time.txt) |
 | `licence_application_forms_release` | `workflow_policy` | new licence and renewal forms released policy | 2026-09-01 | [official source](https://fas.police.tas.gov.au/release-of-new-firearms-licence-application-forms/) · [evidence](https://github.com/kiiiiiingdom/Australian-firearms-licensing-backlog-tracker/blob/main/evidence/TAS/2026-09-01/forms-workflow.txt) |
 

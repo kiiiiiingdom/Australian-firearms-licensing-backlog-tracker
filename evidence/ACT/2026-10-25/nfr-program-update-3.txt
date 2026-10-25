@@ -1,0 +1,29 @@
+# ACT Government - National Firearms Register Program update 3
+jurisdiction: ACT
+observation_date: 2026-10-25
+source_updated_date: not stated (issue labelled October 2026 only)
+metric_date: not stated (no exact publication/as-at day)
+publication_period: October 2026
+metric_type: workflow_policy
+source_title: ACT National Firearms Register Program update - Update 3 - October 2026
+source_url: https://justiceandcommunitysafetydirectorate.cmail19.com/t/y-e-fthjiiy-hkcdruhlj-b/
+official_linking_page: https://police.act.gov.au/firearms/national-firearms-register
+source_kind: government newsletter; authored by ACT Government Justice and Community Safety Directorate, publicly linked by ACT Policing
+evidence_status: verified
+capture_method: followed the official ACT Policing October newsletter link and directly inspected the newsletter; checked current bill register pages separately
+snapshot_reference: none; short text extract only
+sha256: not applicable
+
+Exact short fragments:
+"Staff at the ACT Firearms Registry are working with IT experts on data remediation."
+"a Bill is being developed"
+
+Independent summary and date limitations:
+The digital-registry section describes staff and IT experts checking/updating firearms records for quality and consistency, aligned with national data standards. This documents preparation for digital integration, with no quantified staffing or demonstrated processing-time saving. The text describes development work; it does not establish that the digital registry is operational.
+The law-reform section describes development of a bill supporting NFR participation and the registry's digital uplift. It also says the February 2026 Public Safety and Firearm Prohibition Orders bills await debate. On retrieval, both primary ACT Legislation Register bill pages list the status as Before the Assembly:
+- https://www.legislation.act.gov.au/b/db_73940
+- https://www.legislation.act.gov.au/b/db_74005
+Those register pages show a site update on 24 October 2026. This corroborates the newsletter's pending-bill context at retrieval; it does not convert a proposed bill into commenced law. No applicant-facing legal advice is provided. No exact newsletter publication day is available, so CSV metric_date and source_updated_date remain blank. October 1 or October 31 must not be invented.
+
+Attribution/reuse: ACT Government Justice and Community Safety Directorate. The cmail19 host is an official linked distribution platform, not an independently assumed government domain. Only the two minimal verification fragments are quoted; remaining text is independently authored, with original links. No full newsletter, logos, images or blanket reuse permission is asserted; human source-rights review remains pending.
+Privacy check: no contact information or personal subscription/applicant data reproduced.

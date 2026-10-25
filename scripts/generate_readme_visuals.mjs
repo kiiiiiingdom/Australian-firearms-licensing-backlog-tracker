@@ -27,7 +27,7 @@ a.push(pill(1130,48,"8 JURISDICTIONS",col.blueLight,col.blue,295));
 a.push(T(49,157,"Same-jurisdiction trends only / 仅同一统计口径的数据可比较",18,col.muted,600));
 const infos=[
 ["SA","PROCESSING DATE",`New licence: ${fmt(sa.processing_date)}`,`Backlog age ${sa.backlog_age_days} days · as at ${fmt(sa.metric_date)}`,`Latest ${sa.elapsed_days}-day change: ${Number(sa.backlog_age_change_days)<0?"−":"+"}${Math.abs(Number(sa.backlog_age_change_days))} days`,col.teal,col.tealLight],
-["VIC","PROCESSING DATE",`New licence: ${fmt(vic.processing_date)}`,`Backlog age ${vic.backlog_age_days} days · as at ${fmt(vic.metric_date)}`,`Latest ${vic.elapsed_days}-day change: +${vic.backlog_age_change_days} days`,col.blue,col.blueLight],
+["VIC","PROCESSING DATE",`New licence: ${fmt(vic.processing_date)}`,`Backlog age ${vic.backlog_age_days} days · as at ${fmt(vic.metric_date)}`,`Latest ${vic.elapsed_days}-day change: ${Number(vic.backlog_age_change_days)<0?"−":"+"}${Math.abs(Number(vic.backlog_age_change_days))} days`,col.blue,col.blueLight],
 ["QLD","AVERAGE TIME",`New licence average: ${qNew.metric_value} weeks`,`PTA average ${qPta.metric_value} days · as at ${fmt(qNew.metric_date)}`,"Means, not a queue processing date",col.amber,col.amberLight],
 ["NSW","MONTHLY AVERAGE",`New licence average: ${nsw.metric_value} days`,`PTA ${nswPta.metric_value} days · renewal ${nswRenew.metric_value} days`,`Report period: ${fmt(nsw.metric_date)} · statutory wait included`,col.blue,col.blueLight],
 ["ACT","MINIMUM / POLICY","No verified comparable queue-age series",`PTA statutory minimum: ${act.metric_value} days`,"Minimum ≠ observed processing performance",col.gray,col.grayLight],

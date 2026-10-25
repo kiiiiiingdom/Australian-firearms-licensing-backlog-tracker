@@ -68,6 +68,7 @@ Examples include:
 - `workflow_policy` — official processing preconditions, prioritisation rules, workflow changes or system-transition statements that affect how applications are handled but do not themselves publish a waiting-time, queue-date or backlog-count metric.
 - `transition_count` / `transition_percentage` / `transition_deadline` — official measures of a statutory or administrative migration/transition program. These describe transition progress and must not be treated as a new-application backlog unless the source explicitly defines them that way.
 - `administrative_fee` — an official licence, permit or registration fee retained only where it is materially relevant to a licensing-policy or system-change record. Fee observations are contextual and do not measure processing performance.
+- `administrative_finance` — an official firearms-registry unit budget allocation, actual expenditure or service revenue, with the source amount preserved in AUD and a separate stable series for each measure. Use the financial reporting-period endpoint as `metric_date`; an answer's signature date belongs in provenance/notes. These whole-unit amounts are contextual: they are not staffing/FTE, application-assessment labour costs, ICT-only project funding, processing performance or a workforce denominator. Do not put them in staffing.csv's ICT-capacity funding columns or derive efficiency ratios from them.
 - `eligibility_policy` — an official change to who may qualify for a licence or permit or the genuine reasons available to them. This is legal/policy evidence, not processing performance.
 - `future_legal_requirement` — a future-dated requirement officially announced or legislated but not yet in force at the observation date. Preserve the announced date and any commencement-status qualification.
 - `permit_availability_policy` — an official change to whether a permit pathway exists or remains available. This is policy evidence, not a processing metric.
@@ -105,6 +106,10 @@ Interpretation:
 A single interval should not be treated as a structural trend. Rolling averages and longer windows are preferred.
 
 Workflow/policy observations must not receive backlog-age, processing-advance, speed-ratio or backlog-age-change calculations unless the official source also publishes a directly compatible quantitative processing metric. Policy effective dates should be stored as `metric_date` where explicitly stated; otherwise leave `metric_date` blank.
+
+An agency processing-delay advisory such as applications potentially taking up to two months is `workflow_policy` unless the source defines a measured statistical series. Preserve its wording and native unit; do not relabel it as an observed mean, guaranteed maximum or queue date. A date attached only to fees elsewhere on the page does not date the processing notice. Month-only newsletters retain their publication month in evidence/notes, with exact CSV date fields blank. A registry delivery expectation is a planning statement as at its dated source, with the target month separately expressed in the value/notes; it is not evidence of go-live or demonstrated time savings.
+
+Administrative-finance observations receive no queue calculations. A budget-minus-expenditure difference is a project calculation unless separately published by the authority; label it accordingly and preserve the two original amounts.
 
 Minimum-wait observations must not be interpreted as current backlog, observed average completion time or service performance. Administrative-fee observations are policy context only and receive no queue calculations.
 
