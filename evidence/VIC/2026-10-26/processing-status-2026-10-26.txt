@@ -1,0 +1,39 @@
+# Victoria Police - Firearms licensing
+jurisdiction: VIC
+observation_date: 2026-10-26
+source_updated_date: 2026-10-26 (whole-page footer)
+metric_date: 2026-10-26 (status table last-updated date)
+metric_type: processing_date
+source_title: Firearms licensing
+source_url: https://www.police.vic.gov.au/firearms-licensing
+source_kind: police
+evidence_status: verified
+capture_method: official page directly opened and read; status table and page footer independently located in the retrieved page
+snapshot_reference: none; minimal factual-cell transcription only, no HTML or binary snapshot committed
+sha256: not applicable
+
+Status table notice: Last updated 26 October 2026
+Exact factual table cells (separators added for transcription):
+New firearm licence applications | 18 June 2026
+Firearm licence renewal applications | 14 August 2026
+Online permit to acquire | 12 October 2026
+Manual permit to acquire | 09 October 2026
+Import permits | 07 October 2026
+Whole-page footer notice: Updated 26 October 2026
+
+Official qualifications, independently paraphrased:
+The dates are indicative. Complex applications and suitability concerns can lengthen processing; PTA processing can take up to 28 days. No completed-applicant mean or personal forecast is inferred.
+
+Derived arithmetic versus the preserved 18 October snapshot, in the same series:
+- New licence: elapsed 8 days; processing date advanced 3 days; lag 130 days; speed ratio 0.3750; lag change +5 days.
+- Renewal: elapsed 8 days; processing date advanced 3 days; lag 73 days; speed ratio 0.3750; lag change +5 days.
+- Online PTA: elapsed 8 days; processing date advanced 7 days; lag 14 days; speed ratio 0.8750; lag change +1 day.
+- Manual PTA: elapsed 8 days; processing date advanced 9 days; lag 17 days; speed ratio 1.1250; lag change -1 day.
+- Import: elapsed 8 days; processing date advanced 6 days; lag 19 days; speed ratio 0.7500; lag change +2 days.
+Prior evidence: evidence/VIC/2026-10-25/processing-status-2026-10-18.txt (included in open PR 15 at capture; not yet in protected main).
+
+Interpretation and limitations:
+Calculations use the table's official 26 October metric date and compare matching channels over the actual eight-day interval. No missing date is interpolated and prior captures remain unchanged. All processing dates advanced, but only the manual PTA lag shrank during this interval; this is interval arithmetic, not a structural or causal finding. Online/manual/import channels remain separate; only new, renewal and online PTA enter the established national category comparator. Official source dates drive freshness; retrieval date is retained separately even though the dates happen to match this time.
+
+Attribution/reuse: Victoria Police, original URL above. Only minimal factual cells needed for verification are transcribed; explanatory prose is independently authored. No full page, table image, logo, PDF or extended source prose is reproduced. No blanket open licence or completed source-specific rights clearance is asserted; existing human review requirements remain applicable.
+Privacy check: aggregate public processing-date categories only; no applicant or private employee information.

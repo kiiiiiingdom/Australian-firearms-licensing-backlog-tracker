@@ -1,0 +1,33 @@
+# NSW Parliament - Firearms administrative-review bill proposal
+jurisdiction: NSW
+observation_date: 2026-10-27
+source_updated_date: not stated
+metric_date: 2026-10-15 (official introduction and first-reading event date)
+metric_type: workflow_policy
+metric_unit: proposal
+series: ncat_administrative_review_bill_proposal
+source_title: Bill Details | Parliament of NSW
+bill_title: Firearms Amendment (Administrative Reviews by NCAT) Bill 2026
+source_url: https://www.parliament.nsw.gov.au/parliamentary-business/bills/bill-details?billId=18957
+supporting_explanatory_note_url: https://files.parliament.nsw.gov.au/fileapi/ParlFiles/GetArtifact?serverRelativeUrl=%2Fbill%2Ffiles%2F18957%2FXN_Firearms+Amendment+%28Administrative+Reviews+by+NCAT%29+Bill+2026.pdf
+supporting_first_print_url: https://files.parliament.nsw.gov.au/fileapi/ParlFiles/GetArtifact?serverRelativeUrl=%2Fbill%2Ffiles%2F18957%2FFirst+Print.pdf
+source_kind: parliament (official bill tracker and introduced bill/explanatory note)
+evidence_status: verified
+capture_method: directly read official bill-details page, followed its explanatory-note and first-print links; one-page explanatory note also downloaded temporarily, rendered with Poppler and visually checked
+snapshot_reference: no original PDF, HTML or image committed; minimal text extract only
+sha256: not applicable to this text extract
+
+Minimal exact tracker text (separator in event row added for transcription):
+"In Legislative Assembly, Second Reading, Debate adjourned 5 clear days, Thu 15 October 2026"
+"Introduced | Thu 15 October 2026"
+
+Exact short explanatory-note fragment, Overview of Bill (line breaks normalised):
+"administrative review by the Civil and Administrative Tribunal of certain decisions of the Commissioner of Police relating to firearms."
+
+Independent summary and scope:
+The tracker identifies a private member's bill introduced in the Legislative Assembly on 15 October 2026. It records the second-reading debate as adjourned. The explanatory note describes proposed NCAT administrative review for certain Commissioner of Police firearms decisions; its Schedule 1 explanation says the proposal would replace the current Part 8 with an amended earlier version. The first print's proposed section 76 specifies categories and exclusions; this is not an unrestricted review entitlement for every firearms decision.
+This is a verified fact about an introduced proposal and the status displayed by the official tracker, not verification of enacted law or a newly available application pathway. The first-print cover contains generic, undated parliamentary passage-form language; that form is not evidence the bill passed. The retrieved tracker lists no assent event and retains the adjourned second-reading status. Its surrounding calendar widget shows 25 October, so the page is not represented as a real-time 27 October legislative-status certificate. No updated or commencement date is inferred from retrieval.
+The CSV metric date is the official 15 October introduction event, not the 27 October archive capture. The value and unit visibly label the record as a pending proposal. No processing date, measured time, backlog count, staffing value, causal time-saving claim, personal legal advice or queue calculation is supplied. This missing administrative-review context was deduplicated against both protected main and existing unmerged PR 15 before addition.
+
+Attribution/reuse: Parliament of New South Wales, original tracker and official bill documents linked above. Only the minimal verification fragments are quoted; other text is independently authored. This is Parliament's bill/explanatory material, not a third-party committee submission. No full document, crest, image, signature or extended speech is republished; document-specific reuse conditions and existing human rights review remain applicable.
+Privacy check: no applicant details, individual case material or private employee information retained.

@@ -1,0 +1,25 @@
+# South Australia Police - Status of my application
+jurisdiction: SA
+observation_date: 2026-10-25
+source_updated_date: 2026-10-23
+metric_date: 2026-10-23
+metric_type: processing_date
+source_title: SAPOL - Status of my application
+source_url: https://www.police.sa.gov.au/services-and-events/firearms-and-weapons/status-of-my-application
+source_kind: police
+evidence_status: verified
+capture_method: direct official-page inspection with web open; table and update line read together
+snapshot_reference: none; minimal text extract only, no HTML or binary snapshot committed
+sha256: not applicable
+
+Exact table cells and date notice (table separators are transcription formatting):
+Firearms licence renewals | 10 September 2026
+Permits to acquire a firearm | 21 September 2026
+Firearms licence application | 25 February 2026
+Updated (23 October 2026)
+
+Interpretation and limitations:
+The table describes the submission dates currently being processed, using an on-and-after scope. The live official page now agrees with the 23 October search-index lead; verification is based on the directly opened page, not a search snippet. The 16 October values in the handoff were not independently recovered and are not inserted. The immediately previous archived comparable snapshot is 9 October, so derived changes span 14 days. No missing week is interpolated. Queue-date lag is not a completed-applicant mean or an individual forecast.
+
+Attribution/reuse: Based on: South Australia Police material. Dates and arithmetic are compiled by this project; see the original page and https://www.police.sa.gov.au/copyright . No logos, images or full page reproduced; no official endorsement implied.
+Privacy check: aggregate published queue dates only; no individual applicant or employee data.

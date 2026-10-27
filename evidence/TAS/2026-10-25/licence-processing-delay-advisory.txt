@@ -1,0 +1,22 @@
+# Service Tasmania - Apply for a firearms licence
+jurisdiction: TAS
+observation_date: 2026-10-25
+source_updated_date: not stated for processing notice
+metric_date: not stated
+metric_type: workflow_policy (qualitative delay advisory with an indicative duration)
+source_title: Apply for a firearms licence | Service Tasmania
+source_url: https://www.service.tas.gov.au/services/recreation-and-animals/firearms-gun-licence/apply-for-a-firearms-licence/
+source_kind: government
+evidence_status: verified
+capture_method: direct inspection of the official Service Tasmania page, About applying for a firearms licence section
+snapshot_reference: none; short text extract only
+sha256: not applicable
+
+Exact notice:
+"Important: There are currently delays impacting the processing of firearms licences. Applications may take up to 2 months to be processed."
+
+Interpretation and limitations:
+This is an agency advisory, not a measured mean, guaranteed maximum, queue submission date, backlog count or completed-licence cohort statistic. Preserve months rather than converting to an assumed number of days. The page separately describes training after initial approval; do not infer that the notice measures every later training/issue step. The 1 July 2026 date on the fees section dates fee information only and is not used to date this processing notice. Both metric_date and source_updated_date remain blank. No individual applicant projection is made.
+
+Attribution/reuse: Service Tasmania, Tasmanian Government, original page linked above. Minimal research quotation with independent explanation only; no full page, form, logo or image reproduced. Host/document-specific permission has not been asserted; human source-rights review remains pending.
+Privacy check: no applicant or staff personal information.

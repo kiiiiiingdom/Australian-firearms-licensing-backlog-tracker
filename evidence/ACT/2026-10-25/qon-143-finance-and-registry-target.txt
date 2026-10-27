@@ -1,0 +1,30 @@
+# ACT Legislative Assembly - Estimates QON No. 143
+jurisdiction: ACT
+observation_date: 2026-10-25
+source_updated_date: not stated
+answer_signed_date: 2026-08-24
+financial_metric_period: 2025-07-01 to 2026-06-30 (FY2025-26)
+registry_target_statement_as_of: 2026-08-24
+metric_type: administrative_finance; workflow_policy
+source_title: QON 143 Answer - MPES - Firearms - MILLIGAN
+source_url: https://www.parliament.act.gov.au/__data/assets/pdf_file/0008/3118247/QON-143-Answer-MPES-Firearms-MILLIGAN.pdf
+discovery_url: https://www.parliament.act.gov.au/parliamentary-business/in-committees/committees-11th-assembly/select-committee-on-estimates-2026-2027
+source_kind: parliament (ministerial answer, not a third-party submission)
+evidence_status: verified
+capture_method: original three-page PDF read directly; pages 2 and 3 also downloaded temporarily, rendered with Poppler and visually inspected for table-column alignment and handwritten signature date
+snapshot_reference: no binary snapshot committed; original linked above
+sha256: not applicable to this text extract
+
+Minimal exact source cells/fragments:
+Page 2, FY2025-26 column: "Budget" / "998,249"; "Actual" / "893,684".
+Page 3, revenue table: "2025-26" / "$450,345".
+Page 3, answer 7: "national target date of July 2028".
+Page 3, handwritten signature date: "24/8/26".
+
+Independent factual transcription and scope:
+FY2025-26 ACT Firearms Registry budget allocation: AUD 998,249; actual expenditure: AUD 893,684; services revenue: AUD 450,345. The column and row associations were visually verified. The financial metric date is 30 June 2026, not the answer's signature date or retrieval date. The budget-minus-actual difference is AUD 104,565, calculated here rather than published as a separate official metric; no derived difference row is added.
+Answer 7 states the Government expects the digital registry system to be established by the July 2028 national target. This is an expectation recorded as at the signed answer, not a completed implementation or an exact 1 July deadline.
+Answer 6 describes a wider registry remit including licensing, renewals, permits, club regulation, training/compliance, storage and destruction. The amounts are whole-unit financial context, not approval labour costs, workforce/FTE figures, an ICT-only project budget, or evidence of queue efficiency. They belong in observations.csv under the documented administrative_finance type; staffing.csv is unchanged.
+
+Attribution/reuse: ACT Legislative Assembly; ministerial answer to Estimates QON No. 143. Only factual cells and minimal fragments are reproduced for research verification; no full PDF, signature image or other image is republished. No blanket reuse licence or final rights clearance is asserted; source-specific human review remains pending.
+Privacy check: no applicant details, employee-level data or signature image retained in repository.

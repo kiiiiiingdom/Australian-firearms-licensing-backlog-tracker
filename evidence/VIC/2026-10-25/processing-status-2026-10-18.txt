@@ -1,0 +1,31 @@
+# Victoria Police - Firearms licensing
+jurisdiction: VIC
+observation_date: 2026-10-25
+source_updated_date: 2026-10-19 (whole-page footer)
+metric_date: 2026-10-18 (status table's own last-updated date)
+metric_type: processing_date
+source_title: Firearms licensing
+source_url: https://www.police.vic.gov.au/firearms-licensing
+source_kind: police
+evidence_status: verified
+capture_method: direct official-page inspection with web open; status table and footer read separately
+snapshot_reference: none; minimal table-cell transcription only, no HTML or binary snapshot committed
+sha256: not applicable
+
+Status table notice: Last updated 18 October 2026
+Exact factual table cells (separators added for transcription):
+New firearm licence applications | 15 June 2026
+Firearm licence renewal applications | 11 August 2026
+Online permit to acquire | 05 October 2026
+Manual permit to acquire | 30 September 2026
+Import permits | 01 October 2026
+Whole-page footer notice: Updated 19 October 2026
+
+Official qualification, independently paraphrased:
+Victoria Police describes the dates as indicative; case complexity or suitability concerns can lengthen processing, and PTA processing can take up to 28 days.
+
+Interpretation and limitations:
+Use the table's 18 October date for queue arithmetic, not the later whole-page update or the 25 October retrieval. Existing series identifiers and the online/manual/import distinctions are preserved. Each comparison is against the same series on 12 October (six elapsed days). The import date did not advance in this interval; this alone does not establish persistent inactivity. Only new, renewal and online PTA are used in the established national comparator.
+
+Attribution/reuse: Victoria Police, linked above. Only source-defined factual cells needed for verification are transcribed; no extended prose, full page, images or official PDF is reproduced. No blanket CC licence or completed individual-source rights clearance is asserted; minimal research quotation remains subject to the repository's human source-rights review.
+Privacy check: published aggregate queue dates only.
