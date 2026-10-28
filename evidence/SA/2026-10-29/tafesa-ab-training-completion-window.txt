@@ -1,0 +1,32 @@
+# TAFE SA - A/B training completion window
+jurisdiction: SA
+observation_date: 2026-10-29 (Australia/Adelaide; retrieval began 2026-10-28 UTC)
+source_updated_date: not stated for the course description
+metric_date: not stated; no effective or reporting date supplied for this requirement
+metric_type: workflow_policy
+series: tafesa_ab_training_completion_after_letter_issue
+source_title: Firearm Safety Training - Category AB - Fitness, Sport and Recreation - TAFE SA
+source_url: https://www.tafesa.edu.au/xml/course/sc/sc_T984450610.aspx
+source_kind: government (TAFE SA public training provider)
+supporting_provenance_title: SA.GOV.AU - About TAFE SA
+supporting_provenance_url: https://www.sa.gov.au/topics/education-and-learning/vocational-education-and-training/tafe-sa
+rights_notice_url: https://www.tafesa.edu.au/copyright
+evidence_status: verified
+capture_method: directly retrieved original course page and inspected its Description section; separately read the SA.GOV.AU provider listing and TAFE SA's own website copyright notice
+snapshot_reference: minimal text extract only; no full page, course workbook, schedule, PDF or image committed
+sha256: not applicable to an original binary; no original binary retained
+
+## Exact official wording
+"Your training must be completed within 6 months of the issue date on your letter."
+
+## Independent summary and scope
+The TAFE SA A/B course description specifies a six-calendar-month window for completing the approved training, measured from the SAPOL approval letter's issue date. It is a completion requirement, not merely a course-registration window. The same description requires the approval letter for enrolment; the government service index links directly to TAFE SA and describes the public training system.
+This record is limited to the published TAFE SA Category AB course. It does not establish a universal deadline for every training provider, licence category, club pathway or other request in a letter. No automatic extension, pause, exemption or consequence of a missed deadline is verified here. It is not a measured licensing delay, statutory minimum wait, licence term, permit validity period or staffing measure. Calendar months are preserved without converting them to a fixed day count.
+No issue/effective date is stated for the policy text. The course's individual future offering dates and registration closing dates do not date the policy. The SA.GOV.AU provider-directory update of 6 January 2026 dates that supporting directory only. Both exact CSV source-date fields remain blank; 29 October is the archive retrieval date, not a policy commencement date. This is a newly verified archive entry, not a claim of a newly introduced rule.
+
+## Attribution and reuse
+TAFE SA, the Government of South Australia, Firearm Safety Training - Category AB, sourced on 29 October 2026, https://www.tafesa.edu.au/xml/course/sc/sc_T984450610.aspx . The quoted sentence is unchanged; the surrounding scope notes are independently authored. No government endorsement is implied.
+TAFE SA's website notice identifies qualifying website content as CC BY 3.0 Australia, with exceptions for the emblem, images, trademarks and third-party material; specific page/product terms can override the general notice. Only a minimal attributed text fragment is retained. Course materials, workbooks, imagery and third-party rights are not claimed to be cleared or sublicensed. Individual-document human review remains applicable.
+
+## Privacy check
+No individual application dates, applicant identifiers, private correspondence, case-specific forecast, employee details, course enrolment records or signatures are included.

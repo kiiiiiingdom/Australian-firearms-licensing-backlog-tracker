@@ -111,6 +111,8 @@ An officially introduced administrative-review proposal may be retained as `work
 
 An agency processing-delay advisory such as applications potentially taking up to two months is `workflow_policy` unless the source defines a measured statistical series. Preserve its wording and native unit; do not relabel it as an observed mean, guaranteed maximum or queue date. A date attached only to fees elsewhere on the page does not date the processing notice. Month-only newsletters retain their publication month in evidence/notes, with exact CSV date fields blank. A registry delivery expectation is a planning statement as at its dated source, with the target month separately expressed in the value/notes; it is not evidence of go-live or demonstrated time savings.
 
+A provider/category-specific training-completion window anchored to an approval letter's issue date is `workflow_policy`, not a licensing processing-time measure, statutory minimum wait, licence term or permit validity period. Preserve calendar months without converting them to a fixed day count. A course offering or enrolment closing date does not date the underlying rule. Keep source-date fields blank if no policy publication/effective date is stated, and do not infer extension rights or applicability to other providers/categories.
+
 Administrative-finance observations receive no queue calculations. A budget-minus-expenditure difference is a project calculation unless separately published by the authority; label it accordingly and preserve the two original amounts.
 
 Minimum-wait observations must not be interpreted as current backlog, observed average completion time or service performance. Administrative-fee observations are policy context only and receive no queue calculations.
