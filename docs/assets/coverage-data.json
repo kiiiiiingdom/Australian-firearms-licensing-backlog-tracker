@@ -449,8 +449,15 @@
           "record_count": 0
         },
         "staffing": {
-          "status": "no_record",
-          "record_count": 0
+          "status": "undated",
+          "source_date": "",
+          "age_days": null,
+          "metric_type": "recruitment_positions",
+          "series": "",
+          "record_count": 1,
+          "description": "recruitment positions",
+          "source_url": "https://jobs.nt.gov.au/Home/JobDetails?rtfId=358166",
+          "evidence_path": "evidence/NT/2026-10-29/registry-team-leader-recruitment.txt"
         },
         "context": {
           "status": "older_90",

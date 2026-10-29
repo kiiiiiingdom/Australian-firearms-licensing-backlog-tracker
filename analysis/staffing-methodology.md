@@ -87,6 +87,8 @@ Temporal association does not establish causation. Official explanations and oth
 
 Vacancy advertisements are recorded only as evidence of recruitment activity. A vacancy count does not prove the number of current vacancies, filled positions, resignations or net workforce growth unless an official source explicitly states that relationship.
 
+An advertised closing date is recruitment metadata, not a staffing as-at date or publication date. If an advertisement gives no relevant official snapshot date, leave `as_of_date` blank and retain the closing date in the evidence and notes. A software-version/footer timestamp does not date the advertisement. An expired advertisement can document historical recruitment activity without establishing that a vacancy remains open or that an appointment was made.
+
 ## Privacy
 
 No individual employee names are required for this dataset. Where a source lists named personnel, the tracker should generally preserve only aggregate staffing information unless a named office-holder is necessary to understand an official organisational structure.
