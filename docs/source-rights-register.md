@@ -1,6 +1,6 @@
 # Third-party source rights register / 第三方来源权利登记
 
-**Status: source-host notices reviewed where available; individual-document reuse still requires checking. The repository is PUBLIC, while the separate GitHub Pages site has not yet been launched.**
+**Status: source-host notices reviewed where available; individual-document reuse still requires checking. The repository and separate GitHub Pages site are PUBLIC ([successful release, 27 October 2026](https://github.com/kiiiiiingdom/Australian-firearms-licensing-backlog-tracker/actions/runs/40426911332)). Publication does not establish third-party rights clearance.**
 
 The maintainers' original compilation and analysis can have their own licence, but **official excerpts, FOI responses, parliamentary records, logos, images and PDFs are not sublicensed by this project**. Data facts and independently authored summaries should be distinguished from verbatim reproductions.
 
@@ -8,7 +8,7 @@ The maintainers' original compilation and analysis can have their own licence, b
 
 ## Source-host notices / 来源网站版权条款
 
-Structured-record counts refreshed on **2026-10-27**. Existing host notices below were reviewed on 2026-10-20; new ACT and Service Tasmania entries record provenance and minimal-extract limitations, not completed rights clearance.
+Structured-record counts refreshed on **2026-10-29**. Existing host notices below were reviewed on 2026-10-20; ACT and Service Tasmania entries record provenance and minimal-extract limitations, not completed rights clearance. The TAFE SA host notice and government-provider provenance were separately checked on 2026-10-29; exceptions and individual-document review remain applicable. The NT recruitment page's copyright footer and general NT Government notice were also inspected on 2026-10-29; their scope does not establish a host-wide reuse licence for recruitment material.
 
 | Source host | Records | Host-level notice and verified scope | Individual-document decision |
 |---|---:|---|---|
@@ -30,8 +30,10 @@ Structured-record counts refreshed on **2026-10-27**. Existing host notices belo
 | www.parliament.act.gov.au | 4 | [Estimates QON No. 143](https://www.parliament.act.gov.au/__data/assets/pdf_file/0008/3118247/QON-143-Answer-MPES-Firearms-MILLIGAN.pdf) is an official ministerial answer, linked by the Assembly's Estimates committee index. Only the FY2025-26 factual cells and minimal target/date fragments are extracted, with independent scope notes. | **Pending**: minimal research extract; no full PDF, signature image, whole table or blanket licence claim; human document-specific review remains required |
 | justiceandcommunitysafetydirectorate.cmail19.com | 2 | [Update 3, October 2026](https://justiceandcommunitysafetydirectorate.cmail19.com/t/y-e-fthjiiy-hkcdruhlj-b/) is authored by the ACT Government Justice and Community Safety Directorate and publicly linked from [ACT Policing](https://police.act.gov.au/firearms/national-firearms-register). This official link establishes distribution provenance for the non-government host. | **Pending**: two short verification fragments and independent summaries only; no whole newsletter or imagery; exact publication day unstated and no blanket licence inferred |
 | www.service.tas.gov.au | 1 | [Service Tasmania's licence page](https://www.service.tas.gov.au/services/recreation-and-animals/firearms-gun-licence/apply-for-a-firearms-licence/) is an official government source. Only the short processing-delay advisory is retained; fee dates do not establish its publication date. | **Pending**: minimal research quotation with attribution and original URL; no verified host-wide reuse licence or whole-page reproduction |
+| www.tafesa.edu.au | 1 | [TAFE SA copyright](https://www.tafesa.edu.au/copyright): **CC BY 3.0 Australia** for qualifying website content, with emblem, image, trademark and third-party exceptions; specific page/product terms prevail. [SA.GOV.AU](https://www.sa.gov.au/topics/education-and-learning/vocational-education-and-training/tafe-sa) identifies the government-run provider and links its domain. | **Conditional**: minimal attributed A/B course-description text only; preserve the provider/category scope and retrieval date; no course workbook, image, third-party work or blanket attachment clearance |
+| jobs.nt.gov.au | 1 | [Original government recruitment notice](https://jobs.nt.gov.au/Home/JobDetails?rtfId=358166) identifies NT Police Force and its firearms unit and carries a Northern Territory of Australia copyright footer. The [general NT Government notice](https://nt.gov.au/page/copyright-disclaimer-and-privacy) describes restrictions, research/review exceptions and overriding specific licence terms; it is not proof of an open licence for this separate recruitment host or its attachments. | **Restricted / review required**: minimal factual count field and independent summary only; original URL and attribution retained; no full advertisement, job-description attachment, imagery or personal contact details; individual-document review pending |
 
-**Coverage: 176 structured records (151 observations, 25 staffing records), 18 hosts.** This is a count of entries, not unique copyrighted documents. A checked **host notice does not imply that any particular extract has completed human copyright review**.
+**Coverage: 178 structured records (152 observations, 26 staffing records), 20 hosts.** This is a count of entries, not unique copyrighted documents. A checked **host notice does not imply that any particular extract has completed human copyright review**.
 
 ## Practical safe-use policy / 发布时的实际处理规则
 
