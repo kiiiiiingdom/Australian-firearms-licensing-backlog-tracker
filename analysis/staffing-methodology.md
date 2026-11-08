@@ -92,3 +92,7 @@ An advertised closing date is recruitment metadata, not a staffing as-at date or
 ## Privacy
 
 No individual employee names are required for this dataset. Where a source lists named personnel, the tracker should generally preserve only aggregate staffing information unless a named office-holder is necessary to understand an official organisational structure.
+
+## Turnover context without a matching numeric field
+
+A historical total of staff who vacated positions can be retained as staff_turnover_context / context_only, preserving its original total and stated interval in quotation/notes. Do not map it into headcount, FTE or vacancies. The as-of date can be the explicitly stated interval endpoint, with its meaning stated. Bare answer numbers without their complete source questions remain unclassified. Such context does not fill the coverage matrix's requirement for an actual staffing measure.

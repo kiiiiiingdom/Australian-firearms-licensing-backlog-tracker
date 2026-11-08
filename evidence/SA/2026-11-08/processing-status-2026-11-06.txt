@@ -1,0 +1,28 @@
+# OFFICIAL SOURCE EVIDENCE EXTRACT
+jurisdiction: SA
+observation_date: 2026-11-08
+observation_timezone: Australia/Adelaide
+capture_utc_date: 2026-11-08
+source_updated_date: 2026-11-06
+metric_date: 2026-11-06
+metric_type: processing_date
+series: firearms_licence_application; firearms_licence_renewal; permit_to_acquire
+source_title: SAPOL - Status of my application
+source_url: https://www.police.sa.gov.au/services-and-events/firearms-and-weapons/status-of-my-application
+source_kind: police
+evidence_status: verified
+capture_method: independently inspected the live official browser tab, its URL, three-row table and dated update notice; no reliance on the user transcription or search excerpt alone
+snapshot_reference: none; minimal factual extract and original summary only
+sha256: not applicable; no original binary or whole page stored
+
+## Minimal official wording / factual cells
+Firearms licence application: 19 March 2026
+Firearms licence renewals: 30 September 2026
+Permits to acquire a firearm: 29 September 2026
+Updated (06 November 2026)
+
+## Scope, dates and limitations
+The original page was independently read in the normal Chrome browser. Its three-row table and 6 November update match these values. The separate web reader continued to return an older 30 October cache, which is not used to date this snapshot. These are submitted-on-and-after processing dates, not mean completion times, throughput or oldest pending cases. No online/manual PTA split is supplied. Compare only with the preceding valid 30 October records over seven actual days. New-licence date advances three days while queue-date lag increases four days; the source gives no explanation for that interval and it does not measure days worked or application counts. The unverified 16 October historical leads remain excluded. Chart attribution: Based on: South Australia Police material.
+
+## Attribution and privacy
+Attribution: the issuing authority identified above. Only necessary factual cells or a short verification fragment are retained, with independently authored scope notes. No whole document, image, signature, employee contact, applicant detail or personal forecast is stored. Existing source-rights-register conditions and document-specific review remain applicable; no new open-licence or completed-clearance claim is made.

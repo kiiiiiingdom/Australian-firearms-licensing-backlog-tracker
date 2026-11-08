@@ -1,0 +1,25 @@
+# OFFICIAL SOURCE EVIDENCE EXTRACT
+jurisdiction: TAS
+observation_date: 2026-11-08
+observation_timezone: Australia/Adelaide
+capture_utc_date: 2026-11-08
+source_updated_date: not stated
+metric_date: 2026-03-23
+metric_type: administrative_review_caseload
+series: firearms_services_review_team_managed_files
+source_title: RTI 190/26
+source_url: https://www.police.tas.gov.au/uploads/RTI-19026.pdf
+source_kind: official disclosure
+evidence_status: verified
+capture_method: directly inspected the original official two-page RTI PDF and the official disclosure-log entry
+snapshot_reference: none; minimal factual extract and original summary only
+sha256: not applicable; no original binary or whole page stored
+
+## Minimal official wording / factual cells
+(as at 23 March 2026) there are 935 licence files
+
+## Scope, dates and limitations
+The Firearms Services Review Team manages 935 licence files as at 23 March 2026. This mixed caseload includes reviews linked to offending, family-violence-order suspensions, administrative review of cancellation and licence conditions requiring annual reporting. It is not 935 people awaiting suspension decisions, the total new/renewal/PTA backlog, staff headcount or throughput. The authority says the specific requested suspension-decision count is not centrally recorded and cannot be given as an absolute answer. The disclosure log lists release on 16 April 2026; that release date is separate from the 23 March metric date and is not a webpage-update date. No exact publication metadata is invented.
+
+## Attribution and privacy
+Attribution: the issuing authority identified above. Only necessary factual cells or a short verification fragment are retained, with independently authored scope notes. No whole document, image, signature, employee contact, applicant detail or personal forecast is stored. Existing source-rights-register conditions and document-specific review remain applicable; no new open-licence or completed-clearance claim is made.
