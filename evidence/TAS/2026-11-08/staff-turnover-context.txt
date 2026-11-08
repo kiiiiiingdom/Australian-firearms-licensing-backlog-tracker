@@ -1,0 +1,27 @@
+# OFFICIAL SOURCE EVIDENCE EXTRACT
+jurisdiction: TAS
+observation_date: 2026-11-08
+observation_timezone: Australia/Adelaide
+capture_utc_date: 2026-11-08
+source_updated_date: not stated
+metric_date: 2025-10-16
+metric_type: staff_turnover_context
+unit: Firearms Services
+as_of_date: 2025-10-16
+scope: exact_firearms_unit
+source_title: RTI 541/25
+source_url: https://www.police.tas.gov.au/uploads/RTI-54125.docx
+source_kind: official disclosure
+evidence_status: context_only
+capture_method: read the official DOCX through one successful HTTPS GET and parsed its document XML entirely in memory; no original DOCX, image or signature saved
+snapshot_reference: none; minimal factual extract and original summary only
+sha256: not applicable; no original binary or whole page stored
+
+## Minimal official wording / factual cells
+Firearms Services between 2023 and 16 October 2025 are 6.
+
+## Scope, dates and limitations
+The answer expressly reports six staff who vacated Firearms Services positions between 2023 and 16 October 2025. The as-of date is the stated interval endpoint, not a current workforce snapshot. The original request questions for bare answer labels such as 1(a), 1(b) and item 3 are not supplied in this attachment; their isolated numbers and six-month phrase are not assigned staffing or training measures. Six departures do not establish resignations, net workforce loss, current vacancies, filled headcount or FTE. With no approved turnover-count column, keep this as context_only, with the exact six and interval preserved in quotation/notes; all workforce-number columns stay blank. The official log release date is 28 October 2025, separate from the interval endpoint.
+
+## Attribution and privacy
+Attribution: the issuing authority identified above. Only necessary factual cells or a short verification fragment are retained, with independently authored scope notes. No whole document, image, signature, employee contact, applicant detail or personal forecast is stored. Existing source-rights-register conditions and document-specific review remain applicable; no new open-licence or completed-clearance claim is made.

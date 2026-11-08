@@ -1,0 +1,25 @@
+# OFFICIAL SOURCE EVIDENCE EXTRACT
+jurisdiction: WA
+observation_date: 2026-11-08
+observation_timezone: Australia/Adelaide
+capture_utc_date: 2026-11-08
+source_updated_date: 2026-11-05
+metric_date: 2026-12-24
+metric_type: workflow_policy
+series: cannington_licensing_office_holiday_closure
+source_title: Licensing Services (Firearms)
+source_url: https://www.wa.gov.au/organisation/western-australia-police-force/licensing-services-firearms
+source_kind: government
+evidence_status: verified
+capture_method: directly inspected the original government page holiday notice and its update metadata
+snapshot_reference: none; minimal factual extract and original summary only
+sha256: not applicable; no original binary or whole page stored
+
+## Minimal official wording / factual cells
+3pm on Thursday 24/12/2026 ... 8am on Monday 4/1/2027
+
+## Scope, dates and limitations
+A future announced office-service closure, in Cannington local time: 24 December 2026 at 15:00 through reopening on 4 January 2027 at 08:00. The closure-start date is the future metric date; 5 November is the page update, not the closure date. The notice only identifies this office. It does not establish a statewide or back-office assessment shutdown, applicant-deadline extension, processing-time effect or a South Australian closure. Coverage must flag this future event, not turn the retrieval date into current policy freshness.
+
+## Attribution and privacy
+Attribution: the issuing authority identified above. Only necessary factual cells or a short verification fragment are retained, with independently authored scope notes. No whole document, image, signature, employee contact, applicant detail or personal forecast is stored. Existing source-rights-register conditions and document-specific review remain applicable; no new open-licence or completed-clearance claim is made.

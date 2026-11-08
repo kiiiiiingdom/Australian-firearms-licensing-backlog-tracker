@@ -1,0 +1,32 @@
+# OFFICIAL SOURCE EVIDENCE EXTRACT - NT recruitment advertisement
+jurisdiction: NT
+observation_date: 2026-10-29
+retrieved_at_utc: 2026-10-29 (Australia/Adelaide observation date above)
+source_updated_date: not stated for this advertisement
+as_of_date: not stated
+advertised_closing_date: 2026-10-14
+metric_type: recruitment_positions
+scope: exact_firearms_unit
+authority: NT Police Force
+unit: Firearms Policy and Recording Unit
+source_title: Jobs - Firearms Registry Team Leader
+source_url: https://jobs.nt.gov.au/Home/JobDetails?rtfId=358166
+source_kind: official government recruitment notice
+evidence_status: verified
+capture_method: directly inspected the original NT Government recruitment page, including the agency, work unit, advertised count, closing date and footer
+snapshot_reference: none; minimal field extract only
+sha256: not applicable; no original binary stored
+
+## Exact short official field (line break retained)
+Number of Vacancies:
+1
+
+## Independent factual summary and limitations
+The notice advertises one ongoing full-time AO6 team-leader role in the named firearms unit. This is a recruitment count for this advertisement, not the unit's total vacancies, filled headcount, FTE, funded establishment, or net workforce growth. The original page was retrieved after its advertised closing date; no appointment outcome or present availability is established.
+The closing date is retained as recruitment metadata only, not as a staffing snapshot or publication date. No advertisement-specific publication/update/as-at date is stated, so the staffing CSV as_of_date remains blank. The footer's August software-version update is not treated as a date for this recruitment exercise.
+
+## Attribution, provenance and reuse
+NT Government recruitment service; hiring agency NT Police Force. The original government-domain page identifies the hiring agency and unit and carries a Northern Territory of Australia copyright footer. The general NT Government copyright notice at https://nt.gov.au/page/copyright-disclaimer-and-privacy was separately inspected: it describes restrictions, research/review exceptions and overriding specific licence terms. No reusable licence for all jobs.nt.gov.au material or attached job descriptions has been established. Only the minimal factual count field and an independent summary are retained; document-specific human review remains pending. No full advertisement, attachment, logo, salary table or imagery is copied.
+
+## Privacy
+Personal contact names, telephone numbers, email addresses and all applicant information are omitted.

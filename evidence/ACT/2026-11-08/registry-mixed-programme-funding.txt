@@ -1,0 +1,25 @@
+# OFFICIAL SOURCE EVIDENCE EXTRACT
+jurisdiction: ACT
+observation_date: 2026-11-08
+observation_timezone: Australia/Adelaide
+capture_utc_date: 2026-11-08
+source_updated_date: not stated
+metric_date: not stated
+metric_type: administrative_programme_funding
+series: act_firearms_registry_mixed_programme_funding
+source_title: ACT Policing: Annual Report 2025-26
+source_url: https://police.act.gov.au/about-us/annual-reports/act-policing-annual-report-2025-26?SQ_VARIATION_347901=0
+source_kind: police
+evidence_status: verified
+capture_method: directly inspected the original official annual-report HTML and its firearms programme funding paragraph
+snapshot_reference: none; minimal factual extract and original summary only
+sha256: not applicable; no original binary or whole page stored
+
+## Minimal official wording / factual cells
+receiving $16.339 million over 5 years
+
+## Scope, dates and limitations
+The Community safety-focused firearms approach section reports that Cabinet agreed to the ACT Firearms Registry build and implementation in March 2026. ACT Policing and the AFP receive the combined 16.339 million Australian dollars over five years for AFP-led technical development and ACT Policing operational uplift. The technical/operational split is not published. This is a mixed programme funding commitment, not pure ICT expenditure, an annual registry operating budget, staffing/FTE or demonstrated processing improvement. March has no exact day, and the report publication day is not independently established: both exact date fields remain blank. Preserve 16.339 in AUD_million; do not invent a March day or annualise the amount. Newly archived historical evidence is not a new November funding announcement.
+
+## Attribution and privacy
+Attribution: the issuing authority identified above. Only necessary factual cells or a short verification fragment are retained, with independently authored scope notes. No whole document, image, signature, employee contact, applicant detail or personal forecast is stored. Existing source-rights-register conditions and document-specific review remain applicable; no new open-licence or completed-clearance claim is made.
