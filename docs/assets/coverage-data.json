@@ -1,6 +1,6 @@
 {
   "generated_from": "verified committed CSV records",
-  "snapshot_date": "2026-11-08",
+  "snapshot_date": "2026-11-18",
   "categories": [
     {
       "key": "new_queue",
@@ -52,36 +52,36 @@
       "cells": {
         "new_queue": {
           "status": "within_30",
-          "source_date": "2026-11-06",
-          "age_days": 2,
+          "source_date": "2026-11-13",
+          "age_days": 5,
           "metric_type": "processing_date",
           "series": "firearms_licence_application",
-          "record_count": 8,
-          "description": "232 d lag",
+          "record_count": 9,
+          "description": "218 d lag",
           "source_url": "https://www.police.sa.gov.au/services-and-events/firearms-and-weapons/status-of-my-application",
-          "evidence_path": "evidence/SA/2026-11-08/processing-status-2026-11-06.txt"
+          "evidence_path": "evidence/SA/2026-11-18/processing-status-2026-11-13.txt"
         },
         "renewal_queue": {
           "status": "within_30",
-          "source_date": "2026-11-06",
-          "age_days": 2,
+          "source_date": "2026-11-13",
+          "age_days": 5,
           "metric_type": "processing_date",
           "series": "firearms_licence_renewal",
-          "record_count": 5,
-          "description": "37 d lag",
+          "record_count": 6,
+          "description": "25 d lag",
           "source_url": "https://www.police.sa.gov.au/services-and-events/firearms-and-weapons/status-of-my-application",
-          "evidence_path": "evidence/SA/2026-11-08/processing-status-2026-11-06.txt"
+          "evidence_path": "evidence/SA/2026-11-18/processing-status-2026-11-13.txt"
         },
         "pta_queue": {
           "status": "within_30",
-          "source_date": "2026-11-06",
-          "age_days": 2,
+          "source_date": "2026-11-13",
+          "age_days": 5,
           "metric_type": "processing_date",
           "series": "permit_to_acquire",
-          "record_count": 5,
-          "description": "38 d lag",
+          "record_count": 6,
+          "description": "42 d lag",
           "source_url": "https://www.police.sa.gov.au/services-and-events/firearms-and-weapons/status-of-my-application",
-          "evidence_path": "evidence/SA/2026-11-08/processing-status-2026-11-06.txt"
+          "evidence_path": "evidence/SA/2026-11-18/processing-status-2026-11-13.txt"
         },
         "average": {
           "status": "no_record",
@@ -90,7 +90,7 @@
         "backlog": {
           "status": "older_90",
           "source_date": "2025-11-14",
-          "age_days": 359,
+          "age_days": 369,
           "metric_type": "backlog_count",
           "series": "permit_to_acquire_backlog",
           "record_count": 3,
@@ -101,7 +101,7 @@
         "staffing": {
           "status": "older_90",
           "source_date": "2026-04-14",
-          "age_days": 208,
+          "age_days": 218,
           "metric_type": "fte",
           "series": "",
           "record_count": 1,
@@ -128,36 +128,36 @@
       "cells": {
         "new_queue": {
           "status": "within_30",
-          "source_date": "2026-11-02",
-          "age_days": 6,
+          "source_date": "2026-11-16",
+          "age_days": 2,
           "metric_type": "processing_date",
           "series": "new_firearm_licence_application",
-          "record_count": 8,
-          "description": "129 d lag",
+          "record_count": 9,
+          "description": "132 d lag",
           "source_url": "https://www.police.vic.gov.au/firearms-licensing",
-          "evidence_path": "evidence/VIC/2026-11-08/processing-status-2026-11-02.txt"
+          "evidence_path": "evidence/VIC/2026-11-18/processing-status-2026-11-16.txt"
         },
         "renewal_queue": {
           "status": "within_30",
-          "source_date": "2026-11-02",
-          "age_days": 6,
+          "source_date": "2026-11-16",
+          "age_days": 2,
           "metric_type": "processing_date",
           "series": "firearm_licence_renewal_application",
-          "record_count": 5,
-          "description": "73 d lag",
+          "record_count": 6,
+          "description": "87 d lag",
           "source_url": "https://www.police.vic.gov.au/firearms-licensing",
-          "evidence_path": "evidence/VIC/2026-11-08/processing-status-2026-11-02.txt"
+          "evidence_path": "evidence/VIC/2026-11-18/processing-status-2026-11-16.txt"
         },
         "pta_queue": {
           "status": "within_30",
-          "source_date": "2026-11-02",
-          "age_days": 6,
+          "source_date": "2026-11-16",
+          "age_days": 2,
           "metric_type": "processing_date",
           "series": "online_permit_to_acquire",
-          "record_count": 5,
-          "description": "18 d lag",
+          "record_count": 6,
+          "description": "17 d lag",
           "source_url": "https://www.police.vic.gov.au/firearms-licensing",
-          "evidence_path": "evidence/VIC/2026-11-08/processing-status-2026-11-02.txt"
+          "evidence_path": "evidence/VIC/2026-11-18/processing-status-2026-11-16.txt"
         },
         "average": {
           "status": "no_record",
@@ -196,7 +196,7 @@
         "average": {
           "status": "within_90",
           "source_date": "2026-09-30",
-          "age_days": 39,
+          "age_days": 49,
           "metric_type": "average_processing_days",
           "series": "licence_renewal_average",
           "record_count": 46,
@@ -207,7 +207,7 @@
         "backlog": {
           "status": "older_90",
           "source_date": "2022-09-12",
-          "age_days": 1518,
+          "age_days": 1528,
           "metric_type": "backlog_count",
           "series": "new_firearm_licence_backlog",
           "record_count": 1,
@@ -218,7 +218,7 @@
         "staffing": {
           "status": "older_90",
           "source_date": "2026-06-18",
-          "age_days": 143,
+          "age_days": 153,
           "metric_type": "recruitment_positions",
           "series": "",
           "record_count": 7,
@@ -229,7 +229,7 @@
         "context": {
           "status": "within_30",
           "source_date": "2026-11-02",
-          "age_days": 6,
+          "age_days": 16,
           "metric_type": "workflow_policy",
           "series": "gun_safe_surrender_appointment_rollout",
           "record_count": 7,
@@ -257,14 +257,14 @@
         },
         "average": {
           "status": "within_30",
-          "source_date": "2026-11-01",
-          "age_days": 7,
+          "source_date": "2026-11-15",
+          "age_days": 3,
           "metric_type": "average_processing_days",
           "series": "permit_to_acquire_online",
-          "record_count": 10,
-          "description": "21 days",
+          "record_count": 12,
+          "description": "24 days",
           "source_url": "https://www.police.qld.gov.au/units/weapons-licensing",
-          "evidence_path": "evidence/QLD/2026-11-08/online-average-timeframes-2026-11-01.txt"
+          "evidence_path": "evidence/QLD/2026-11-18/online-average-timeframes-2026-11-15.txt"
         },
         "backlog": {
           "status": "no_record",
@@ -273,7 +273,7 @@
         "staffing": {
           "status": "older_90",
           "source_date": "2025-06-30",
-          "age_days": 496,
+          "age_days": 506,
           "metric_type": "approved_permanent_sworn_positions",
           "series": "",
           "record_count": 7,
@@ -284,7 +284,7 @@
         "context": {
           "status": "future_dated",
           "source_date": "2027-03-12",
-          "age_days": -124,
+          "age_days": -114,
           "metric_type": "future_legal_requirement",
           "series": "storage_compliance_change",
           "record_count": 8,
@@ -317,7 +317,7 @@
         "backlog": {
           "status": "older_90",
           "source_date": "2025-08-12",
-          "age_days": 453,
+          "age_days": 463,
           "metric_type": "backlog_count",
           "series": "firearms_portal_transactions_outstanding",
           "record_count": 2,
@@ -332,7 +332,7 @@
         "context": {
           "status": "future_dated",
           "source_date": "2026-12-24",
-          "age_days": -46,
+          "age_days": -36,
           "metric_type": "workflow_policy",
           "series": "cannington_licensing_office_holiday_closure",
           "record_count": 5,
@@ -373,10 +373,10 @@
         "context": {
           "status": "within_90",
           "source_date": "2026-09-01",
-          "age_days": 68,
+          "age_days": 78,
           "metric_type": "workflow_policy",
           "series": "licence_application_forms_release",
-          "record_count": 3,
+          "record_count": 4,
           "description": "workflow policy",
           "source_url": "https://fas.police.tas.gov.au/release-of-new-firearms-licence-application-forms/",
           "evidence_path": "evidence/TAS/2026-09-01/forms-workflow.txt"
@@ -412,15 +412,15 @@
           "record_count": 0
         },
         "context": {
-          "status": "within_30",
-          "source_date": "2026-10-27",
-          "age_days": 12,
-          "metric_type": "workflow_policy",
-          "series": "firearm_prohibition_orders_bill_progress",
-          "record_count": 9,
-          "description": "workflow policy",
-          "source_url": "https://www.legislation.act.gov.au/b/db_74005",
-          "evidence_path": "evidence/ACT/2026-10-30/fpo-bill-passed-awaiting-notification.txt"
+          "status": "future_dated",
+          "source_date": "2027-11-09",
+          "age_days": -356,
+          "metric_type": "future_legal_requirement",
+          "series": "firearm_prohibition_orders_substantive_commencement",
+          "record_count": 11,
+          "description": "future legal requirement",
+          "source_url": "https://www.legislation.act.gov.au/a/2026-19/",
+          "evidence_path": "evidence/ACT/2026-11-18/fpo-act-notification-and-future-commencement.txt"
         }
       }
     },
@@ -462,7 +462,7 @@
         "context": {
           "status": "older_90",
           "source_date": "2026-06-30",
-          "age_days": 131,
+          "age_days": 141,
           "metric_type": "legal_policy",
           "series": "licence_permit_condition_variation_power",
           "record_count": 4,
