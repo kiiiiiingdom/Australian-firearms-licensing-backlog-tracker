@@ -1,6 +1,6 @@
 {
   "generated_from": "verified committed CSV records",
-  "snapshot_date": "2026-11-18",
+  "snapshot_date": "2026-11-20",
   "categories": [
     {
       "key": "new_queue",
@@ -53,7 +53,7 @@
         "new_queue": {
           "status": "within_30",
           "source_date": "2026-11-13",
-          "age_days": 5,
+          "age_days": 7,
           "metric_type": "processing_date",
           "series": "firearms_licence_application",
           "record_count": 9,
@@ -64,7 +64,7 @@
         "renewal_queue": {
           "status": "within_30",
           "source_date": "2026-11-13",
-          "age_days": 5,
+          "age_days": 7,
           "metric_type": "processing_date",
           "series": "firearms_licence_renewal",
           "record_count": 6,
@@ -75,7 +75,7 @@
         "pta_queue": {
           "status": "within_30",
           "source_date": "2026-11-13",
-          "age_days": 5,
+          "age_days": 7,
           "metric_type": "processing_date",
           "series": "permit_to_acquire",
           "record_count": 6,
@@ -90,7 +90,7 @@
         "backlog": {
           "status": "older_90",
           "source_date": "2025-11-14",
-          "age_days": 369,
+          "age_days": 371,
           "metric_type": "backlog_count",
           "series": "permit_to_acquire_backlog",
           "record_count": 3,
@@ -101,7 +101,7 @@
         "staffing": {
           "status": "older_90",
           "source_date": "2026-04-14",
-          "age_days": 218,
+          "age_days": 220,
           "metric_type": "fte",
           "series": "",
           "record_count": 1,
@@ -129,7 +129,7 @@
         "new_queue": {
           "status": "within_30",
           "source_date": "2026-11-16",
-          "age_days": 2,
+          "age_days": 4,
           "metric_type": "processing_date",
           "series": "new_firearm_licence_application",
           "record_count": 9,
@@ -140,7 +140,7 @@
         "renewal_queue": {
           "status": "within_30",
           "source_date": "2026-11-16",
-          "age_days": 2,
+          "age_days": 4,
           "metric_type": "processing_date",
           "series": "firearm_licence_renewal_application",
           "record_count": 6,
@@ -151,7 +151,7 @@
         "pta_queue": {
           "status": "within_30",
           "source_date": "2026-11-16",
-          "age_days": 2,
+          "age_days": 4,
           "metric_type": "processing_date",
           "series": "online_permit_to_acquire",
           "record_count": 6,
@@ -196,7 +196,7 @@
         "average": {
           "status": "within_90",
           "source_date": "2026-09-30",
-          "age_days": 49,
+          "age_days": 51,
           "metric_type": "average_processing_days",
           "series": "licence_renewal_average",
           "record_count": 46,
@@ -207,7 +207,7 @@
         "backlog": {
           "status": "older_90",
           "source_date": "2022-09-12",
-          "age_days": 1528,
+          "age_days": 1530,
           "metric_type": "backlog_count",
           "series": "new_firearm_licence_backlog",
           "record_count": 1,
@@ -218,7 +218,7 @@
         "staffing": {
           "status": "older_90",
           "source_date": "2026-06-18",
-          "age_days": 153,
+          "age_days": 155,
           "metric_type": "recruitment_positions",
           "series": "",
           "record_count": 7,
@@ -229,7 +229,7 @@
         "context": {
           "status": "within_30",
           "source_date": "2026-11-02",
-          "age_days": 16,
+          "age_days": 18,
           "metric_type": "workflow_policy",
           "series": "gun_safe_surrender_appointment_rollout",
           "record_count": 7,
@@ -258,7 +258,7 @@
         "average": {
           "status": "within_30",
           "source_date": "2026-11-15",
-          "age_days": 3,
+          "age_days": 5,
           "metric_type": "average_processing_days",
           "series": "permit_to_acquire_online",
           "record_count": 12,
@@ -273,7 +273,7 @@
         "staffing": {
           "status": "older_90",
           "source_date": "2025-06-30",
-          "age_days": 506,
+          "age_days": 508,
           "metric_type": "approved_permanent_sworn_positions",
           "series": "",
           "record_count": 7,
@@ -284,7 +284,7 @@
         "context": {
           "status": "future_dated",
           "source_date": "2027-03-12",
-          "age_days": -114,
+          "age_days": -112,
           "metric_type": "future_legal_requirement",
           "series": "storage_compliance_change",
           "record_count": 8,
@@ -317,7 +317,7 @@
         "backlog": {
           "status": "older_90",
           "source_date": "2025-08-12",
-          "age_days": 463,
+          "age_days": 465,
           "metric_type": "backlog_count",
           "series": "firearms_portal_transactions_outstanding",
           "record_count": 2,
@@ -332,7 +332,7 @@
         "context": {
           "status": "future_dated",
           "source_date": "2026-12-24",
-          "age_days": -36,
+          "age_days": -34,
           "metric_type": "workflow_policy",
           "series": "cannington_licensing_office_holiday_closure",
           "record_count": 5,
@@ -371,15 +371,15 @@
           "record_count": 0
         },
         "context": {
-          "status": "within_90",
-          "source_date": "2026-09-01",
-          "age_days": 78,
+          "status": "within_30",
+          "source_date": "2026-11-19",
+          "age_days": 1,
           "metric_type": "workflow_policy",
-          "series": "licence_application_forms_release",
-          "record_count": 4,
+          "series": "firearms_security_bill_progress",
+          "record_count": 5,
           "description": "workflow policy",
-          "source_url": "https://fas.police.tas.gov.au/release-of-new-firearms-licence-application-forms/",
-          "evidence_path": "evidence/TAS/2026-09-01/forms-workflow.txt"
+          "source_url": "https://www.parliament.tas.gov.au/bills/bills2026/firearms-amendment-strengthening-firearms-security-bill-2026-30-of-2026",
+          "evidence_path": "evidence/TAS/2026-11-20/security-bill-lc-third-reading-2026-11-19.txt"
         }
       }
     },
@@ -414,7 +414,7 @@
         "context": {
           "status": "future_dated",
           "source_date": "2027-11-09",
-          "age_days": -356,
+          "age_days": -354,
           "metric_type": "future_legal_requirement",
           "series": "firearm_prohibition_orders_substantive_commencement",
           "record_count": 11,
@@ -462,7 +462,7 @@
         "context": {
           "status": "older_90",
           "source_date": "2026-06-30",
-          "age_days": 141,
+          "age_days": 143,
           "metric_type": "legal_policy",
           "series": "licence_permit_condition_variation_power",
           "record_count": 4,
