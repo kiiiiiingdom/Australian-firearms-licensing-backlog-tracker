@@ -374,12 +374,12 @@
           "status": "within_30",
           "source_date": "2026-11-19",
           "age_days": 1,
-          "metric_type": "workflow_policy",
-          "series": "firearms_security_bill_progress",
-          "record_count": 5,
-          "description": "workflow policy",
-          "source_url": "https://www.parliament.tas.gov.au/bills/bills2026/firearms-amendment-strengthening-firearms-security-bill-2026-30-of-2026",
-          "evidence_path": "evidence/TAS/2026-11-20/security-bill-lc-third-reading-2026-11-19.txt"
+          "metric_type": "eligibility_policy",
+          "series": "firearms_security_bill_violence_conviction_exclusion",
+          "record_count": 8,
+          "description": "eligibility policy",
+          "source_url": "https://www.parliament.tas.gov.au/__data/assets/pdf_file/0015/115710/Firearms-Amendment-Strengthening-Firearms-Security-Bill-2026-30-of-2026.pdf",
+          "evidence_path": "evidence/TAS/2026-11-20/security-bill-final-eligibility-amendments.txt"
         }
       }
     },

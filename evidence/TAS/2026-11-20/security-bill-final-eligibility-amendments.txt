@@ -1,0 +1,38 @@
+# OFFICIAL SOURCE EVIDENCE EXTRACT
+jurisdiction: TAS
+observation_date: 2026-11-20
+observation_timezone: Australia/Adelaide
+review_utc_date: 2026-11-20
+original_download_utc: 2026-11-19 23:59 UTC
+source_updated_date: not stated
+metric_date: 2026-11-19 (parliamentary agreement event; not commencement)
+metric_type: eligibility_policy
+series: firearms_security_bill_pr_sport_eligibility; firearms_security_bill_partner_household_assessment; firearms_security_bill_violence_conviction_exclusion
+source_title: Firearms Amendment (Strengthening Firearms Security) Bill 2026 (30 of 2026) - Legislative Council amendments
+source_url: https://www.parliament.tas.gov.au/__data/assets/pdf_file/0015/115710/Firearms-Amendment-Strengthening-Firearms-Security-Bill-2026-30-of-2026.pdf
+supporting_bill_register: https://www.parliament.tas.gov.au/bills/bills2026/firearms-amendment-strengthening-firearms-security-bill-2026-30-of-2026
+supporting_reprint: https://www.parliament.tas.gov.au/__data/assets/pdf_file/0014/111713/Bill-30-of-2026-2nd-Print.pdf
+source_kind: parliament
+evidence_status: verified
+capture_method: inspected the official 23-page scanned Council amendment document downloaded from the exact parliamentary URL, using rendered pages; rechecked scan pages 3, 5 and 7 against the register and underlying clauses. No OCR/search-snippet substitution.
+snapshot_reference: minimal extract only; the private inspection PDF and renderings are not committed
+original_inspection_pdf_sha256: 52e62eb88168be81b3f5ecf1ff392cc54d8daebc49831b8eb3f95c9c6c0061b0
+
+## Minimum exact verification fragments
+Scan page 3, clause 19: sport or target shooting
+Scan page 5, clause 20 first amendment: Leave out “relative”. Insert instead “partner”.
+Scan page 7, clause 20 third amendment: within the period of 10 years before the application was made
+
+## Original scope notes
+Passed-bill proposal only; assent/commencement not established. Metric date 19 November is the parliamentary agreement date, not an effective date. Exact PDF page-update date is unstated. Retrieved 20 November Australia/Adelaide; official scan downloaded 19 November 23:59 UTC and visually reviewed again 20 November UTC. No current individual entitlement, processing effect or staffing change inferred.
+
+Scan page 3, clause 19 inserts this purpose into the permanent-resident branch of proposed section 28(1)(d)(ii). The Australia/New Zealand citizenship route and other requirements remain distinct. This changes the earlier work-purpose-only description; it is not automatic approval or a commenced recreational-hunting entitlement.
+
+Scan pages 5 and 7, clause 20: partner replaces relative in proposed section 29(2)(da), while the separate household-member limb remains. Partner includes spouse or significant relationship under the Relationships Act 2003. This is a consideration in suitability assessment, not automatic rejection whenever a partner exists or a general all-relatives screening rule.
+
+Scan page 7, clause 20 third amendment replaces proposed paragraph (h) and section 29(3)(a). It covers convictions for violence against another person, family-violence offences, and equivalent out-of-jurisdiction family-violence offences. This conviction rule is distinct from behaviour-based discretionary suitability considerations and does not impose the same ten-year period on every other refusal ground.
+
+The first scan page records Council agreement with amendments on 19 November 2026. The original bill register was independently re-read during this monitor and still has blank Royal Assent and Act fields. This limits the conclusion to passed parliamentary text. It does not prove what an unrecorded legal event may have been. No effective day, retrospective individual advice, queue arithmetic, firearm-use instruction or claim about South Australian eligibility is added.
+
+## Attribution and rights
+Parliament of Tasmania, official Council amendments. Existing document-specific rights review remains pending. Only necessary verification fragments and original scope notes are retained. No whole PDF, image, signature, member's handwritten name, private staff contact or applicant detail is published. No new domain or blanket open licence is claimed.
