@@ -1,0 +1,31 @@
+# OFFICIAL SOURCE EVIDENCE EXTRACT
+jurisdiction: SA
+observation_date: 2026-11-21
+observation_timezone: Australia/Adelaide
+capture_utc_date: 2026-11-20
+source_updated_date: 2026-11-20
+metric_date: 2026-11-20
+metric_type: processing_date
+series: firearms_licence_application; firearms_licence_renewal; permit_to_acquire
+source_title: SAPOL - Status of my application
+source_url: https://www.police.sa.gov.au/services-and-events/firearms-and-weapons/status-of-my-application
+source_kind: police
+evidence_status: verified
+capture_method: directly inspected the original official page's application-type columns, three processing-date cells and explicit dated update notice through the web reader; no search excerpt or user transcription substituted
+snapshot_reference: minimal factual extract and original notes only
+sha256: not applicable; no binary or whole page stored
+
+## Minimum official wording and factual cells
+Column heading: Processing applications submitted on and after
+Firearms licence application: 13 April 2026
+Firearms licence renewals: 26 October 2026
+Permits to acquire a firearm: 06 October 2026
+Updated (20 November 2026)
+
+## Scope and calculations
+Official submitted-on-and-after table updated 20 November 2026. Retrieved 21 November Australia/Adelaide (20 November UTC). Compare with the preserved 13 November snapshot over seven actual calendar days in each existing series. No online/manual split is supplied. Published queue-date lag is not individual waiting time, throughput or an oldest-pending-case measure; no interval-specific cause is stated. The unrecovered SA 16 October lead remains excluded. Chart attribution: Based on: South Australia Police material.
+
+From 13 to 20 November the new-licence, renewal and PTA dates advance 4, 7 and 4 days respectively. Official-date lags are 221, 25 and 45 days; elapsed periods are seven days each. Speed ratios are 0.5714, 1.0000 and 0.5714; lag changes are +3, 0 and +3 days. These calculations describe the published date frontier, not counts completed, days worked, first-letter timing or an application-specific forecast. No missing snapshot is inserted.
+
+## Attribution, rights and privacy
+Based on: South Australia Police material. The required chart credit is included by the updated generators. Existing SAPOL source-rights conditions and document-specific exceptions remain applicable; no blanket clearance claim is made. Only necessary factual cells and original scope notes are retained. No whole page, PDF, image, signature, applicant detail, private staff contact or individual prediction is included.

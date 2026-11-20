@@ -3,6 +3,8 @@
 **Verified repository snapshots; NOT live government data or individual application forecasts.**  
 **以下为仓库已核实记录，不是实时政府数据，也不提供个人审批预测。**
 
+SA-derived figures on this page: **Based on: South Australia Police material**.
+
 <div class="hero-links"><a href="../jurisdictions/SA/">South Australia</a><a href="../jurisdictions/VIC/">Victoria</a><a href="../methodology/comparison-indices/" class="secondary">Comparison rules / 比较方法</a></div>
 
 ## Queue-date comparison workbench / 官方队列日期交互比较
