@@ -375,11 +375,11 @@
           "source_date": "2026-11-19",
           "age_days": 2,
           "metric_type": "eligibility_policy",
-          "series": "firearms_security_bill_violence_conviction_exclusion",
-          "record_count": 8,
+          "series": "firearms_security_bill_associated_primary_production_limits",
+          "record_count": 10,
           "description": "eligibility policy",
           "source_url": "https://www.parliament.tas.gov.au/__data/assets/pdf_file/0015/115710/Firearms-Amendment-Strengthening-Firearms-Security-Bill-2026-30-of-2026.pdf",
-          "evidence_path": "evidence/TAS/2026-11-20/security-bill-final-eligibility-amendments.txt"
+          "evidence_path": "evidence/TAS/2026-11-21/security-bill-primary-production-amendments.txt"
         }
       }
     },
