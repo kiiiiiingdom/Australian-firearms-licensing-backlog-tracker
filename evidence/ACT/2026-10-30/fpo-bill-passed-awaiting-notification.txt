@@ -1,0 +1,29 @@
+# OFFICIAL SOURCE EVIDENCE EXTRACT - ACT bill progress
+jurisdiction: ACT
+observation_date: 2026-10-30
+observation_timezone: Australia/Adelaide
+capture_utc_date: 2026-10-29
+source_updated_date: 2026-10-30 (register footer; stated AEST)
+metric_date: 2026-10-27 (official passage event)
+metric_type: workflow_policy
+series: firearm_prohibition_orders_bill_progress
+source_title: Firearms (Firearm Prohibition Orders) Amendment Bill 2026 | Bills
+source_url: https://www.legislation.act.gov.au/b/db_74005
+source_kind: official legislative register
+evidence_status: verified
+capture_method: directly inspected the bill register's status, progress table, explanatory-statement listings and update footer
+snapshot_reference: none; minimal text extract only
+sha256: not applicable
+
+## Exact short official wording
+Passed (Act awaiting notification)
+
+## Independent factual summary and limitations
+The progress table dates this passage event to 27 October 2026. The register's retrieved status differs from the historical October newsletter's pending-bill description. Preserve that older source as historical evidence rather than editing it.
+This row records legislative progress only. Passage, notification and commencement are distinct; the retrieved bill page is not evidence that the amendments have commenced or that any particular power or review entitlement is currently available. No processing-time, backlog, workforce or efficiency change is inferred. The separate Public Safety bill still shows Before the Assembly at https://www.legislation.act.gov.au/b/db_73940 on retrieval.
+
+## Provenance, attribution and reuse
+ACT Government, ACT Legislation Register. The government-domain register identifies itself as an approved website under the Legislation Act 2001 (ACT) and carries an all-rights-reserved footer. The same bill URL was already linked as a primary corroborating source in the repository's historical ACT evidence. No general open reuse licence has been verified. Only the minimal status fragment and independent factual summary are retained; individual-document rights review remains pending. No bill PDF, explanatory statement, full table, crest or signature is copied.
+
+## Privacy
+No private applicant or employee information is included.

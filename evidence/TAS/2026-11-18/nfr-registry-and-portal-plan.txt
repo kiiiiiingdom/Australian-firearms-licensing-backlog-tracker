@@ -1,0 +1,26 @@
+# OFFICIAL SOURCE EVIDENCE EXTRACT
+jurisdiction: TAS
+observation_date: 2026-11-18
+observation_timezone: Australia/Adelaide
+capture_utc_window: 2026-11-18 12:49-12:58 UTC
+source_updated_date: not stated
+metric_date: not stated
+metric_type: workflow_policy
+series: nfr_digital_registry_portal_plan
+source_title: National Firearms Register - Tasmania Police Firearms Services
+source_url: https://fas.police.tas.gov.au/national-firearms-register/
+source_kind: police
+evidence_status: verified
+capture_method: direct inspection of the original official URL through the web reader on the observation date; dates and source-defined fields checked in the original content
+snapshot_reference: none; minimal factual extract and original scope summary only
+sha256: not applicable; no binary or whole page stored
+
+## Minimal official wording / factual cells
+Project Update September 2026
+Determining the features and functionality of the new registry system and online portal for licence holders.
+
+## Interpretation, dates and limitations
+Project Update September 2026 supplies month precision only: no exact publication/as-at day is stated, so both exact date fields stay blank. The page describes planned registry modernisation and an online portal for licence applications, renewals, PTA and other transactions; project completion expected in 2028 is year-only. Data validation and legislative preparation are project activities. Not a live portal, measured time saving, staffing count or November launch.
+
+## Attribution, rights and privacy
+Attribution: the issuing authority named above. Existing source-rights-register conditions remain applicable. Only necessary factual cells or a short verification fragment and original summaries are retained. No complete page, PDF, table image, signature, private contact, applicant detail or individual prediction is included. No open licence or completed document-specific copyright clearance is claimed.

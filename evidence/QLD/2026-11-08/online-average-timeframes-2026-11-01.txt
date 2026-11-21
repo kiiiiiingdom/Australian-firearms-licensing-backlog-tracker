@@ -1,0 +1,27 @@
+# OFFICIAL SOURCE EVIDENCE EXTRACT
+jurisdiction: QLD
+observation_date: 2026-11-08
+observation_timezone: Australia/Adelaide
+capture_utc_date: 2026-11-08
+source_updated_date: not stated
+metric_date: 2026-11-01
+metric_type: average_processing_days; average_processing_weeks
+series: new_licence_online; permit_to_acquire_online
+source_title: Weapons Licensing | QPS
+source_url: https://www.police.qld.gov.au/units/weapons-licensing
+source_kind: police
+evidence_status: verified
+capture_method: directly inspected the original police page heading and both online mean figures
+snapshot_reference: none; minimal factual extract and original summary only
+sha256: not applicable; no original binary or whole page stored
+
+## Minimal official wording / factual cells
+Current average online application timeframes as at 01/11/2026
+New licence applications - 20 weeks
+Permit to acquire applications - 21 days
+
+## Scope, dates and limitations
+The as-at heading dates the online means to 1 November. No separate webpage-update date is stated, so source_updated_date stays blank. Native units remain 20 weeks and 21 days. These are means, not processing dates, statutory minimums, backlog totals or manual-channel measures; no queue-date arithmetic applies. The previous comparable 18 October means were 21 weeks and 20 days. Separate licence/licensee/weapon stock totals are not monthly throughput or application backlog and are not added as such. The existing application-volume and WLMS context is not duplicated.
+
+## Attribution and privacy
+Attribution: the issuing authority identified above. Only necessary factual cells or a short verification fragment are retained, with independently authored scope notes. No whole document, image, signature, employee contact, applicant detail or personal forecast is stored. Existing source-rights-register conditions and document-specific review remain applicable; no new open-licence or completed-clearance claim is made.

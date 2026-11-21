@@ -1,0 +1,32 @@
+# OFFICIAL SOURCE EVIDENCE EXTRACT - SAPOL processing snapshot
+jurisdiction: SA
+observation_date: 2026-10-30
+observation_timezone: Australia/Adelaide
+capture_utc_date: 2026-10-29
+source_updated_date: 2026-10-30
+metric_date: 2026-10-30
+metric_type: processing_date
+source_title: SAPOL - Status of my application
+source_url: https://www.police.sa.gov.au/services-and-events/firearms-and-weapons/status-of-my-application
+source_kind: police
+evidence_status: verified
+capture_method: directly opened the original SAPOL page and inspected its three-row table and dated update notice; a subsequent find on the original page confirmed the update
+snapshot_reference: none; minimal attributable text and factual transcription only
+sha256: not applicable; no original binary stored
+
+## Exact short table fragments (field then value)
+Firearms licence application
+16 March 2026
+Firearms licence renewals
+16 September 2026
+Permits to acquire a firearm
+29 September 2026
+Updated (30 October 2026)
+
+## Scope and limitations
+The dates identify applications being processed, not average completion times, oldest pending cases, backlog counts or an individual's outcome. The source describes submitted-on-and-after dates and does not distinguish an online/manual PTA channel; preserve the existing SAPOL series without inventing a channel.
+An official-domain search extract still showed the older 23 October page state. It is not used as verification of this snapshot; the directly opened original table and its 30 October notice establish the new values. The earlier 23 October extract is retained unchanged. No attributable 16 October historical snapshot has been recovered.
+The three same-series calculations compare the official 30 October snapshot with the immediately preceding verified 23 October snapshot, over seven actual calendar days. Arithmetic belongs to the project, not SAPOL. No missing week is interpolated.
+
+## Attribution and privacy
+South Australia Police, Government of South Australia. Minimal source-owned factual extract under the registered SAPOL notice; no whole page, imagery, private contact or applicant details retained. Derived chart attribution remains Based on: South Australia Police material. No official endorsement is implied.

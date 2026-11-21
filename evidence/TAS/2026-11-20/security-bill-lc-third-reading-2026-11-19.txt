@@ -1,0 +1,29 @@
+# OFFICIAL SOURCE EVIDENCE EXTRACT
+jurisdiction: TAS
+observation_date: 2026-11-20
+observation_timezone: Australia/Adelaide
+capture_utc_date: 2026-11-19
+source_updated_date: 2026-11-19
+metric_date: 2026-11-19
+metric_type: workflow_policy
+series: firearms_security_bill_progress
+source_title: Firearms Amendment (Strengthening Firearms Security) Bill 2026 (30 of 2026) | Parliament of Tasmania
+source_url: https://www.parliament.tas.gov.au/bills/bills2026/firearms-amendment-strengthening-firearms-security-bill-2026-30-of-2026
+source_kind: parliament
+evidence_status: verified
+capture_method: directly inspected the original Parliament of Tasmania bill-progress page, its two chamber-column headings, dated stage cells, page-update label and blank assent/Act fields through the web reader
+snapshot_reference: none; minimal factual cells and original scope notes only
+sha256: not applicable; no binary or whole page stored
+
+## Minimal official wording / factual cells
+Legislative Council column: Third reading | 19/11/2026
+House of Assembly column: LC amendments agreed to | Yes
+Page label: Last updated: 19 Nov 2026
+
+## Interpretation and limitations
+Official bill-progress table: Legislative Council third reading passed 19 November 2026; House of Assembly LC amendments agreed to is Yes, with no separate agreement date stated. Royal Assent and Act fields are blank at retrieval: assent/commencement is not established. Page updated 19 November; retrieved 20 November Australia/Adelaide (19 November UTC). Legislative progress linked to the separately archived NFR enabling reform context, not a live portal, commenced requirement, staffing count or measured processing benefit. Preserve the September project-planning record as historical context.
+
+The Royal Assent and Act cells have no recorded value on the retrieved table. This is a statement about the register as retrieved, not independent proof about an unrecorded legal event. The 19 November metric date applies to the explicitly dated Legislative Council third-reading event, not an invented date for the House's agreement. The table says stage dates are when the Bill passes each stage. Earlier Assembly third reading is 10 September; Council reported stage is 18 November. Only the newly verified current legislative-progress point is appended; historical stages are not manufactured into missing daily observations.
+
+## Attribution, rights and privacy
+Attribution: Parliament of Tasmania. This exact source host is already registered with pending document-specific rights review. Necessary status/date cells and original explanatory notes only; no complete bill, whole table, parliamentary speech, PDF, image, signature, personal staff contact or applicant information is reproduced. No blanket open licence or completed rights clearance is claimed.
