@@ -97,7 +97,7 @@ speed_ratio = processing_days_advanced / elapsed_days
 backlog_age_change_days = backlog_age_i - backlog_age_(i-1)
 ```
 
-If `metric_date` is unavailable, `source_updated_date` may be used; only as a last resort should `observation_date` be substituted, and that substitution should be documented.
+If `metric_date` is unavailable, the explicitly stated `source_updated_date` may be used. If both are unknown, leave time-derived fields blank. `observation_date` records retrieval and must not substitute for an official metric date in queue calculations or freshness measures.
 
 Interpretation:
 

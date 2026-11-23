@@ -15,10 +15,10 @@
         "key": "VIC",
         "label": "VIC · new licence",
         "series": "new_firearm_licence_application",
-        "backlog_age_days": 132,
-        "metric_date": "2026-11-16",
+        "backlog_age_days": 126,
+        "metric_date": "2026-11-23",
         "source_url": "https://www.police.vic.gov.au/firearms-licensing",
-        "evidence_path": "evidence/VIC/2026-11-18/processing-status-2026-11-16.txt"
+        "evidence_path": "evidence/VIC/2026-11-23/processing-status-2026-11-23.txt"
       }
     ],
     "renewal": [
@@ -36,9 +36,9 @@
         "label": "VIC · renewal",
         "series": "firearm_licence_renewal_application",
         "backlog_age_days": 87,
-        "metric_date": "2026-11-16",
+        "metric_date": "2026-11-23",
         "source_url": "https://www.police.vic.gov.au/firearms-licensing",
-        "evidence_path": "evidence/VIC/2026-11-18/processing-status-2026-11-16.txt"
+        "evidence_path": "evidence/VIC/2026-11-23/processing-status-2026-11-23.txt"
       }
     ],
     "pta": [
@@ -56,9 +56,9 @@
         "label": "VIC · online PTA",
         "series": "online_permit_to_acquire",
         "backlog_age_days": 17,
-        "metric_date": "2026-11-16",
+        "metric_date": "2026-11-23",
         "source_url": "https://www.police.vic.gov.au/firearms-licensing",
-        "evidence_path": "evidence/VIC/2026-11-18/processing-status-2026-11-16.txt"
+        "evidence_path": "evidence/VIC/2026-11-23/processing-status-2026-11-23.txt"
       }
     ]
   },
@@ -197,6 +197,13 @@
             "processing_date": "2026-07-07",
             "source_url": "https://www.police.vic.gov.au/firearms-licensing",
             "evidence_path": "evidence/VIC/2026-11-18/processing-status-2026-11-16.txt"
+          },
+          {
+            "date": "2026-11-23",
+            "backlog_age_days": 126,
+            "processing_date": "2026-07-20",
+            "source_url": "https://www.police.vic.gov.au/firearms-licensing",
+            "evidence_path": "evidence/VIC/2026-11-23/processing-status-2026-11-23.txt"
           }
         ]
       }
@@ -300,6 +307,13 @@
             "processing_date": "2026-08-21",
             "source_url": "https://www.police.vic.gov.au/firearms-licensing",
             "evidence_path": "evidence/VIC/2026-11-18/processing-status-2026-11-16.txt"
+          },
+          {
+            "date": "2026-11-23",
+            "backlog_age_days": 87,
+            "processing_date": "2026-08-28",
+            "source_url": "https://www.police.vic.gov.au/firearms-licensing",
+            "evidence_path": "evidence/VIC/2026-11-23/processing-status-2026-11-23.txt"
           }
         ]
       }
@@ -403,6 +417,13 @@
             "processing_date": "2026-10-30",
             "source_url": "https://www.police.vic.gov.au/firearms-licensing",
             "evidence_path": "evidence/VIC/2026-11-18/processing-status-2026-11-16.txt"
+          },
+          {
+            "date": "2026-11-23",
+            "backlog_age_days": 17,
+            "processing_date": "2026-11-06",
+            "source_url": "https://www.police.vic.gov.au/firearms-licensing",
+            "evidence_path": "evidence/VIC/2026-11-23/processing-status-2026-11-23.txt"
           }
         ]
       }
