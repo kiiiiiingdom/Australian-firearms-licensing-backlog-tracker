@@ -1,0 +1,33 @@
+# OFFICIAL SOURCE EVIDENCE EXTRACT
+jurisdiction: QLD
+observation_date: 2026-11-24
+observation_timezone: Australia/Adelaide
+source_updated_date: not stated
+metric_date: not stated for the implementation-status finding; 2026-11-05 for the dated report's delivery expectation only
+report_tabled_date: 2026-11-05
+metric_type: workflow_policy
+series: firearms_regulatory_audit_implementation_followup; replacement_firearms_register_audit_delivery_plan
+source_title: 2026 status of Auditor-General’s recommendations
+source_url: https://www.qao.qld.gov.au/reports-resources/reports-parliament/2026-status-auditor-generals-recommendations
+source_kind: audit
+evidence_status: verified
+capture_method: original official HTML report, chapter 3 and figure 3A, directly inspected; tabling date cross-checked against the publisher's report index
+date_source_url: https://www.qao.qld.gov.au/reports-resources/reports-parliament
+snapshot_reference: minimum factual cells/fragments and original summary only; no PDF, complete page, graphic or signature stored
+sha256: not applicable; no binary stored
+
+## Minimum official fragments
+Figure 3A, QAO assessment: 7 fully implemented; 6 partially implemented.
+Replacement register expectation: scheduled for release in mid-2027.
+
+## Original scope and date interpretation
+QAO's limited-assurance follow-up of Regulating firearms (Report 8: 2020-21) disagreed with six of QPS's 13 completion claims and recommended reopening the six partial recommendations. The incomplete areas concern information integration, risk-based inspections, non-compliance follow-up, shooting-range oversight, electronic transaction notifications and interstate transfers. QAO assessed support for reported implementation and alignment with recommendations, not whether actions achieved intended outcomes. The underlying QPS self-assessments were reported between August 2023 and May 2024; neither is a newly invented exact snapshot day. The report was tabled on 5 November 2026; this is separate from retrieval, webpage update, implementation events and the undated status-as-at field.
+
+The dated report describes a replacement-register release expectation for mid-2027. For this planning record, 5 November dates the published expectation, not delivery. It is retained separately from QPS's existing 16 October staged-release plan starting March 2027. These descriptions can cover different milestones; no live system, revised binding deadline, contradiction or proven time saving is inferred. No exact day is invented for mid-2027. Neither record measures licensing throughput, current application backlog or staffing. A cleared historical transfer-form backlog is not reclassified as a current zero application backlog.
+
+## Attribution and rights
+© The State of Queensland (Queensland Audit Office) 2026.
+Copyright notice directly checked: https://www.qao.qld.gov.au/copyright . Its default is CC BY 4.0 International unless otherwise noted; media with other licences, logos, trademarks and separately linked agencies have exceptions. Attribution and this notice are retained. Document-specific exceptions and human review remain pending; no blanket clearance is claimed.
+
+## Privacy
+No employee identities, signatures, applicant identifiers, correspondence or individual processing projection are included.

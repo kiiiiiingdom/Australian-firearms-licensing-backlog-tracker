@@ -1,0 +1,28 @@
+# OFFICIAL SOURCE EVIDENCE EXTRACT
+jurisdiction: ACT
+observation_date: 2026-11-24
+observation_timezone: Australia/Adelaide
+source_updated_date: not stated for this workforce table
+as_of_date: 2026-06-30
+metric_type: headcount
+unit: Firearms branch
+scope: exact_firearms_unit
+source_title: ACT Policing: Annual Report 2025-26
+source_url: https://police.act.gov.au/about-us/annual-reports/act-policing-annual-report-2025-26
+source_kind: police
+evidence_status: verified
+capture_method: original official HTML annual report, staffing-profile tables 7.5 and 7.6, directly inspected on 24 November 2026 UTC/Adelaide; not a search snippet
+snapshot_reference: minimum factual table cells only, with independent scope notes; no binary or complete table stored
+sha256: not applicable; no binary stored
+
+## Minimum official wording and factual cells
+Table 7.5: Headcount on 30 June 2026 by division/branch
+Firearms | 8
+
+Table 7.6 corroborates the same branch total: ongoing 8; non-ongoing 0; casual 0; total 8.
+
+## Original scope and limitations
+This is the report's Firearms branch headcount at 30 June 2026, newly archived on 24 November. It is not a new November hiring announcement, annual average FTE, funded positions, vacancies, or eight dedicated application assessors. The source does not allocate these people between licensing, compliance, new licences, renewals or PTA, and does not split this branch into sworn/unsworn. Those structured fields remain blank. Employment-status categories are corroborating scope, not additional headcounts to sum. No throughput or cross-jurisdiction efficiency ratio is derived. The separate whole-agency workforce and mixed registry programme funding are not substituted for this branch measure.
+
+## Attribution, rights and privacy
+ACT Policing, annual report staffing tables 7.5-7.6. Existing AFP/ACT website restrictions and individual-document review remain pending. Only the necessary factual heading/cells and original summary are retained; no blanket open licence, completed clearance, whole report, table image, employee details or applicant data is claimed or reproduced.

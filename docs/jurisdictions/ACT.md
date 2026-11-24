@@ -29,7 +29,9 @@ A comparable continuous processing-date series has not been verified for this ju
 
 ## Staffing and capacity / 人员与行政能力
 
-No matching verified quantitative workforce data in the current archive. / 当前资料库尚无同口径的已核实人员数据。
+| Measure / 口径 | Reported values / 记录 | Official as-at / 官方日期 | Evidence / 证据 |
+|---|---|---|---|
+| `headcount` | headcount 8 | 2026-06-30 | [official source](https://police.act.gov.au/about-us/annual-reports/act-policing-annual-report-2025-26) · [evidence](https://github.com/kiiiiiingdom/Australian-firearms-licensing-backlog-tracker/blob/main/evidence/ACT/2026-11-24/firearms-branch-headcount-2025-26.txt) |
 
 ## Evidence limitations / 数据局限
 
