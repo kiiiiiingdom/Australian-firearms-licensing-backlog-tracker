@@ -1,0 +1,27 @@
+# OFFICIAL SOURCE EVIDENCE EXTRACT
+jurisdiction: QLD
+observation_date: 2026-11-26
+observation_timezone: Australia/Adelaide
+source_updated_date: not stated
+metric_date: 2026-11-22
+metric_type: average_processing_weeks; average_processing_days
+series: new_licence_online; permit_to_acquire_online
+source_title: Weapons Licensing
+source_url: https://www.police.qld.gov.au/units/weapons-licensing
+source_kind: police
+evidence_status: verified
+capture_method: directly opened original QPS production page and checked the online-average heading, official as-at date and both labelled figures; not a search snippet, handoff or preproduction copy
+snapshot_reference: minimal exact metric lines and independent scope notes; no full webpage or binary stored
+sha256: not applicable; no binary stored
+
+## Minimal official metric lines
+New licence applications - 19 weeks
+Permit to acquire applications - 26 days
+
+## Original date and scope notes
+The heading expressly identifies average ONLINE application timeframes as at 22 November 2026. That date is the metric date, not a webpage-update or retrieval date. The page does not state a separate page-update day, so source_updated_date remains blank. Retrieved 26 November in both UTC and Australia/Adelaide.
+
+The preceding preserved online means are 20 weeks new and 24 days PTA as at 15 November. Published means therefore change by minus one week and plus two days in their native units. The source does not state that the same applicant cohort is measured or that these figures predict individual completion. No processing-date queue lag, elapsed/advanced days, speed ratio, backlog count, staff efficiency or applicant forecast is calculated from means. Renewal, manual and import application times are not inferred.
+
+## Attribution, rights and privacy
+Queensland Police Service, Weapons Licensing. Existing QPS conditional CC BY 4.0 notice and individual-document exceptions remain applicable; human document-specific reuse review is not claimed complete. Only necessary factual fragments and original summaries are retained. No whole page, images, signatures, private staff details, applicant identifiers or personal correspondence are stored.

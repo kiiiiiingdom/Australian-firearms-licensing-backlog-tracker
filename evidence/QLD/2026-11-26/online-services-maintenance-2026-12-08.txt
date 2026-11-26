@@ -1,0 +1,26 @@
+# OFFICIAL SOURCE EVIDENCE EXTRACT
+jurisdiction: QLD
+observation_date: 2026-11-26
+observation_timezone: Australia/Adelaide
+source_updated_date: not stated
+metric_date: 2026-12-08
+metric_type: workflow_policy
+series: wao_online_licence_verification_maintenance
+source_title: Weapons Licensing
+source_url: https://www.police.qld.gov.au/units/weapons-licensing
+source_kind: police
+evidence_status: verified
+capture_method: directly opened original QPS production page and read its scheduled-maintenance notice, named services, start and end times
+snapshot_reference: minimal exact time fragment and independent scope summary; no full webpage or binary stored
+sha256: not applicable; no binary stored
+
+## Minimal official time fragment
+from 6:30pm on 08/12/2026 to 4:00am on 09/12/2026
+
+## Original interpretation and limits
+The notice announces scheduled offline maintenance for Weapons Applications Online (WAO) and Online Licence Verification Services. Start is 8 December 2026 at 18:30; end is 9 December 2026 at 04:00. Times are retained as printed; the notice does not explicitly specify a timezone, so no offset or Adelaide conversion is asserted. The future start date is metric_date; the unrelated online-average as-at date does not date publication of this notice. No separate webpage-update day is stated. Retrieval is 26 November UTC/Adelaide.
+
+This is an announced online-service availability window, not proof that maintenance occurred, a whole-office or back-office assessment shutdown, a processing-time measurement, or an extension of any applicant deadline. Other channels, casework capacity and system delivery milestones are not inferred. It receives no queue arithmetic, throughput or staffing fields.
+
+## Attribution, rights and privacy
+Queensland Police Service, Weapons Licensing. Existing QPS conditional reuse notice and document-specific exceptions remain pending review; no blanket clearance is claimed. Only necessary factual times and original scope notes are preserved, without full source pages, imagery, signatures or private details.

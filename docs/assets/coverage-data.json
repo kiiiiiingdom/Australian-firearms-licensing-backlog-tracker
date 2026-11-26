@@ -1,6 +1,6 @@
 {
   "generated_from": "verified committed CSV records",
-  "snapshot_date": "2026-11-24",
+  "snapshot_date": "2026-11-26",
   "categories": [
     {
       "key": "new_queue",
@@ -53,7 +53,7 @@
         "new_queue": {
           "status": "within_30",
           "source_date": "2026-11-20",
-          "age_days": 4,
+          "age_days": 6,
           "metric_type": "processing_date",
           "series": "firearms_licence_application",
           "record_count": 10,
@@ -64,7 +64,7 @@
         "renewal_queue": {
           "status": "within_30",
           "source_date": "2026-11-20",
-          "age_days": 4,
+          "age_days": 6,
           "metric_type": "processing_date",
           "series": "firearms_licence_renewal",
           "record_count": 7,
@@ -75,7 +75,7 @@
         "pta_queue": {
           "status": "within_30",
           "source_date": "2026-11-20",
-          "age_days": 4,
+          "age_days": 6,
           "metric_type": "processing_date",
           "series": "permit_to_acquire",
           "record_count": 7,
@@ -90,7 +90,7 @@
         "backlog": {
           "status": "older_90",
           "source_date": "2025-11-14",
-          "age_days": 375,
+          "age_days": 377,
           "metric_type": "backlog_count",
           "series": "permit_to_acquire_backlog",
           "record_count": 3,
@@ -101,7 +101,7 @@
         "staffing": {
           "status": "older_90",
           "source_date": "2026-04-14",
-          "age_days": 224,
+          "age_days": 226,
           "metric_type": "fte",
           "series": "",
           "record_count": 1,
@@ -129,7 +129,7 @@
         "new_queue": {
           "status": "within_30",
           "source_date": "2026-11-23",
-          "age_days": 1,
+          "age_days": 3,
           "metric_type": "processing_date",
           "series": "new_firearm_licence_application",
           "record_count": 10,
@@ -140,7 +140,7 @@
         "renewal_queue": {
           "status": "within_30",
           "source_date": "2026-11-23",
-          "age_days": 1,
+          "age_days": 3,
           "metric_type": "processing_date",
           "series": "firearm_licence_renewal_application",
           "record_count": 7,
@@ -151,7 +151,7 @@
         "pta_queue": {
           "status": "within_30",
           "source_date": "2026-11-23",
-          "age_days": 1,
+          "age_days": 3,
           "metric_type": "processing_date",
           "series": "online_permit_to_acquire",
           "record_count": 7,
@@ -196,7 +196,7 @@
         "average": {
           "status": "within_90",
           "source_date": "2026-09-30",
-          "age_days": 55,
+          "age_days": 57,
           "metric_type": "average_processing_days",
           "series": "licence_renewal_average",
           "record_count": 46,
@@ -207,7 +207,7 @@
         "backlog": {
           "status": "older_90",
           "source_date": "2022-09-12",
-          "age_days": 1534,
+          "age_days": 1536,
           "metric_type": "backlog_count",
           "series": "new_firearm_licence_backlog",
           "record_count": 1,
@@ -218,7 +218,7 @@
         "staffing": {
           "status": "older_90",
           "source_date": "2026-06-18",
-          "age_days": 159,
+          "age_days": 161,
           "metric_type": "recruitment_positions",
           "series": "",
           "record_count": 7,
@@ -229,7 +229,7 @@
         "context": {
           "status": "within_30",
           "source_date": "2026-11-02",
-          "age_days": 22,
+          "age_days": 24,
           "metric_type": "workflow_policy",
           "series": "gun_safe_surrender_appointment_rollout",
           "record_count": 7,
@@ -257,14 +257,14 @@
         },
         "average": {
           "status": "within_30",
-          "source_date": "2026-11-15",
-          "age_days": 9,
+          "source_date": "2026-11-22",
+          "age_days": 4,
           "metric_type": "average_processing_days",
           "series": "permit_to_acquire_online",
-          "record_count": 12,
-          "description": "24 days",
+          "record_count": 14,
+          "description": "26 days",
           "source_url": "https://www.police.qld.gov.au/units/weapons-licensing",
-          "evidence_path": "evidence/QLD/2026-11-18/online-average-timeframes-2026-11-15.txt"
+          "evidence_path": "evidence/QLD/2026-11-26/online-average-timeframes-2026-11-22.txt"
         },
         "backlog": {
           "status": "no_record",
@@ -273,7 +273,7 @@
         "staffing": {
           "status": "older_90",
           "source_date": "2025-06-30",
-          "age_days": 512,
+          "age_days": 514,
           "metric_type": "approved_permanent_sworn_positions",
           "series": "",
           "record_count": 7,
@@ -284,10 +284,10 @@
         "context": {
           "status": "future_dated",
           "source_date": "2027-03-12",
-          "age_days": -108,
+          "age_days": -106,
           "metric_type": "future_legal_requirement",
           "series": "storage_compliance_change",
-          "record_count": 10,
+          "record_count": 11,
           "description": "future legal requirement",
           "source_url": "https://www.police.qld.gov.au/units/weapons-licensing/weapons-news",
           "evidence_path": "evidence/QLD/2026-10-10/storage-compliance-2027.txt"
@@ -317,7 +317,7 @@
         "backlog": {
           "status": "older_90",
           "source_date": "2025-08-12",
-          "age_days": 469,
+          "age_days": 471,
           "metric_type": "backlog_count",
           "series": "firearms_portal_transactions_outstanding",
           "record_count": 2,
@@ -332,7 +332,7 @@
         "context": {
           "status": "future_dated",
           "source_date": "2026-12-24",
-          "age_days": -30,
+          "age_days": -28,
           "metric_type": "workflow_policy",
           "series": "cannington_licensing_office_holiday_closure",
           "record_count": 5,
@@ -373,7 +373,7 @@
         "context": {
           "status": "within_30",
           "source_date": "2026-11-19",
-          "age_days": 5,
+          "age_days": 7,
           "metric_type": "eligibility_policy",
           "series": "firearms_security_bill_associated_primary_production_limits",
           "record_count": 10,
@@ -410,7 +410,7 @@
         "staffing": {
           "status": "older_90",
           "source_date": "2026-06-30",
-          "age_days": 147,
+          "age_days": 149,
           "metric_type": "headcount",
           "series": "",
           "record_count": 1,
@@ -421,7 +421,7 @@
         "context": {
           "status": "future_dated",
           "source_date": "2027-11-09",
-          "age_days": -350,
+          "age_days": -348,
           "metric_type": "future_legal_requirement",
           "series": "firearm_prohibition_orders_substantive_commencement",
           "record_count": 11,
@@ -469,7 +469,7 @@
         "context": {
           "status": "older_90",
           "source_date": "2026-06-30",
-          "age_days": 147,
+          "age_days": 149,
           "metric_type": "legal_policy",
           "series": "licence_permit_condition_variation_power",
           "record_count": 4,
