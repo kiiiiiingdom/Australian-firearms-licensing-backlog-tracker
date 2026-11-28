@@ -1,0 +1,30 @@
+# OFFICIAL SOURCE EVIDENCE EXTRACT
+jurisdiction: VIC
+observation_date: 2026-11-08
+observation_timezone: Australia/Adelaide
+capture_utc_date: 2026-11-08
+source_updated_date: 2026-11-02
+metric_date: 2026-11-02
+metric_type: processing_date
+series: new_firearm_licence_application; firearm_licence_renewal_application; online_permit_to_acquire; manual_permit_to_acquire; import_permit
+source_title: Firearms licensing
+source_url: https://www.police.vic.gov.au/firearms-licensing
+source_kind: police
+evidence_status: verified
+capture_method: directly inspected the original police page table and its explicit last-updated notice
+snapshot_reference: none; minimal factual extract and original summary only
+sha256: not applicable; no original binary or whole page stored
+
+## Minimal official wording / factual cells
+Last updated 02 November 2026
+New firearm licence applications 26 June 2026
+Firearm licence renewal applications 21 August 2026
+Online permit to acquire 15 October 2026
+Manual permit to acquire 15 October 2026
+Import permits 16 October 2026
+
+## Scope, dates and limitations
+Five separate existing series are preserved. Online PTA, manual PTA and import permits remain distinct even where their published dates coincide. Each compares with its immediately preceding valid 26 October record over seven actual days. The source qualifies its table as indicative and says complex/suitability matters can take longer. Its separate up-to-28-day PTA statement is not a new average or a replacement for the processing-date series.
+
+## Attribution and privacy
+Attribution: the issuing authority identified above. Only necessary factual cells or a short verification fragment are retained, with independently authored scope notes. No whole document, image, signature, employee contact, applicant detail or personal forecast is stored. Existing source-rights-register conditions and document-specific review remain applicable; no new open-licence or completed-clearance claim is made.

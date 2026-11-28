@@ -1,0 +1,34 @@
+# OFFICIAL SOURCE EVIDENCE EXTRACT
+jurisdiction: VIC
+observation_date: 2026-11-23
+observation_timezone: Australia/Adelaide
+capture_utc_date: 2026-11-22
+source_updated_date: 2026-11-23
+metric_date: 2026-11-23
+metric_type: processing_date
+series: new_firearm_licence_application; firearm_licence_renewal_application; online_permit_to_acquire; manual_permit_to_acquire; import_permit
+source_title: Firearms licensing
+source_url: https://www.police.vic.gov.au/firearms-licensing
+source_kind: police
+evidence_status: verified
+capture_method: directly inspected the original official page's current-applications table, five category/channel labels, factual date cells and explicit dated update notice; not search excerpts or a user transcription
+snapshot_reference: minimum factual cells and original scope notes only; no binary or complete page preserved
+sha256: not applicable; no binary stored
+
+## Minimum official date cells
+Last updated 23 November 2026
+new_firearm_licence_application: 20 July 2026
+firearm_licence_renewal_application: 28 August 2026
+online_permit_to_acquire: 06 November 2026
+manual_permit_to_acquire: 09 November 2026
+import_permit: 06 November 2026
+
+## Original scope and date notes
+Official indicative table updated 23 November 2026; retrieved 23 November Australia/Adelaide (22 November UTC). Compared with the adjacent preserved verified 16 November snapshot over seven actual calendar days in each series. Online PTA, manual PTA and import permits remain distinct. The authority flags complex applications/suitability concerns as potentially longer; its separate up-to-28-days PTA statement is not an observed mean or individual guarantee. Queue-date lag is not individual waiting time, throughput or staff efficiency. No missing snapshots, personal projections or interval-specific causes are inferred.
+
+The source labels new licences, renewals, online PTA, manual PTA and import permits separately. Its processing dates describe submitted applications being processed. New/renewal/online/manual/import date advances are 13/7/7/10/2 days over seven actual days; queue-date lags are 126/87/17/14/17 days; speed ratios are 1.8571/1.0000/1.0000/1.4286/0.2857; lag changes are -6/0/0/-3/+5. Channel movement does not establish relative workload, staff productivity, a cause or an individual completion date. The national PTA comparator continues to select the online series; manual PTA is preserved as its own observation rather than substituted.
+
+The Australian official update/metric date is 23 November. The first direct capture was 22 November UTC, already 23 November in Australia/Adelaide. These are distinct date fields and no capture-day substitution for official metric dates is made. Unrecovered intermediate historical leads remain excluded.
+
+## Attribution, rights and privacy
+Victoria Police, Firearms licensing. Existing Victoria Police source-rights conditions remain pending/document-specific; no blanket open licence or completed human copyright clearance is claimed. Only necessary factual date cells and original notes are retained. No whole page, PDF, image, signature, private staff contact, applicant identifier or personal prediction is included.

@@ -1,0 +1,28 @@
+# OFFICIAL SOURCE EVIDENCE EXTRACT - WA application prerequisite
+jurisdiction: WA
+observation_date: 2026-10-30
+observation_timezone: Australia/Adelaide
+capture_utc_date: 2026-10-29
+source_updated_date: not stated in the PDF
+metric_date: not stated
+metric_type: workflow_policy
+series: firearm_authority_training_completion_precondition
+source_title: Firearm Safety Training Course
+document_version: V2-0
+source_url: https://www.wa.gov.au/media/159424/download?inline=
+official_linking_page: https://www.wa.gov.au/organisation/western-australia-police-force/firearms-current-information-sheets
+source_kind: police information sheet on official government website
+evidence_status: verified
+capture_method: followed the official index's Firearms Safety Training Course link and directly inspected the original three-page PDF text
+snapshot_reference: none; minimal text extract only
+sha256: not applicable; original PDF not stored
+
+## Exact short official wording (page 1)
+You must successfully complete all parts of the course before the Commissioner can grant your firearm authority.
+
+## Independent summary and date limitations
+The sheet defines a first-time application prerequisite involving online theory through Central Regional TAFE and practical assessment by an approved provider. Its authority scope includes licences, permits and approvals. This is an administrative completion condition, not an average processing time, minimum waiting period, course duration or demonstrated reform benefit.
+The PDF supplies a version label but no publication/effective day. The index was updated on 28 October 2026 and refers generally to legislation commencing in 2025; neither statement dates this particular training requirement or PDF version. Both CSV source-date fields remain blank. No fresh commencement announcement is inferred.
+
+## Attribution, reuse and privacy
+Western Australia Police Force / Government of Western Australia, with original source and official index links above. The existing wa.gov.au source-host registration does not establish a reusable licence for every attachment. Only the short prerequisite sentence and an independent summary are retained; individual-document rights review remains pending. No whole PDF, course curriculum, training instructions, image, personal record fields or private contact details are reproduced.

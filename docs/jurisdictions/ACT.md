@@ -8,6 +8,9 @@
 
 | Series / 业务 | Metric type / 口径 | Value / 数值 | Official as-at / 官方统计日 | Evidence / 证据 |
 |---|---|---|---|---|
+| `firearm_prohibition_orders_substantive_commencement` | `future_legal_requirement` | scheduled commencement of remainder of A2026-19 on 9 November 2027 policy | 2027-11-09 | [official source](https://www.legislation.act.gov.au/a/2026-19/) · [evidence](https://github.com/kiiiiiingdom/Australian-firearms-licensing-backlog-tracker/blob/main/evidence/ACT/2026-11-18/fpo-act-notification-and-future-commencement.txt) |
+| `firearm_prohibition_orders_bill_progress` | `workflow_policy` | Act notified; naming and commencement provisions commenced; remainder awaiting commencement legislative_status | 2026-11-09 | [official source](https://www.legislation.act.gov.au/a/2026-19/) · [evidence](https://github.com/kiiiiiingdom/Australian-firearms-licensing-backlog-tracker/blob/main/evidence/ACT/2026-11-18/fpo-act-notification-and-future-commencement.txt) |
+| `act_firearms_registry_mixed_programme_funding` | `administrative_programme_funding` | 16.339 AUD_million | not stated / 未注明 | [official source](https://police.act.gov.au/about-us/annual-reports/act-policing-annual-report-2025-26?SQ_VARIATION_347901=0) · [evidence](https://github.com/kiiiiiingdom/Australian-firearms-licensing-backlog-tracker/blob/main/evidence/ACT/2026-11-08/registry-mixed-programme-funding.txt) |
 | `digital_registry_data_remediation` | `workflow_policy` | registry staff and IT experts checking and updating records policy | not stated / 未注明 | [official source](https://justiceandcommunitysafetydirectorate.cmail19.com/t/y-e-fthjiiy-hkcdruhlj-b/) · [evidence](https://github.com/kiiiiiingdom/Australian-firearms-licensing-backlog-tracker/blob/main/evidence/ACT/2026-10-25/nfr-program-update-3.txt) |
 | `nfr_digital_registry_enabling_bill_development` | `workflow_policy` | bill in development to support NFR participation and digital registry uplift policy | not stated / 未注明 | [official source](https://justiceandcommunitysafetydirectorate.cmail19.com/t/y-e-fthjiiy-hkcdruhlj-b/) · [evidence](https://github.com/kiiiiiingdom/Australian-firearms-licensing-backlog-tracker/blob/main/evidence/ACT/2026-10-25/nfr-program-update-3.txt) |
 | `renewal_treated_as_fresh_application` | `workflow_policy` | fresh application except safe handling assessment policy | not stated / 未注明 | [official source](https://police.act.gov.au/community-safety/firearms/firearms-licences/exchange,-fees-and-renewals) · [evidence](https://github.com/kiiiiiingdom/Australian-firearms-licensing-backlog-tracker/blob/main/evidence/ACT/2026-10-18/renewal-fresh-application.txt) |
@@ -26,7 +29,9 @@ A comparable continuous processing-date series has not been verified for this ju
 
 ## Staffing and capacity / 人员与行政能力
 
-No matching verified quantitative workforce data in the current archive. / 当前资料库尚无同口径的已核实人员数据。
+| Measure / 口径 | Reported values / 记录 | Official as-at / 官方日期 | Evidence / 证据 |
+|---|---|---|---|
+| `headcount` | headcount 8 | 2026-06-30 | [official source](https://police.act.gov.au/about-us/annual-reports/act-policing-annual-report-2025-26) · [evidence](https://github.com/kiiiiiingdom/Australian-firearms-licensing-backlog-tracker/blob/main/evidence/ACT/2026-11-24/firearms-branch-headcount-2025-26.txt) |
 
 ## Evidence limitations / 数据局限
 

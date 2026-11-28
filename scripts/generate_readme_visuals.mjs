@@ -37,7 +37,8 @@ const infos=[
 ];
 for(let i=0;i<infos.length;i++){const [j,kind,l1,l2,l3,fg,bg]=infos[i];const x=i%2===0?48:758,y=192+Math.floor(i/2)*176,w=674; a.push(R(x,y,w,159,col.white,17,col.line));a.push(R(x+17,y+21,6,39,fg,3,fg,0));a.push(T(x+36,y+47,j,27,col.navy,800));const chipw=Math.max(153,kind.length*10.2+28);a.push(pill(x+w-chipw-21,y+17,kind,bg,fg,chipw));a.push(T(x+25,y+85,l1,23,col.text,700));a.push(T(x+25,y+118,l2,19,col.text,500));a.push(T(x+25,y+145,l3,16,col.muted,400));}
 a.push(T(50,933,"SOURCE: verified records in data/observations.csv  •  Static extract; not live advice or an applicant-specific forecast",15,col.muted,500));
-const processing=shell(1480,964,"Current public firearms licensing processing indicators","Eight Australian jurisdictions; native metrics, no forced rankings, verified evidence only.",a.join(""));
+a.push(T(50,978,"Based on: South Australia Police material",14,col.muted));
+const processing=shell(1480,988,"Current public firearms licensing processing indicators","Eight Australian jurisdictions; native metrics, no forced rankings, verified evidence only.",a.join(""));
 let b=[];
 b.push(R(48,36,6,72,col.teal,3,col.teal,0));
 b.push(T(72,72,"OFFICIAL STAFFING & CAPACITY DISCLOSURES",30,col.navy,800));
@@ -70,7 +71,8 @@ b.push(T(775,751,"in the currently tracked official extracts:",18,col.muted));
 for(let i=0;i<4;i++){const jur=["ACT","NT","TAS","VIC"][i],xx=780+i*158;b.push(R(xx,784,142,62,col.grayLight,13,col.grayLight,0));b.push(T(xx+71,821,jur,24,col.gray,800,"middle"));}
 b.push(T(50,933,"SOURCES: verified data/staffing.csv rows  •  FTE ≠ positions ≠ headcount ≠ recruitment ≠ ICT funding",17,col.navy,600));
 b.push(T(50,964,"Snapshot covers official evidence available in this repository, not a census of all on-duty licensing personnel.",16,col.muted,500));
-const staffing=shell(1480,996,"Official Australian firearms licensing staffing and capacity disclosures","QLD headcount components, NSW permanent positions and announced recruitment, SA substantive FTE, WA ICT funding. Different measures, not directly comparable.",b.join(""));
+b.push(T(50,1010,"Based on: South Australia Police material",14,col.muted));
+const staffing=shell(1480,1020,"Official Australian firearms licensing staffing and capacity disclosures","QLD headcount components, NSW permanent positions and announced recruitment, SA substantive FTE, WA ICT funding. Different measures, not directly comparable.",b.join(""));
 return {processing,staffing,details:{latestProcessing:{SA:sa.metric_date,VIC:vic.metric_date,QLD:qNew.metric_date,NSW:nsw.metric_date},staffing:{QLD:qStaff.as_of_date,NSW:nswPos.as_of_date,SA:saFte.as_of_date,WA:wa.as_of_date}}}
 }
 const observed = readFileSync(join(ROOT, 'data/observations.csv'), 'utf8');

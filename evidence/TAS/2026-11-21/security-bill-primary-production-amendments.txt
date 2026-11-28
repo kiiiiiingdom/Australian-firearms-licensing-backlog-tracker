@@ -1,0 +1,37 @@
+# OFFICIAL SOURCE EVIDENCE EXTRACT
+jurisdiction: TAS
+observation_date: 2026-11-21
+observation_timezone: Australia/Adelaide
+review_utc_date: 2026-11-21
+original_download_utc: 2026-11-19 23:59 UTC
+source_updated_date: not stated
+metric_date: 2026-11-19 (parliamentary agreement, not commencement)
+metric_type: eligibility_policy
+series: firearms_security_bill_primary_production_eligibility; firearms_security_bill_associated_primary_production_limits
+source_title: Firearms Amendment (Strengthening Firearms Security) Bill 2026 (30 of 2026) - Legislative Council amendments
+source_url: https://www.parliament.tas.gov.au/__data/assets/pdf_file/0015/115710/Firearms-Amendment-Strengthening-Firearms-Security-Bill-2026-30-of-2026.pdf
+supporting_bill_register: https://www.parliament.tas.gov.au/bills/bills2026/firearms-amendment-strengthening-firearms-security-bill-2026-30-of-2026
+source_kind: parliament
+evidence_status: verified
+capture_method: visually re-inspected full rendered scan pages 20, 21 and 22 of the previously downloaded exact official Council amendment PDF; checked definitions, cross-references and separate clauses against the independently re-read official progress table. No search excerpt or generic ministerial summary substitutes for the clauses.
+snapshot_reference: minimal verification fragments and original scope notes only; private PDF/renderings excluded from repository
+original_inspection_pdf_sha256: 52e62eb88168be81b3f5ecf1ff392cc54d8daebc49831b8eb3f95c9c6c0061b0
+
+## Minimum exact verification fragments
+Scan page 22, new clause C, proposed section 40(a)(ii): if the relative lives on, or near
+Scan page 20, new clause B, proposed section 33A(2)(a): 3 associated primary production licences
+Scan page 21, new clause B, proposed section 33A(2)(b): 5 associated primary production licences
+
+## Original scope notes
+Passed-bill proposal only; assent/commencement not established. Metric date 19 November is parliamentary agreement, not effectiveness. Exact PDF page-update date is unstated. Previously downloaded official scan (19 November 23:59 UTC / 20 November Adelaide) visually re-inspected 21 November Adelaide and UTC; original bill register independently re-read. No current individual entitlement, queue effect or staffing change is inferred.
+
+Scan page 22, new clause C, substitutes section 40(a). Routes are a person regularly engaged in primary production on land that person owns/manages/leases; a relative within section 29(2A) living on or near that land; an employee regularly engaged by that person; or a non-employee providing services to that person in respect of the land. This describes the replacement paragraph, not automatic approval, removal of other section 40 requirements, a definition of every relative, or a concluded comparison with all prior entitlements.
+
+Scan pages 20-21, new clause B, proposed section 33A. The defined relevant application is Category C, has primary production as its genuine reason and falls under proposed section 40(a)(iv), the non-employee services route. Grant requires fewer than 3 associated licences already in force for relevant land below 800 hectares, or fewer than 5 for land of 800 hectares or more. These are narrowly scoped licence-grant limits, not a general firearm ownership cap or a limit automatically applied to the relative route in section 40(a)(ii). The associated authority is limited to one straight-pull action firearm, specified pest-control purposes on that relevant land and written permission from the qualifying land owner/manager/lessee; other Category C firearms and other land/purposes are excluded by the proposed provision.
+
+The original bill register still gives Council third reading 19 November and Assembly agreement to Council amendments Yes, but Royal Assent/Act fields are blank. This supports a passed-text proposal record, not a currently enforced entitlement. The underlying September reprint predates these new Council clauses and is not sufficient evidence for their final content.
+
+One current web-reader request to the scan returned HTTP-style 400 Content length is too large: 15519139. It was not retried through another download or browser. Verification used the identical, already preserved private official scan with the digest above, first downloaded before this check; all capture/review dates are disclosed. The register was independently accessible. No access-control challenge was bypassed.
+
+## Attribution, rights and privacy
+Parliament of Tasmania, official Council amendments. Existing document-specific rights review remains pending on the existing registered host. Only 17 words of necessary verification fragments and original explanations are retained. No complete PDF, page image, signature, handwritten name, applicant information or private staff contact is published. No new host or blanket open licence is claimed.

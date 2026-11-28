@@ -21,7 +21,9 @@ A comparable continuous processing-date series has not been verified for this ju
 
 ## Staffing and capacity / 人员与行政能力
 
-No matching verified quantitative workforce data in the current archive. / 当前资料库尚无同口径的已核实人员数据。
+| Measure / 口径 | Reported values / 记录 | Official as-at / 官方日期 | Evidence / 证据 |
+|---|---|---|---|
+| `recruitment_positions` | recruitment_positions 1 | not stated | [official source](https://jobs.nt.gov.au/Home/JobDetails?rtfId=358166) · [evidence](https://github.com/kiiiiiingdom/Australian-firearms-licensing-backlog-tracker/blob/main/evidence/NT/2026-10-29/registry-team-leader-recruitment.txt) |
 
 ## Evidence limitations / 数据局限
 

@@ -1,0 +1,28 @@
+# OFFICIAL SOURCE EVIDENCE EXTRACT
+jurisdiction: SA
+observation_date: 2026-11-18
+observation_timezone: Australia/Adelaide
+capture_utc_window: 2026-11-18 12:49-12:58 UTC
+source_updated_date: 2026-11-13
+metric_date: 2026-11-13
+metric_type: processing_date
+series: firearms_licence_application; firearms_licence_renewal; permit_to_acquire
+source_title: SAPOL - Status of my application
+source_url: https://www.police.sa.gov.au/services-and-events/firearms-and-weapons/status-of-my-application
+source_kind: police
+evidence_status: verified
+capture_method: direct inspection of the original official URL through the web reader on the observation date; dates and source-defined fields checked in the original content
+snapshot_reference: none; minimal factual extract and original scope summary only
+sha256: not applicable; no binary or whole page stored
+
+## Minimal official wording / factual cells
+Firearms licence application: 09 April 2026
+Firearms licence renewals: 19 October 2026
+Permits to acquire a firearm: 02 October 2026
+Updated (13 November 2026)
+
+## Interpretation, dates and limitations
+Official submitted-on-and-after table updated 13 November. Compare with 6 November over seven actual days, in the same three existing series. No online/manual channel split is stated. Queue-date lag is not an individual waiting time, oldest pending case or application throughput. No interval-specific explanation is given. The unrecovered SA 16 October leads remain excluded. Chart attribution: Based on: South Australia Police material.
+
+## Attribution, rights and privacy
+Attribution: the issuing authority named above. Existing source-rights-register conditions remain applicable. Only necessary factual cells or a short verification fragment and original summaries are retained. No complete page, PDF, table image, signature, private contact, applicant detail or individual prediction is included. No open licence or completed document-specific copyright clearance is claimed.

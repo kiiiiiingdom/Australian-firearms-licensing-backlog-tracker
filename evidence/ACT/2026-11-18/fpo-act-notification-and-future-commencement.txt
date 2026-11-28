@@ -1,0 +1,27 @@
+# OFFICIAL SOURCE EVIDENCE EXTRACT
+jurisdiction: ACT
+observation_date: 2026-11-18
+observation_timezone: Australia/Adelaide
+capture_utc_window: 2026-11-18 12:49-12:58 UTC
+source_updated_date: 2026-11-14
+metric_date: 2026-11-09; remainder effective 2027-11-09
+metric_type: workflow_policy; future_legal_requirement
+series: firearm_prohibition_orders_bill_progress; firearm_prohibition_orders_substantive_commencement
+source_title: Firearms (Firearm Prohibition Orders) Amendment Act 2026 | Acts
+source_url: https://www.legislation.act.gov.au/a/2026-19/
+source_kind: legislation
+evidence_status: verified
+capture_method: direct inspection of the original official URL through the web reader on the observation date; dates and source-defined fields checked in the original content
+snapshot_reference: none; minimal factual extract and original scope summary only
+sha256: not applicable; no binary or whole page stored
+
+## Minimal official wording / factual cells
+Notified: 9 November 2026 (Parliamentary Counsel)
+s 1, s 2 | 9 November 2026 | LA s 75 (1)
+remainder | commences 9 November 2027 | s 2
+
+## Interpretation, dates and limitations
+A2026-19 notified 9 November 2026. Register law history separately states s 1 and s 2 commenced on notification and the remainder commences 9 November 2027 under s 2. Its top-level In Force label does not establish commencement of substantive FPO powers; the page also explicitly says awaiting commencement. Footer updated 14 November is a website date, not a legal event. Preserve the older passed/awaiting-notification record as historical. No processing-time benefit, workforce change or current substantive powers inferred.
+
+## Attribution, rights and privacy
+Attribution: the issuing authority named above. Existing source-rights-register conditions remain applicable. Only necessary factual cells or a short verification fragment and original summaries are retained. No complete page, PDF, table image, signature, private contact, applicant detail or individual prediction is included. No open licence or completed document-specific copyright clearance is claimed.

@@ -1,0 +1,31 @@
+# OFFICIAL SOURCE EVIDENCE EXTRACT
+jurisdiction: SA
+observation_date: 2026-11-28
+observation_timezone: Australia/Adelaide
+capture_utc_date: 2026-11-28
+source_updated_date: 2026-11-27
+metric_date: 2026-11-27
+metric_type: processing_date
+series: firearms_licence_application; firearms_licence_renewal; permit_to_acquire
+source_title: SAPOL - Status of my application
+source_url: https://www.police.sa.gov.au/services-and-events/firearms-and-weapons/status-of-my-application
+source_kind: police
+evidence_status: verified
+capture_method: directly re-opened the original SAPOL production page on 28 November UTC/Adelaide and inspected each labelled processing-date cell, column heading and dated update notice; no user transcription, handoff or stale search excerpt substituted
+snapshot_reference: minimal factual cells and independently authored notes only
+sha256: not applicable; no binary stored
+
+## Minimal original wording and factual cells
+Column heading: Processing applications submitted on and after
+Firearms licence application: 28 April 2026
+Firearms licence renewals: 29 October 2026
+Permits to acquire a firearm: 12 October 2026
+Updated (27 November 2026)
+
+## Scope, dates and calculations
+Official update 27 November; actual reinspection and retrieval 28 November in both UTC and Australia/Adelaide. The immediately preceding preserved snapshot is dated 20 November. Each comparison covers seven real calendar days in the same existing series; no missing snapshot is interpolated. No online/manual split is given. The submitted-on-and-after heading does not establish that every earlier application is complete or that these are the oldest pending cases.
+
+New licence advances 15 calendar days: current lag 213 days, speed ratio 2.1429, lag change -8 days. Renewal advances 3: lag 29, ratio 0.4286, change +4. PTA advances 6: lag 46, ratio 0.8571, change +1. These figures were independently checked from dates and from prior lag + elapsed days - advance before saving this extract. They describe the published date frontier, not case counts, working days, staffing efficiency, approval/first-letter timing or an individual forecast. No interval-specific cause is stated. The unrecovered SA 16 October lead stays excluded.
+
+## Attribution, rights and privacy
+Based on: South Australia Police material. Existing SAPOL conditional reuse terms and document-specific exceptions remain applicable; the current generators retain the required credit. No blanket or completed human copyright clearance is claimed. Only necessary factual cells and original notes are preserved, without a whole page/PDF, imagery, signature, applicant detail, personal correspondence or private staff information.
